@@ -1,0 +1,643 @@
+{
+  "engine": "life32r3-b96203c209b237cf",
+  "mode": "M3.3",
+  "suite": {
+    "test": 268,
+    "boundaries": 35
+  },
+  "historicalReplay": {
+    "trajectories": 8,
+    "awakeMinutesPerTrajectory": 6720,
+    "match": true
+  },
+  "sqlite": {
+    "days": 30,
+    "commits": 150,
+    "reopensAfterFirst": 30,
+    "keysRetried": 30,
+    "awake": 28800,
+    "digest": "fbd6eb8aadda2051880139df9b1dc6a550da141ee1c31bd0ffe575c144fc47f8",
+    "arrivals": 106,
+    "visitsWithoutActivity": 37,
+    "silentReturns": 3
+  },
+  "traces": [
+    {
+      "background": "traveler",
+      "seed": 19,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 104,
+      "passThroughs": 28,
+      "immediateReturns": 2,
+      "homeMinutes": 1855,
+      "longestAtHome": 360,
+      "studyMinutes": 0,
+      "transitMinutes": 6505,
+      "waitingMinutes": 6630,
+      "waitingByReason": {
+        "all_candidates_blocked": 1640,
+        "waiting_for_partner": 45,
+        "waiting_for_appointment": 605,
+        "no_feasible_itinerary": 1200,
+        "no_candidates": 3140
+      },
+      "longestSameRegionAwakeMinutes": 2130,
+      "actions": {
+        "journey_collect": 12,
+        "journey_deliver": 12,
+        "journey_survey": 18,
+        "journey_fieldnote": 4,
+        "journey_mend": 10
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 35,
+        "curiosity": 64,
+        "connectionNeed": 54
+      },
+      "finalAttributes": {
+        "stamina": 78.2,
+        "craft": 78.8,
+        "curiosity": 78.1,
+        "connectionNeed": 40.5
+      },
+      "finalCashCents": 1172800,
+      "tailDays": 7,
+      "tailRegions": [
+        "ridge",
+        "ford",
+        "bookstore"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_survey",
+        "journey_mend"
+      ],
+      "tailTasks": 12,
+      "tailMoves": 19
+    },
+    {
+      "background": "settled",
+      "seed": 19,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 108,
+      "passThroughs": 36,
+      "immediateReturns": 1,
+      "homeMinutes": 1190,
+      "longestAtHome": 310,
+      "studyMinutes": 360,
+      "transitMinutes": 5895,
+      "waitingMinutes": 8190,
+      "waitingByReason": {
+        "all_candidates_blocked": 2205,
+        "waiting_for_appointment": 735,
+        "no_candidates": 4230,
+        "no_feasible_itinerary": 1020
+      },
+      "longestSameRegionAwakeMinutes": 2270,
+      "actions": {
+        "journey_collect": 19,
+        "journey_deliver": 18,
+        "journey_fieldnote": 6,
+        "journey_survey": 18,
+        "journey_mend": 6
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 55,
+        "curiosity": 39,
+        "connectionNeed": 50
+      },
+      "finalAttributes": {
+        "stamina": 86.3,
+        "craft": 89.2,
+        "curiosity": 68.3,
+        "connectionNeed": 59.1
+      },
+      "finalCashCents": 706100,
+      "tailDays": 7,
+      "tailRegions": [
+        "ridge",
+        "bookstore",
+        "ford"
+      ],
+      "tailKinds": [
+        "journey_mend",
+        "journey_survey",
+        "journey_collect",
+        "journey_deliver"
+      ],
+      "tailTasks": 10,
+      "tailMoves": 22
+    },
+    {
+      "background": "creator",
+      "seed": 19,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 106,
+      "passThroughs": 37,
+      "immediateReturns": 3,
+      "homeMinutes": 2340,
+      "longestAtHome": 335,
+      "studyMinutes": 0,
+      "transitMinutes": 6830,
+      "waitingMinutes": 6910,
+      "waitingByReason": {
+        "all_candidates_blocked": 1950,
+        "waiting_for_appointment": 530,
+        "no_feasible_itinerary": 1260,
+        "waiting_for_partner": 85,
+        "no_candidates": 3085
+      },
+      "longestSameRegionAwakeMinutes": 2770,
+      "actions": {
+        "journey_collect": 19,
+        "journey_deliver": 19,
+        "journey_fieldnote": 6,
+        "journey_survey": 15,
+        "journey_mend": 2
+      },
+      "initialAttributes": {
+        "stamina": 42,
+        "craft": 35,
+        "curiosity": 52,
+        "connectionNeed": 41
+      },
+      "finalAttributes": {
+        "stamina": 77,
+        "craft": 76.3,
+        "curiosity": 64.9,
+        "connectionNeed": 31.5
+      },
+      "finalCashCents": 585000,
+      "tailDays": 7,
+      "tailRegions": [
+        "bookstore",
+        "ridge"
+      ],
+      "tailKinds": [
+        "journey_survey",
+        "journey_collect",
+        "journey_deliver",
+        "journey_fieldnote"
+      ],
+      "tailTasks": 12,
+      "tailMoves": 24
+    },
+    {
+      "background": "low_assets",
+      "seed": 19,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 112,
+      "passThroughs": 38,
+      "immediateReturns": 1,
+      "homeMinutes": 1575,
+      "longestAtHome": 365,
+      "studyMinutes": 360,
+      "transitMinutes": 6290,
+      "waitingMinutes": 6090,
+      "waitingByReason": {
+        "all_candidates_blocked": 2225,
+        "waiting_for_appointment": 550,
+        "no_feasible_itinerary": 60,
+        "no_candidates": 3225,
+        "waiting_for_partner": 30
+      },
+      "longestSameRegionAwakeMinutes": 2210,
+      "actions": {
+        "journey_collect": 18,
+        "journey_deliver": 17,
+        "journey_fieldnote": 4,
+        "journey_survey": 14,
+        "journey_mend": 4
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 55,
+        "curiosity": 39,
+        "connectionNeed": 50
+      },
+      "finalAttributes": {
+        "stamina": 85.8,
+        "craft": 94.2,
+        "curiosity": 75,
+        "connectionNeed": 58.4
+      },
+      "finalCashCents": 523100,
+      "tailDays": 7,
+      "tailRegions": [
+        "ford",
+        "ridge",
+        "bookstore"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_mend",
+        "journey_survey"
+      ],
+      "tailTasks": 9,
+      "tailMoves": 20
+    },
+    {
+      "background": "traveler",
+      "seed": 41,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 72,
+      "passThroughs": 24,
+      "immediateReturns": 1,
+      "homeMinutes": 1460,
+      "longestAtHome": 285,
+      "studyMinutes": 0,
+      "transitMinutes": 5585,
+      "waitingMinutes": 7625,
+      "waitingByReason": {
+        "all_candidates_blocked": 2115,
+        "waiting_for_appointment": 695,
+        "no_feasible_itinerary": 1630,
+        "no_candidates": 3185
+      },
+      "longestSameRegionAwakeMinutes": 5200,
+      "actions": {
+        "journey_collect": 16,
+        "journey_deliver": 16,
+        "journey_survey": 12,
+        "journey_fieldnote": 4,
+        "journey_mend": 1
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 35,
+        "curiosity": 64,
+        "connectionNeed": 54
+      },
+      "finalAttributes": {
+        "stamina": 76.6,
+        "craft": 70.7,
+        "curiosity": 58.6,
+        "connectionNeed": 50.1
+      },
+      "finalCashCents": 1195800,
+      "tailDays": 7,
+      "tailRegions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_survey",
+        "journey_fieldnote"
+      ],
+      "tailTasks": 8,
+      "tailMoves": 10
+    },
+    {
+      "background": "settled",
+      "seed": 41,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 98,
+      "passThroughs": 37,
+      "immediateReturns": 1,
+      "homeMinutes": 1730,
+      "longestAtHome": 310,
+      "studyMinutes": 360,
+      "transitMinutes": 6500,
+      "waitingMinutes": 7855,
+      "waitingByReason": {
+        "all_candidates_blocked": 1885,
+        "waiting_for_appointment": 755,
+        "no_feasible_itinerary": 720,
+        "no_candidates": 4465,
+        "waiting_for_partner": 30
+      },
+      "longestSameRegionAwakeMinutes": 2565,
+      "actions": {
+        "journey_collect": 15,
+        "journey_deliver": 14,
+        "journey_survey": 16,
+        "journey_fieldnote": 6,
+        "journey_mend": 6
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 55,
+        "curiosity": 39,
+        "connectionNeed": 50
+      },
+      "finalAttributes": {
+        "stamina": 86.4,
+        "craft": 85.3,
+        "curiosity": 66.5,
+        "connectionNeed": 42.3
+      },
+      "finalCashCents": 623800,
+      "tailDays": 7,
+      "tailRegions": [
+        "ford",
+        "ridge",
+        "bookstore"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_survey",
+        "journey_mend"
+      ],
+      "tailTasks": 10,
+      "tailMoves": 24
+    },
+    {
+      "background": "creator",
+      "seed": 41,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 108,
+      "passThroughs": 33,
+      "immediateReturns": 2,
+      "homeMinutes": 1295,
+      "longestAtHome": 250,
+      "studyMinutes": 0,
+      "transitMinutes": 6490,
+      "waitingMinutes": 6845,
+      "waitingByReason": {
+        "all_candidates_blocked": 2585,
+        "waiting_for_appointment": 395,
+        "no_feasible_itinerary": 1170,
+        "waiting_for_partner": 10,
+        "no_candidates": 2685
+      },
+      "longestSameRegionAwakeMinutes": 2765,
+      "actions": {
+        "journey_collect": 11,
+        "journey_deliver": 11,
+        "journey_survey": 27,
+        "journey_fieldnote": 5,
+        "journey_mend": 5
+      },
+      "initialAttributes": {
+        "stamina": 42,
+        "craft": 35,
+        "curiosity": 52,
+        "connectionNeed": 41
+      },
+      "finalAttributes": {
+        "stamina": 79.7,
+        "craft": 81.1,
+        "curiosity": 77.9,
+        "connectionNeed": 40.9
+      },
+      "finalCashCents": 578300,
+      "tailDays": 7,
+      "tailRegions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "tailKinds": [
+        "journey_survey",
+        "journey_collect",
+        "journey_deliver",
+        "journey_mend"
+      ],
+      "tailTasks": 8,
+      "tailMoves": 20
+    },
+    {
+      "background": "low_assets",
+      "seed": 41,
+      "days": 30,
+      "awakeMinutes": 28800,
+      "calendarDays": 30,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 94,
+      "passThroughs": 29,
+      "immediateReturns": 1,
+      "homeMinutes": 1170,
+      "longestAtHome": 235,
+      "studyMinutes": 360,
+      "transitMinutes": 6450,
+      "waitingMinutes": 5900,
+      "waitingByReason": {
+        "all_candidates_blocked": 1850,
+        "waiting_for_appointment": 555,
+        "waiting_for_partner": 110,
+        "no_feasible_itinerary": 380,
+        "no_candidates": 3005
+      },
+      "longestSameRegionAwakeMinutes": 1980,
+      "actions": {
+        "journey_collect": 16,
+        "journey_deliver": 16,
+        "journey_fieldnote": 6,
+        "journey_survey": 13,
+        "journey_mend": 5
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 55,
+        "curiosity": 39,
+        "connectionNeed": 50
+      },
+      "finalAttributes": {
+        "stamina": 86,
+        "craft": 93.8,
+        "curiosity": 69.9,
+        "connectionNeed": 60.5
+      },
+      "finalCashCents": 483100,
+      "tailDays": 7,
+      "tailRegions": [
+        "bookstore",
+        "ridge",
+        "ford"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_survey",
+        "journey_fieldnote",
+        "journey_mend"
+      ],
+      "tailTasks": 13,
+      "tailMoves": 20
+    },
+    {
+      "background": "creator",
+      "seed": 19,
+      "days": 100,
+      "awakeMinutes": 96000,
+      "calendarDays": 100,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 376,
+      "passThroughs": 134,
+      "immediateReturns": 10,
+      "homeMinutes": 7130,
+      "longestAtHome": 390,
+      "studyMinutes": 0,
+      "transitMinutes": 21670,
+      "waitingMinutes": 29755,
+      "waitingByReason": {
+        "all_candidates_blocked": 10220,
+        "waiting_for_appointment": 1630,
+        "no_feasible_itinerary": 3330,
+        "waiting_for_partner": 160,
+        "no_candidates": 14415
+      },
+      "longestSameRegionAwakeMinutes": 2925,
+      "actions": {
+        "journey_collect": 63,
+        "journey_deliver": 63,
+        "journey_fieldnote": 12,
+        "journey_survey": 47,
+        "journey_mend": 17
+      },
+      "initialAttributes": {
+        "stamina": 42,
+        "craft": 35,
+        "curiosity": 52,
+        "connectionNeed": 41
+      },
+      "finalAttributes": {
+        "stamina": 87.7,
+        "craft": 93.5,
+        "curiosity": 51.6,
+        "connectionNeed": 56.6
+      },
+      "finalCashCents": 939600,
+      "tailDays": 7,
+      "tailRegions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_survey",
+        "journey_mend"
+      ],
+      "tailTasks": 14,
+      "tailMoves": 20
+    },
+    {
+      "background": "low_assets",
+      "seed": 41,
+      "days": 365,
+      "awakeMinutes": 350400,
+      "calendarDays": 365,
+      "regions": [
+        "bookstore",
+        "ford",
+        "ridge"
+      ],
+      "moves": 1253,
+      "passThroughs": 394,
+      "immediateReturns": 32,
+      "homeMinutes": 33930,
+      "longestAtHome": 600,
+      "studyMinutes": 360,
+      "transitMinutes": 72595,
+      "waitingMinutes": 141460,
+      "waitingByReason": {
+        "all_candidates_blocked": 128000,
+        "waiting_for_appointment": 5205,
+        "waiting_for_partner": 215,
+        "no_feasible_itinerary": 735,
+        "no_candidates": 7305
+      },
+      "longestSameRegionAwakeMinutes": 2965,
+      "actions": {
+        "journey_collect": 187,
+        "journey_deliver": 186,
+        "journey_fieldnote": 28,
+        "journey_survey": 193,
+        "journey_mend": 72
+      },
+      "initialAttributes": {
+        "stamina": 52,
+        "craft": 55,
+        "curiosity": 39,
+        "connectionNeed": 50
+      },
+      "finalAttributes": {
+        "stamina": 88.8,
+        "craft": 94.6,
+        "curiosity": 63.9,
+        "connectionNeed": 58.6
+      },
+      "finalCashCents": 1038400,
+      "tailDays": 7,
+      "tailRegions": [
+        "ridge",
+        "bookstore",
+        "ford"
+      ],
+      "tailKinds": [
+        "journey_collect",
+        "journey_deliver",
+        "journey_mend"
+      ],
+      "tailTasks": 14,
+      "tailMoves": 23
+    }
+  ]
+}

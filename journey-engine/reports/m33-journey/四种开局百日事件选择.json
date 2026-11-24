@@ -1,0 +1,2304 @@
+{
+  "seed": 19,
+  "engine": "life32r3-e57abff1dca661f4",
+  "runs": [
+    {
+      "background": "settled",
+      "v6": {
+        "mode": "standard",
+        "bg": "settled",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 6,
+        "patterns": {
+          "homeMax": 355,
+          "homeTotal": 2695,
+          "studyMax": 90,
+          "studyTotal": 360,
+          "legs": 1124,
+          "immediateReturns": 16,
+          "longestAlternating": 7,
+          "moveExample": [
+            {
+              "ref": "v492850",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29641300
+            },
+            {
+              "ref": "v493074",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29641360
+            },
+            {
+              "ref": "v494042",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29641620
+            },
+            {
+              "ref": "v494256",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29641680
+            },
+            {
+              "ref": "v497060",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29642525
+            },
+            {
+              "ref": "v497998",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29642785
+            },
+            {
+              "ref": "v498223",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29642845
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 2945,
+            "waiting_for_appointment": 1865,
+            "no_candidates": 6485,
+            "waiting_for_partner": 125
+          },
+          "waitExample": {
+            "from": 29547380,
+            "until": 29547590,
+            "place": "ridge",
+            "finalRef": "v166099",
+            "firstDecision": "v165340",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 60,
+              "fatigue": 80,
+              "cash": 735100,
+              "social": 495,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.780040733197556,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 106,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v106552"
+            },
+            {
+              "window": 107,
+              "key": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+              "topic": "花圃",
+              "ref": "v107047"
+            },
+            {
+              "window": 108,
+              "key": "[\"contact\",\"联系阿林，约一次近况交流\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v107966"
+            },
+            {
+              "window": 109,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"bookstore\"]",
+              "topic": "水情",
+              "ref": "v110238"
+            },
+            {
+              "window": 110,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"park\"]",
+              "topic": "清障",
+              "ref": "v110779"
+            },
+            {
+              "window": 111,
+              "key": "[\"social\",\"聊起从岸边拦网上清走3筐漂枝\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v111275"
+            },
+            {
+              "window": 112,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"park\"]",
+              "topic": "清障",
+              "ref": "v112452"
+            },
+            {
+              "window": 113,
+              "key": "[\"journey_message\",\"回复阿林的旅途近况\",\"ridge\"]",
+              "topic": "通信",
+              "ref": "v113090"
+            },
+            {
+              "window": 114,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"bookstore\"]",
+              "topic": "水情",
+              "ref": "v115417"
+            },
+            {
+              "window": 115,
+              "key": "[\"contact\",\"联系阿林，约一次近况交流\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v116089"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 17,
+        "maximum": 2,
+        "moves": 2938,
+        "jointSegments": 370,
+        "completedAppointments": 247,
+        "missedAppointments": 20,
+        "rememberedActions": 1709,
+        "strained": 20,
+        "secondMiss": 3,
+        "repaired": 17,
+        "waitSegments": 484,
+        "waitMinutes": 11420,
+        "waitRuns": 315,
+        "maxWait": 210,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 2335000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "清障",
+            "text": "小禾在蓝渡镇·渡口书站把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩0筐。",
+            "refs": [
+              "v493395"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "通信",
+            "text": "小禾读完小梅从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。小禾花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v493633"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "还书",
+            "text": "小禾在蓝渡镇·渡口书站给《沿堤认鸟手册》松脱的书脊重新穿线，把散页装回去。借阅台把修好的这一本重新上架。",
+            "refs": [
+              "v494373"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "通信",
+            "text": "小禾把亲历的“修补《沿堤认鸟手册》松脱的书脊”写给异地的小梅。消息已经送达，对方有空时可以回复。",
+            "refs": [
+              "v496619"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "值班",
+            "text": "小禾在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v497503"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "水情",
+            "text": "小禾在蓝渡镇·渡口书站的堤岸核对水尺，上次记录是0格，这次是2格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v498106"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "约见",
+            "text": "小禾花了15分钟给阿林发出近况交流邀请，约在廊坊·桥边书店见面。邀请已经发出，对方尚未答应。",
+            "refs": [
+              "v498895"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "约见",
+            "text": "小禾和阿林在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v499233"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "还书",
+            "text": "小禾在青岑镇·山前驿站清点还书箱，把《三地食谱》放进行囊。这本书属于廊坊·桥边书店，那边的书架仍空着它的位置。",
+            "refs": [
+              "v501857"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "花圃",
+            "text": "小禾在廊坊·旧街区采收了已成熟的香草，保留这次收成记录，并让花圃进入下一轮生长。这来自此前的照料和实际生长时间。",
+            "refs": [
+              "v502226"
+            ]
+          }
+        ]
+      },
+      "v7": {
+        "mode": "standard",
+        "bg": "settled",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 7,
+        "patterns": {
+          "homeMax": 415,
+          "homeTotal": 3010,
+          "studyMax": 90,
+          "studyTotal": 360,
+          "legs": 1168,
+          "immediateReturns": 23,
+          "longestAlternating": 6,
+          "moveExample": [
+            {
+              "ref": "v45026",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29512960
+            },
+            {
+              "ref": "v46128",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29513250
+            },
+            {
+              "ref": "v46568",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29513370
+            },
+            {
+              "ref": "v46761",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29513420
+            },
+            {
+              "ref": "v47005",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29513480
+            },
+            {
+              "ref": "v49479",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29514230
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 2645,
+            "waiting_for_appointment": 1755,
+            "no_candidates": 7105,
+            "waiting_for_partner": 190
+          },
+          "waitExample": {
+            "from": 29540845,
+            "until": 29541025,
+            "place": "bookstore",
+            "finalRef": "v143557",
+            "firstDecision": "v142920",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 60,
+              "fatigue": 745,
+              "cash": 694400,
+              "social": 170,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.6619144602851323,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 149,
+              "key": "[\"harvest\",\"收获社区花圃的成熟香草\",\"street\"]",
+              "topic": "花圃",
+              "ref": "v150906"
+            },
+            {
+              "window": 150,
+              "key": "[\"social\",\"回应阿林的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v151298"
+            },
+            {
+              "window": 151,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v152225"
+            },
+            {
+              "window": 152,
+              "key": "[\"social\",\"回应小梅的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v152732"
+            },
+            {
+              "window": 153,
+              "key": "[\"journey_message\",\"回复小梅的旅途近况\",\"bookstore\"]",
+              "topic": "通信",
+              "ref": "v153771"
+            },
+            {
+              "window": 154,
+              "key": "[\"journey_deliver\",\"把《沿堤认鸟手册》送回蓝渡镇·渡口书站\",\"ford\"]",
+              "topic": "还书",
+              "ref": "v155596"
+            },
+            {
+              "window": 155,
+              "key": "[\"social\",\"回应阿林的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v156329"
+            },
+            {
+              "window": 156,
+              "key": "[\"journey_deliver\",\"把《河道旧影》送回廊坊·桥边书店\",\"bookstore\"]",
+              "topic": "还书",
+              "ref": "v156999"
+            },
+            {
+              "window": 157,
+              "key": "[\"social\",\"回应小梅的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v157545"
+            },
+            {
+              "window": 158,
+              "key": "[\"journey_message\",\"回复小梅的旅途近况\",\"bookstore\"]",
+              "topic": "通信",
+              "ref": "v158636"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 16,
+        "maximum": 2,
+        "moves": 3092,
+        "jointSegments": 379,
+        "completedAppointments": 251,
+        "missedAppointments": 18,
+        "rememberedActions": 1757,
+        "strained": 18,
+        "secondMiss": 2,
+        "repaired": 16,
+        "waitSegments": 479,
+        "waitMinutes": 11695,
+        "waitRuns": 295,
+        "maxWait": 180,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 2125000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "约见",
+            "text": "小禾和阿林在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v493674"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "水情",
+            "text": "小禾在廊坊·桥边书店的堤岸核对水尺，上次记录是6格，这次是4格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v494818"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "手记",
+            "text": "小禾翻开旅途手记，把在廊坊·桥边书店亲历的“沿岸复测水位并更新还书点通告”记了下来。",
+            "refs": [
+              "v495438"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "通信",
+            "text": "小禾读完小梅从异地发来的消息，里面讲的是“从岸边拦网上清走3筐漂枝”。小禾花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v497334"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "约见",
+            "text": "小禾和阿林在廊坊·桥边书店碰面。两人聊起小禾亲手办过的事——沿岸复测水位并更新还书点通告。这段相处用了60分钟。",
+            "refs": [
+              "v498118"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "还书",
+            "text": "小禾在廊坊·桥边书店给《河道旧影》松脱的书脊重新穿线，把散页装回去。借阅台把修好的这一本重新上架。",
+            "refs": [
+              "v498491"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "约见",
+            "text": "小梅和小禾在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v499230"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "路餐",
+            "text": "小禾在蓝渡镇·渡口书站的厨房花8元买了食材，把做好的两份路餐分装收好，留给接下来的行程。",
+            "refs": [
+              "v500178"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "水情",
+            "text": "小禾在廊坊·桥边书店的堤岸核对水尺，上次记录是4格，这次是2格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v502683"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "花圃",
+            "text": "小禾在廊坊·旧街区采收了已成熟的香草，保留这次收成记录，并让花圃进入下一轮生长。这来自此前的照料和实际生长时间。",
+            "refs": [
+              "v502966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "background": "creator",
+      "v6": {
+        "mode": "standard",
+        "bg": "creator",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 6,
+        "patterns": {
+          "homeMax": 330,
+          "homeTotal": 2170,
+          "studyMax": 0,
+          "studyTotal": 0,
+          "legs": 1027,
+          "immediateReturns": 20,
+          "longestAlternating": 5,
+          "moveExample": [
+            {
+              "ref": "v5005",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29501580
+            },
+            {
+              "ref": "v5151",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29501620
+            },
+            {
+              "ref": "v9440",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29502855
+            },
+            {
+              "ref": "v9481",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29502865
+            },
+            {
+              "ref": "v9653",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29502910
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 4340,
+            "waiting_for_appointment": 1805,
+            "waiting_for_partner": 305,
+            "no_candidates": 5415
+          },
+          "waitExample": {
+            "from": 29617240,
+            "until": 29617415,
+            "place": "bookstore",
+            "finalRef": "v411320",
+            "firstDecision": "v410672",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 60,
+              "fatigue": 785,
+              "cash": 919000,
+              "social": 170,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.45824847250509165,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 163,
+              "key": "[\"contact\",\"联系知夏，约一次近况交流\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v163872"
+            },
+            {
+              "window": 164,
+              "key": "[\"journey_collect\",\"领取异地还回的《河道旧影》\",\"ridge\"]",
+              "topic": "还书",
+              "ref": "v166432"
+            },
+            {
+              "window": 165,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v166922"
+            },
+            {
+              "window": 166,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v167430"
+            },
+            {
+              "window": 167,
+              "key": "[\"review\",\"阅读《青岑镇·山前驿站低水位露出的滩地》并提出观察缺口\",\"ridge\"]",
+              "topic": "作品",
+              "ref": "v168363"
+            },
+            {
+              "window": 168,
+              "key": "[\"journey_message\",\"回复小梅的旅途近况\",\"home\"]",
+              "topic": "通信",
+              "ref": "v168820"
+            },
+            {
+              "window": 169,
+              "key": "[\"social\",\"回应阿林的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v171239"
+            },
+            {
+              "window": 170,
+              "key": "[\"journey_mend\",\"修补《沿堤认鸟手册》松脱的书脊\",\"ford\"]",
+              "topic": "还书",
+              "ref": "v171681"
+            },
+            {
+              "window": 171,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v172612"
+            },
+            {
+              "window": 172,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v172837"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 24,
+        "maximum": 2,
+        "moves": 3129,
+        "jointSegments": 420,
+        "completedAppointments": 268,
+        "missedAppointments": 24,
+        "rememberedActions": 1774,
+        "strained": 24,
+        "secondMiss": 0,
+        "repaired": 24,
+        "waitSegments": 489,
+        "waitMinutes": 11865,
+        "waitRuns": 296,
+        "maxWait": 175,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 1865000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "合作",
+            "text": "知夏带着自己的材料到廊坊·河边咖啡店，和阿林把两份记录合到了一起。两人一起写成了《蓝渡镇·渡口书站码头的高水痕迹与廊坊·桥边书店低水位露出的滩地》。",
+            "refs": [
+              "v494791"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "作品",
+            "text": "知夏的《蓝渡镇·渡口书站码头的高水痕迹》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+            "refs": [
+              "v495920"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "约见",
+            "text": "小梅和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v496517"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "清障",
+            "text": "知夏在蓝渡镇·渡口书站把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩0筐。",
+            "refs": [
+              "v498908"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "通信",
+            "text": "知夏读完阿林从异地发来的消息，里面讲的是“蓝渡镇·渡口书站低水位露出的滩地”。知夏花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v499138"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "约见",
+            "text": "阿林和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v499705"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "值班",
+            "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v500321"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "通信",
+            "text": "知夏读完阿林从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。知夏花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v501278"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "约见",
+            "text": "知夏和阿林在青岑镇·山前驿站碰面。两人聊起知夏亲手办过的事——从岸边拦网上清走3筐漂枝。这段相处用了60分钟。",
+            "refs": [
+              "v503904"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "水情",
+            "text": "知夏在青岑镇·山前驿站的堤岸核对水尺，上次记录是3格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v504021"
+            ]
+          }
+        ]
+      },
+      "v7": {
+        "mode": "standard",
+        "bg": "creator",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 7,
+        "patterns": {
+          "homeMax": 225,
+          "homeTotal": 1450,
+          "studyMax": 0,
+          "studyTotal": 0,
+          "legs": 1124,
+          "immediateReturns": 26,
+          "longestAlternating": 8,
+          "moveExample": [
+            {
+              "ref": "v389730",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29611040
+            },
+            {
+              "ref": "v389913",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29611090
+            },
+            {
+              "ref": "v390122",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29611150
+            },
+            {
+              "ref": "v390452",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29611240
+            },
+            {
+              "ref": "v390674",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29611300
+            },
+            {
+              "ref": "v390899",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29611360
+            },
+            {
+              "ref": "v391083",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29611410
+            },
+            {
+              "ref": "v391309",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29611470
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 4090,
+            "waiting_for_appointment": 1925,
+            "waiting_for_partner": 340,
+            "no_candidates": 4000
+          },
+          "waitExample": {
+            "from": 29604205,
+            "until": 29604415,
+            "place": "park",
+            "finalRef": "v366519",
+            "firstDecision": "v365765",
+            "reason": "no_feasible_itinerary",
+            "needs": {
+              "hunger": 0,
+              "fatigue": 700,
+              "cash": 835800,
+              "social": 105,
+              "strain": 0
+            },
+            "candidates": [
+              {
+                "kind": "supplies",
+                "subject": "补足已经用完的洗护用品",
+                "location": "market",
+                "score": 58.336,
+                "reasons": [
+                  "venue_closed"
+                ],
+                "planning": [
+                  "no_time_before_commitment_or_close"
+                ]
+              }
+            ]
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.4989816700610998,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 197,
+              "key": "[\"collaborate\",\"合写：廊坊·桥边书店码头的高水痕迹与廊坊·桥边书店低水位露出的滩地\",\"cafe\"]",
+              "topic": "合作",
+              "ref": "v198705"
+            },
+            {
+              "window": 198,
+              "key": "[\"pack_meals\",\"买食材，做好两份路餐\",\"lunch\"]",
+              "topic": "路餐",
+              "ref": "v199733"
+            },
+            {
+              "window": 199,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+              "topic": "水情",
+              "ref": "v201684"
+            },
+            {
+              "window": 200,
+              "key": "[\"revise\",\"补足《廊坊·桥边书店码头的高水痕迹》中的现场细节\",\"bookstore\"]",
+              "topic": "作品",
+              "ref": "v202517"
+            },
+            {
+              "window": 201,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v203229"
+            },
+            {
+              "window": 202,
+              "key": "[\"social\",\"回应知夏的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v203627"
+            },
+            {
+              "window": 203,
+              "key": "[\"journey_message\",\"写给小梅的旅途近况\",\"bookstore\"]",
+              "topic": "通信",
+              "ref": "v204660"
+            },
+            {
+              "window": 204,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v206905"
+            },
+            {
+              "window": 205,
+              "key": "[\"work\",\"完成书店当日实际值班\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v207329"
+            },
+            {
+              "window": 206,
+              "key": "[\"collaborate\",\"合写：廊坊·桥边书店码头的高水痕迹与廊坊·桥边书店低水位露出的滩地\",\"cafe\"]",
+              "topic": "合作",
+              "ref": "v208162"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 19,
+        "maximum": 2,
+        "moves": 3400,
+        "jointSegments": 445,
+        "completedAppointments": 279,
+        "missedAppointments": 21,
+        "rememberedActions": 1782,
+        "strained": 21,
+        "secondMiss": 1,
+        "repaired": 19,
+        "waitSegments": 446,
+        "waitMinutes": 10355,
+        "waitRuns": 291,
+        "maxWait": 210,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 1595000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "通信",
+            "text": "知夏把亲历的“从岸边拦网上清走3筐漂枝”写给异地的阿林。消息已经送达，对方有空时可以回复。",
+            "refs": [
+              "v496184"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "约见",
+            "text": "知夏花了15分钟给阿林发出近况交流邀请，约在廊坊·桥边书店见面。邀请已经发出，对方尚未答应。",
+            "refs": [
+              "v497217"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "约见",
+            "text": "知夏和阿林在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v497528"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "值班",
+            "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v500177"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "约见",
+            "text": "小梅和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v500735"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "值班",
+            "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v501395"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "水情",
+            "text": "知夏在廊坊·桥边书店的堤岸核对水尺，上次记录是5格，这次是2格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v501954"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "约见",
+            "text": "知夏和小梅在廊坊·桥边书店碰面。两人聊起知夏亲手办过的事——沿岸复测水位并更新还书点通告。这段相处用了60分钟。",
+            "refs": [
+              "v502848"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "水情",
+            "text": "知夏在廊坊·桥边书店的堤岸核对水尺，上次记录是2格，这次是4格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v505037"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "值班",
+            "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v505675"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "background": "traveler",
+      "v6": {
+        "mode": "standard",
+        "bg": "traveler",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 6,
+        "patterns": {
+          "homeMax": 375,
+          "homeTotal": 1400,
+          "studyMax": 0,
+          "studyTotal": 0,
+          "legs": 1199,
+          "immediateReturns": 25,
+          "longestAlternating": 6,
+          "moveExample": [
+            {
+              "ref": "v451024",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29628480
+            },
+            {
+              "ref": "v451352",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29628570
+            },
+            {
+              "ref": "v451936",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29628725
+            },
+            {
+              "ref": "v452153",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29628785
+            },
+            {
+              "ref": "v454567",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29629525
+            },
+            {
+              "ref": "v454793",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29629585
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 4425,
+            "waiting_for_appointment": 2425,
+            "waiting_for_partner": 240,
+            "no_candidates": 2775
+          },
+          "waitExample": {
+            "from": 29543680,
+            "until": 29543830,
+            "place": "bookstore",
+            "finalRef": "v154177",
+            "firstDecision": "v153631",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 30,
+              "fatigue": 700,
+              "cash": 1162000,
+              "social": 0,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.48268839103869654,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 86,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ford\"]",
+              "topic": "清障",
+              "ref": "v86547"
+            },
+            {
+              "window": 87,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+              "topic": "水情",
+              "ref": "v87898"
+            },
+            {
+              "window": 88,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ford\"]",
+              "topic": "清障",
+              "ref": "v88322"
+            },
+            {
+              "window": 89,
+              "key": "[\"revise\",\"补足《蓝渡镇·渡口书站码头的高水痕迹》中的现场细节\",\"ford\"]",
+              "topic": "作品",
+              "ref": "v90695"
+            },
+            {
+              "window": 90,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+              "topic": "清障",
+              "ref": "v91230"
+            },
+            {
+              "window": 91,
+              "key": "[\"journey_message\",\"回复小梅的旅途近况\",\"ridge\"]",
+              "topic": "通信",
+              "ref": "v91883"
+            },
+            {
+              "window": 92,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+              "topic": "清障",
+              "ref": "v92732"
+            },
+            {
+              "window": 93,
+              "key": "[\"review\",\"阅读《蓝渡镇·渡口书站码头的高水痕迹》并提出观察缺口\",\"ford\"]",
+              "topic": "作品",
+              "ref": "v93333"
+            },
+            {
+              "window": 94,
+              "key": "[\"journey_collect\",\"领取异地还回的《三地食谱》\",\"ridge\"]",
+              "topic": "还书",
+              "ref": "v95422"
+            },
+            {
+              "window": 95,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+              "topic": "清障",
+              "ref": "v96496"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 21,
+        "maximum": 3,
+        "moves": 3617,
+        "jointSegments": 506,
+        "completedAppointments": 309,
+        "missedAppointments": 32,
+        "rememberedActions": 1794,
+        "strained": 32,
+        "secondMiss": 1,
+        "repaired": 31,
+        "waitSegments": 431,
+        "waitMinutes": 9865,
+        "waitRuns": 296,
+        "maxWait": 150,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 1515000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "约见",
+            "text": "阿远和阿林在廊坊·桥边书店碰面。两人聊起阿远亲手办过的事——从岸边拦网上清走3筐漂枝。这段相处用了60分钟。",
+            "refs": [
+              "v496400"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "作品",
+            "text": "阿远的《青岑镇·山前驿站码头的高水痕迹》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+            "refs": [
+              "v496921"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "通信",
+            "text": "阿远读完小梅从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。阿远花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v498156"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "还书",
+            "text": "阿远在青岑镇·山前驿站给《步行者的地图》松脱的书脊重新穿线，把散页装回去。借阅台把修好的这一本重新上架。",
+            "refs": [
+              "v499923"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "邻里交流",
+            "text": "阿远在廊坊·邻里活动室见到小梅。两人用一个小时一起读《蓝渡镇·渡口书站码头的高水痕迹》，聊起书里写的东西。这次谈完，又有了一个可合写的题目——蓝渡镇·渡口书站码头的高水痕迹与花圃的新芽。",
+            "refs": [
+              "v500907",
+              "v500915"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "合作",
+            "text": "阿远带着自己的材料到廊坊·河边咖啡店，和小梅把两份记录合到了一起。两人一起写成了《蓝渡镇·渡口书站码头的高水痕迹与花圃的新芽》。",
+            "refs": [
+              "v501327"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "邻里交流",
+            "text": "阿远在廊坊·邻里活动室见到小梅。两人用一个小时一起读《青岑镇·山前驿站低水位露出的滩地》，聊起书里写的东西。",
+            "refs": [
+              "v502035"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "路餐",
+            "text": "阿远在书店附近的小饭馆的厨房花8元买了食材，把做好的两份路餐分装收好，留给接下来的行程。",
+            "refs": [
+              "v503282"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "约见",
+            "text": "阿林和阿远在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v505359"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "作品",
+            "text": "读者想知道《青岑镇·山前驿站低水位露出的滩地》里提到的地方究竟长什么样。阿远把现场细节补进了作品。",
+            "refs": [
+              "v501596",
+              "v505993"
+            ]
+          }
+        ]
+      },
+      "v7": {
+        "mode": "standard",
+        "bg": "traveler",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 7,
+        "patterns": {
+          "homeMax": 430,
+          "homeTotal": 3370,
+          "studyMax": 0,
+          "studyTotal": 0,
+          "legs": 1099,
+          "immediateReturns": 21,
+          "longestAlternating": 9,
+          "moveExample": [
+            {
+              "ref": "v480310",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29636820
+            },
+            {
+              "ref": "v480523",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29636880
+            },
+            {
+              "ref": "v481455",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29637140
+            },
+            {
+              "ref": "v482106",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29637310
+            },
+            {
+              "ref": "v482320",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29637370
+            },
+            {
+              "ref": "v484806",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29638120
+            },
+            {
+              "ref": "v485991",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29638445
+            },
+            {
+              "ref": "v486096",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29638475
+            },
+            {
+              "ref": "v486313",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29638535
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 3730,
+            "waiting_for_appointment": 2515,
+            "waiting_for_partner": 195,
+            "no_candidates": 4055
+          },
+          "waitExample": {
+            "from": 29552305,
+            "until": 29552455,
+            "place": "ridge",
+            "finalRef": "v184614",
+            "firstDecision": "v184050",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 60,
+              "fatigue": 675,
+              "cash": 1151300,
+              "social": 290,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.4663951120162933,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 83,
+              "key": "[\"gather\",\"一起阅读《蓝渡镇·渡口书站码头的高水痕迹》\",\"community\"]",
+              "topic": "邻里交流",
+              "ref": "v83176"
+            },
+            {
+              "window": 84,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ford\"]",
+              "topic": "水情",
+              "ref": "v85478"
+            },
+            {
+              "window": 85,
+              "key": "[\"review\",\"阅读《合写：蓝渡镇·渡口书站码头的高水痕迹与花圃的新芽》并提出观察缺口\",\"cafe\"]",
+              "topic": "作品",
+              "ref": "v86330"
+            },
+            {
+              "window": 86,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ford\"]",
+              "topic": "清障",
+              "ref": "v86553"
+            },
+            {
+              "window": 87,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+              "topic": "水情",
+              "ref": "v87904"
+            },
+            {
+              "window": 88,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ford\"]",
+              "topic": "清障",
+              "ref": "v88328"
+            },
+            {
+              "window": 89,
+              "key": "[\"revise\",\"补足《蓝渡镇·渡口书站码头的高水痕迹》中的现场细节\",\"ford\"]",
+              "topic": "作品",
+              "ref": "v90489"
+            },
+            {
+              "window": 90,
+              "key": "[\"social\",\"回应阿远的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v91118"
+            },
+            {
+              "window": 91,
+              "key": "[\"review\",\"阅读《合写：蓝渡镇·渡口书站码头的高水痕迹与花圃的新芽》并提出观察缺口\",\"cafe\"]",
+              "topic": "作品",
+              "ref": "v92093"
+            },
+            {
+              "window": 92,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ford\"]",
+              "topic": "水情",
+              "ref": "v92583"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 20,
+        "maximum": 3,
+        "moves": 3606,
+        "jointSegments": 489,
+        "completedAppointments": 300,
+        "missedAppointments": 27,
+        "rememberedActions": 1789,
+        "strained": 27,
+        "secondMiss": 1,
+        "repaired": 26,
+        "waitSegments": 460,
+        "waitMinutes": 10495,
+        "waitRuns": 310,
+        "maxWait": 150,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 1530000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "合作",
+            "text": "阿远带着自己的材料到廊坊·河边咖啡店，和阿林把两份记录合到了一起。两人一起写成了《蓝渡镇·渡口书站低水位露出的滩地与花圃的新芽》。",
+            "refs": [
+              "v496478"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "约见",
+            "text": "阿林和阿远在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v497228"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "作品",
+            "text": "阿远的《合写：蓝渡镇·渡口书站低水位露出的滩地与花圃的新芽》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+            "refs": [
+              "v497778"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "水情",
+            "text": "阿远在廊坊·桥边书店的堤岸核对水尺，上次记录是4格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v500130"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "值班",
+            "text": "阿远在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v500667"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "还书",
+            "text": "阿远在廊坊·桥边书店清点还书箱，把《沿堤认鸟手册》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+            "refs": [
+              "v501530"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "通信",
+            "text": "阿远把亲历的“把《沿堤认鸟手册》送回蓝渡镇·渡口书站”写给异地的小梅。消息已经送达，对方有空时可以回复。",
+            "refs": [
+              "v502333"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "作品",
+            "text": "阿远的《合写：蓝渡镇·渡口书站低水位露出的滩地与花圃的新芽》有了读者的回音。阿林读到了修订中新添的现场细节。",
+            "refs": [
+              "v503057"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "水情",
+            "text": "阿远在蓝渡镇·渡口书站的堤岸核对水尺，上次记录是4格，这次是6格。这张新通告提醒沿路的读者把异地还书带到别的站。",
+            "refs": [
+              "v504961"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "约见",
+            "text": "阿林和阿远在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v505763"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "background": "low_assets",
+      "v6": {
+        "mode": "standard",
+        "bg": "low_assets",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 6,
+        "patterns": {
+          "homeMax": 270,
+          "homeTotal": 2145,
+          "studyMax": 90,
+          "studyTotal": 360,
+          "legs": 1149,
+          "immediateReturns": 23,
+          "longestAlternating": 9,
+          "moveExample": [
+            {
+              "ref": "v267161",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29576685
+            },
+            {
+              "ref": "v267434",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29576755
+            },
+            {
+              "ref": "v270188",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29577585
+            },
+            {
+              "ref": "v270585",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29577690
+            },
+            {
+              "ref": "v271603",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29577965
+            },
+            {
+              "ref": "v271752",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29578005
+            },
+            {
+              "ref": "v275270",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29579025
+            },
+            {
+              "ref": "v275421",
+              "from": "street",
+              "to": "bookstore",
+              "time": 29579065
+            },
+            {
+              "ref": "v276771",
+              "from": "bookstore",
+              "to": "street",
+              "time": 29579435
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 3375,
+            "waiting_for_appointment": 1980,
+            "waiting_for_partner": 125,
+            "no_candidates": 5390
+          },
+          "waitExample": {
+            "from": 29523565,
+            "until": 29523715,
+            "place": "bookstore",
+            "finalRef": "v82794",
+            "firstDecision": "v82274",
+            "reason": "no_candidates",
+            "needs": {
+              "hunger": 60,
+              "fatigue": 745,
+              "cash": 179300,
+              "social": 110,
+              "strain": 0
+            },
+            "candidates": []
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.7780040733197556,
+          "worstRepeatInTen": 3,
+          "worstBlock": [
+            {
+              "window": 176,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v176776"
+            },
+            {
+              "window": 177,
+              "key": "[\"gather\",\"一起阅读《青岑镇·山前驿站低水位露出的滩地》\",\"community\"]",
+              "topic": "邻里交流",
+              "ref": "v177516"
+            },
+            {
+              "window": 178,
+              "key": "[\"social\",\"回应小梅的近况交流邀请\",\"bookstore\"]",
+              "topic": "约见",
+              "ref": "v177705"
+            },
+            {
+              "window": 179,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"bookstore\"]",
+              "topic": "水情",
+              "ref": "v180338"
+            },
+            {
+              "window": 180,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"park\"]",
+              "topic": "清障",
+              "ref": "v180768"
+            },
+            {
+              "window": 181,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v181571"
+            },
+            {
+              "window": 182,
+              "key": "[\"repair\",\"维修使用后松动的公园座椅\",\"park\"]",
+              "topic": "维修",
+              "ref": "v182214"
+            },
+            {
+              "window": 183,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"bookstore\"]",
+              "topic": "水情",
+              "ref": "v182971"
+            },
+            {
+              "window": 184,
+              "key": "[\"journey_deliver\",\"把《三地食谱》送回廊坊·桥边书店\",\"bookstore\"]",
+              "topic": "还书",
+              "ref": "v185494"
+            },
+            {
+              "window": 185,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v186126"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 13,
+        "maximum": 2,
+        "moves": 2947,
+        "jointSegments": 367,
+        "completedAppointments": 240,
+        "missedAppointments": 21,
+        "rememberedActions": 1716,
+        "strained": 21,
+        "secondMiss": 0,
+        "repaired": 21,
+        "waitSegments": 458,
+        "waitMinutes": 10870,
+        "waitRuns": 281,
+        "maxWait": 150,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 2480000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "邻里交流",
+            "text": "小周在廊坊·邻里活动室见到阿林。两人用一个小时一起读《蓝渡镇·渡口书站码头的高水痕迹》，聊起书里写的东西。",
+            "refs": [
+              "v492818"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "约见",
+            "text": "小梅给小周发来邀请，约在廊坊·桥边书店碰面。",
+            "refs": [
+              "v493559"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "约见",
+            "text": "小梅和小周在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v494190"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "通信",
+            "text": "小周读完小梅从异地发来的消息，里面讲的是“从岸边拦网上清走3筐漂枝”。小周花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v496674"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "值班",
+            "text": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v497347"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "水情",
+            "text": "小周在廊坊·桥边书店的堤岸核对水尺，上次记录是2格，这次是0格。这张新通告提醒沿路的读者把异地还书带到别的站。",
+            "refs": [
+              "v497559"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "约见",
+            "text": "小梅和小周在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+            "refs": [
+              "v498880"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "手记",
+            "text": "小周翻开旅途手记，把在廊坊·河岸公园亲历的“从岸边拦网上清走3筐漂枝”记了下来。",
+            "refs": [
+              "v499807"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "维修",
+            "text": "小周来到廊坊·河岸公园，用一小时处理使用后松动的座椅。先前取得的实践资格使这项维修可执行；完成后从有限维护经费收到50元，座椅磨损恢复为零。",
+            "refs": [
+              "v501792"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "水情",
+            "text": "小周在青岑镇·山前驿站的堤岸核对水尺，上次记录是2格，这次是4格。这张新通告提醒沿路的读者可以来这里还书。",
+            "refs": [
+              "v502197"
+            ]
+          }
+        ]
+      },
+      "v7": {
+        "mode": "standard",
+        "bg": "low_assets",
+        "days": 100,
+        "seed": 19,
+        "rate": 8,
+        "revision": 7,
+        "patterns": {
+          "homeMax": 420,
+          "homeTotal": 2800,
+          "studyMax": 90,
+          "studyTotal": 360,
+          "legs": 1102,
+          "immediateReturns": 19,
+          "longestAlternating": 6,
+          "moveExample": [
+            {
+              "ref": "v337060",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29596470
+            },
+            {
+              "ref": "v337278",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29596530
+            },
+            {
+              "ref": "v337776",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29596670
+            },
+            {
+              "ref": "v338006",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29596730
+            },
+            {
+              "ref": "v341500",
+              "from": "bookstore",
+              "to": "ford",
+              "time": 29597755
+            },
+            {
+              "ref": "v341717",
+              "from": "ford",
+              "to": "bookstore",
+              "time": 29597815
+            }
+          ],
+          "waitReasons": {
+            "no_feasible_itinerary": 3365,
+            "waiting_for_appointment": 2140,
+            "waiting_for_partner": 205,
+            "no_candidates": 4335
+          },
+          "waitExample": {
+            "from": 29514960,
+            "until": 29515110,
+            "place": "bookstore",
+            "finalRef": "v52859",
+            "firstDecision": "v52318",
+            "reason": "no_feasible_itinerary",
+            "needs": {
+              "hunger": 80,
+              "fatigue": 780,
+              "cash": 161100,
+              "social": 445,
+              "strain": 0
+            },
+            "candidates": [
+              {
+                "kind": "journey_clear",
+                "subject": "从岸边拦网上清走3筐漂枝",
+                "location": "ridge",
+                "score": -24.378,
+                "reasons": [],
+                "planning": []
+              }
+            ]
+          },
+          "tenBlocks": 491,
+          "meanRepeatInTen": 0.7596741344195519,
+          "worstRepeatInTen": 4,
+          "worstBlock": [
+            {
+              "window": 76,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v76782"
+            },
+            {
+              "window": 77,
+              "key": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+              "topic": "花圃",
+              "ref": "v77068"
+            },
+            {
+              "window": 78,
+              "key": "[\"travel_journal\",\"记下从岸边拦网上清走3筐漂枝\",\"bookstore\"]",
+              "topic": "手记",
+              "ref": "v78207"
+            },
+            {
+              "window": 79,
+              "key": "[\"journey_collect\",\"领取异地还回的《榫卯入门》\",\"bookstore\"]",
+              "topic": "还书",
+              "ref": "v80340"
+            },
+            {
+              "window": 80,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v80999"
+            },
+            {
+              "window": 81,
+              "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+              "topic": "值班",
+              "ref": "v81519"
+            },
+            {
+              "window": 82,
+              "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+              "topic": "水情",
+              "ref": "v81952"
+            },
+            {
+              "window": 83,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+              "topic": "清障",
+              "ref": "v82966"
+            },
+            {
+              "window": 84,
+              "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+              "topic": "清障",
+              "ref": "v85241"
+            },
+            {
+              "window": 85,
+              "key": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+              "topic": "花圃",
+              "ref": "v85625"
+            }
+          ]
+        },
+        "windows": 500,
+        "repeat": 12,
+        "maximum": 3,
+        "moves": 3182,
+        "jointSegments": 379,
+        "completedAppointments": 247,
+        "missedAppointments": 27,
+        "rememberedActions": 1709,
+        "strained": 27,
+        "secondMiss": 2,
+        "repaired": 25,
+        "waitSegments": 428,
+        "waitMinutes": 10045,
+        "waitRuns": 278,
+        "maxWait": 150,
+        "elapsedCalendarDays": 100,
+        "reimbursements": 2380000,
+        "lastTen": [
+          {
+            "window": 491,
+            "topic": "值班",
+            "text": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v493538"
+            ]
+          },
+          {
+            "window": 492,
+            "topic": "还书",
+            "text": "小周把从蓝渡镇·渡口书站带来的《三地食谱》交给廊坊·桥边书店。摊开时有几页松动，收书人把它送上了待修架。",
+            "refs": [
+              "v494219"
+            ]
+          },
+          {
+            "window": 493,
+            "topic": "通信",
+            "text": "小周读完小梅从异地发来的消息，里面讲的是“从岸边拦网上清走3筐漂枝”。小周花时间写下自己的回应，把回信发了出去。",
+            "refs": [
+              "v494859"
+            ]
+          },
+          {
+            "window": 494,
+            "topic": "手记",
+            "text": "小周翻开旅途手记，把在廊坊·桥边书店亲历的“把《三地食谱》送回廊坊·桥边书店”记了下来。",
+            "refs": [
+              "v495411"
+            ]
+          },
+          {
+            "window": 495,
+            "topic": "值班",
+            "text": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v497925"
+            ]
+          },
+          {
+            "window": 496,
+            "topic": "还书",
+            "text": "小周在廊坊·桥边书店清点还书箱，把《榫卯入门》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+            "refs": [
+              "v498437"
+            ]
+          },
+          {
+            "window": 497,
+            "topic": "花圃",
+            "text": "小周来到廊坊·旧街区照料缺水的花圃，浇水后土壤水分由35恢复到90。花还需要时间生长。",
+            "refs": [
+              "v499340"
+            ]
+          },
+          {
+            "window": 498,
+            "topic": "通信",
+            "text": "小周把亲历的“把《榫卯入门》送回蓝渡镇·渡口书站”写给异地的阿林。消息已经送达，对方有空时可以回复。",
+            "refs": [
+              "v499787"
+            ]
+          },
+          {
+            "window": 499,
+            "topic": "花圃",
+            "text": "小周在廊坊·旧街区采收了已成熟的香草，保留这次收成记录，并让花圃进入下一轮生长。这来自此前的照料和实际生长时间。",
+            "refs": [
+              "v502132"
+            ]
+          },
+          {
+            "window": 500,
+            "topic": "值班",
+            "text": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+            "refs": [
+              "v503027"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sameStateReplay": {
+    "bg": "settled",
+    "from": 29547380,
+    "location": "ridge",
+    "unread": {
+      "mei": {
+        "source": "v162015",
+        "experience": "o1210"
+      }
+    },
+    "results": [
+      {
+        "revision": 6,
+        "facts": [
+          {
+            "kind": "waiting",
+            "from": 0,
+            "until": 30,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165454"
+          },
+          {
+            "kind": "waiting",
+            "from": 30,
+            "until": 60,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165566"
+          },
+          {
+            "kind": "waiting",
+            "from": 60,
+            "until": 90,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165674"
+          },
+          {
+            "kind": "waiting",
+            "from": 90,
+            "until": 120,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165782"
+          },
+          {
+            "kind": "waiting",
+            "from": 120,
+            "until": 150,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165886"
+          },
+          {
+            "kind": "waiting",
+            "from": 150,
+            "until": 180,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165994"
+          },
+          {
+            "kind": "waiting",
+            "from": 180,
+            "until": 210,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v166099"
+          }
+        ],
+        "decisions": [
+          {
+            "from": 0,
+            "reason": "no_candidates",
+            "chosen": null,
+            "candidates": []
+          },
+          {
+            "from": 30,
+            "reason": "no_candidates",
+            "chosen": null,
+            "candidates": []
+          },
+          {
+            "from": 60,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 90,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 120,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 150,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 180,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "revision": 7,
+        "facts": [
+          {
+            "kind": "journey_message",
+            "from": 0,
+            "until": 30,
+            "text": "小禾读完小梅从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。小禾花时间写下自己的回应，把回信发了出去。",
+            "ref": "v165456"
+          },
+          {
+            "kind": "waiting",
+            "from": 30,
+            "until": 60,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165570"
+          },
+          {
+            "kind": "waiting",
+            "from": 60,
+            "until": 90,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165678"
+          },
+          {
+            "kind": "waiting",
+            "from": 90,
+            "until": 120,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165786"
+          },
+          {
+            "kind": "waiting",
+            "from": 120,
+            "until": 150,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165890"
+          },
+          {
+            "kind": "waiting",
+            "from": 150,
+            "until": 180,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v165998"
+          },
+          {
+            "kind": "waiting",
+            "from": 180,
+            "until": 210,
+            "text": "小禾在原地停留30分钟，这段时间没有形成新的生活成果。",
+            "ref": "v166103"
+          }
+        ],
+        "decisions": [
+          {
+            "from": 0,
+            "reason": "following_itinerary",
+            "chosen": "o1252",
+            "candidates": [
+              [
+                "journey_message",
+                161.526,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 30,
+            "reason": "no_candidates",
+            "chosen": null,
+            "candidates": []
+          },
+          {
+            "from": 60,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 90,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 120,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 150,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          },
+          {
+            "from": 180,
+            "reason": "no_feasible_itinerary",
+            "chosen": null,
+            "candidates": [
+              [
+                "work",
+                -38.903999999999996,
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

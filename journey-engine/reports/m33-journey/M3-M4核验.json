@@ -1,0 +1,501 @@
+{
+  "engine": "life32r3-8c163a4c3d3413b3",
+  "journeyRevision": 5,
+  "model": "DeepSeek-R1-0528-Qwen3-8B-Q4_K_M / llama.cpp local completion",
+  "humanReview": "HUMAN_PENDING",
+  "runs": [
+    {
+      "mode": "standard",
+      "bg": "creator",
+      "days": 100,
+      "seed": 19,
+      "rate": 6,
+      "windows": 700,
+      "repeat": 60,
+      "maximum": 3,
+      "moves": 3129,
+      "jointSegments": 420,
+      "completedAppointments": 268,
+      "missedAppointments": 24,
+      "rememberedActions": 1847,
+      "strained": 24,
+      "secondMiss": 0,
+      "repaired": 24,
+      "waitSegments": 489,
+      "waitMinutes": 11865,
+      "waitRuns": 296,
+      "maxWait": 175,
+      "elapsedCalendarDays": 100,
+      "reimbursements": 1865000,
+      "consecutiveLastWindows": [
+        {
+          "day": 99,
+          "window": 691,
+          "realMinutes": 25,
+          "topic": "起居",
+          "text": "知夏到蓝渡镇·渡口书站花15元补充三份洗护用品。购买来自用品已经用完的需要，没有把消费写成意外收获。",
+          "refs": [
+            "v498572"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 692,
+          "realMinutes": 25,
+          "topic": "通信",
+          "text": "知夏读完阿林从异地发来的消息，里面讲的是“蓝渡镇·渡口书站低水位露出的滩地”。知夏花时间写下自己的回应，把回信发了出去。",
+          "refs": [
+            "v499138"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 693,
+          "realMinutes": 10,
+          "topic": "赶路",
+          "text": "知夏用了30分钟沿实际路线抵达廊坊·桥边书店。",
+          "refs": [
+            "v499603"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 694,
+          "realMinutes": 25,
+          "topic": "约见",
+          "text": "阿林和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+          "refs": [
+            "v499705"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 695,
+          "realMinutes": 25,
+          "topic": "值班",
+          "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+          "refs": [
+            "v500321"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 696,
+          "realMinutes": 25,
+          "topic": "清障",
+          "text": "知夏在廊坊·河岸公园把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩3筐。",
+          "refs": [
+            "v501159"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 697,
+          "realMinutes": 25,
+          "topic": "通信",
+          "text": "知夏读完阿林从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。知夏花时间写下自己的回应，把回信发了出去。",
+          "refs": [
+            "v501278"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 698,
+          "realMinutes": 25,
+          "topic": "约见",
+          "text": "知夏在青岑镇·山前驿站把时间留给聊起从岸边拦网上清走3筐漂枝。这项安排还没有做完，进度保留到了下一段生活。",
+          "refs": [
+            "v503796"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 699,
+          "realMinutes": 25,
+          "topic": "水情",
+          "text": "知夏在青岑镇·山前驿站的堤岸核对水尺，上次记录是3格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+          "refs": [
+            "v504021"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 700,
+          "realMinutes": 10,
+          "topic": "起居",
+          "text": "知夏回到廊坊·旅馆，用已经备好的洗护用品洗换衣物、收拾生活空间。手边的用品少了一份，日常维护的需要得到缓解。",
+          "refs": [
+            "v504506"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "no-social",
+      "bg": "settled",
+      "days": 172,
+      "seed": 11,
+      "windows": 860,
+      "repeat": 60,
+      "maximum": 2,
+      "moves": 3684,
+      "jointSegments": 0,
+      "completedAppointments": 0,
+      "missedAppointments": 0,
+      "rememberedActions": 2575,
+      "strained": 0,
+      "secondMiss": 0,
+      "repaired": 0,
+      "waitSegments": 1240,
+      "waitMinutes": 34685,
+      "waitRuns": 572,
+      "maxWait": 240,
+      "elapsedCalendarDays": 172,
+      "reimbursements": 4990000,
+      "rate": 8
+    },
+    {
+      "mode": "standard",
+      "bg": "creator",
+      "days": 100,
+      "seed": 19,
+      "windows": 500,
+      "repeat": 24,
+      "maximum": 2,
+      "moves": 3129,
+      "jointSegments": 420,
+      "completedAppointments": 268,
+      "missedAppointments": 24,
+      "rememberedActions": 1774,
+      "strained": 24,
+      "secondMiss": 0,
+      "repaired": 24,
+      "waitSegments": 489,
+      "waitMinutes": 11865,
+      "waitRuns": 296,
+      "maxWait": 175,
+      "elapsedCalendarDays": 100,
+      "reimbursements": 1865000,
+      "rate": 8,
+      "consecutiveLastWindows": [
+        {
+          "day": 99,
+          "window": 491,
+          "realMinutes": 25,
+          "topic": "合作",
+          "text": "知夏带着自己的材料到廊坊·河边咖啡店，和阿林把两份记录合到了一起。两人一起写成了《蓝渡镇·渡口书站码头的高水痕迹与廊坊·桥边书店低水位露出的滩地》。",
+          "refs": [
+            "v494791"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 492,
+          "realMinutes": 25,
+          "topic": "作品",
+          "text": "知夏的《蓝渡镇·渡口书站码头的高水痕迹》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+          "refs": [
+            "v495920"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 493,
+          "realMinutes": 25,
+          "topic": "约见",
+          "text": "小梅和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+          "refs": [
+            "v496517"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 494,
+          "realMinutes": 25,
+          "topic": "清障",
+          "text": "知夏在蓝渡镇·渡口书站把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩0筐。",
+          "refs": [
+            "v498908"
+          ]
+        },
+        {
+          "day": 99,
+          "window": 495,
+          "realMinutes": 20,
+          "topic": "通信",
+          "text": "知夏读完阿林从异地发来的消息，里面讲的是“蓝渡镇·渡口书站低水位露出的滩地”。知夏花时间写下自己的回应，把回信发了出去。",
+          "refs": [
+            "v499138"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 496,
+          "realMinutes": 25,
+          "topic": "约见",
+          "text": "阿林和知夏在廊坊·桥边书店碰面，彼此说了最近的生活安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+          "refs": [
+            "v499705"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 497,
+          "realMinutes": 25,
+          "topic": "值班",
+          "text": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+          "refs": [
+            "v500321"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 498,
+          "realMinutes": 25,
+          "topic": "通信",
+          "text": "知夏读完阿林从异地发来的消息，里面讲的是“沿岸复测水位并更新还书点通告”。知夏花时间写下自己的回应，把回信发了出去。",
+          "refs": [
+            "v501278"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 499,
+          "realMinutes": 25,
+          "topic": "约见",
+          "text": "知夏和阿林在青岑镇·山前驿站碰面。两人聊起知夏亲手办过的事——从岸边拦网上清走3筐漂枝。这段相处用了60分钟。",
+          "refs": [
+            "v503904"
+          ]
+        },
+        {
+          "day": 100,
+          "window": 500,
+          "realMinutes": 20,
+          "topic": "水情",
+          "text": "知夏在青岑镇·山前驿站的堤岸核对水尺，上次记录是3格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+          "refs": [
+            "v504021"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "standard",
+      "bg": "settled",
+      "days": 172,
+      "seed": 11,
+      "windows": 860,
+      "repeat": 22,
+      "maximum": 2,
+      "moves": 5072,
+      "jointSegments": 630,
+      "completedAppointments": 422,
+      "missedAppointments": 34,
+      "rememberedActions": 2990,
+      "strained": 34,
+      "secondMiss": 1,
+      "repaired": 33,
+      "waitSegments": 900,
+      "waitMinutes": 22085,
+      "waitRuns": 533,
+      "maxWait": 210,
+      "elapsedCalendarDays": 172,
+      "reimbursements": 3870000,
+      "rate": 8
+    },
+    {
+      "mode": "standard",
+      "bg": "traveler",
+      "days": 100,
+      "seed": 41,
+      "rate": 8,
+      "windows": 500,
+      "repeat": 25,
+      "maximum": 3,
+      "moves": 3534,
+      "jointSegments": 512,
+      "completedAppointments": 302,
+      "missedAppointments": 22,
+      "rememberedActions": 1806,
+      "strained": 22,
+      "secondMiss": 1,
+      "repaired": 21,
+      "waitSegments": 441,
+      "waitMinutes": 9665,
+      "waitRuns": 283,
+      "maxWait": 150,
+      "elapsedCalendarDays": 100,
+      "reimbursements": 1490000
+    },
+    {
+      "mode": "zero",
+      "bg": "low_assets",
+      "days": 100,
+      "seed": 11,
+      "rate": 8,
+      "windows": 500,
+      "repeat": 10,
+      "maximum": 3,
+      "moves": 2795,
+      "jointSegments": 287,
+      "completedAppointments": 185,
+      "missedAppointments": 10,
+      "rememberedActions": 1562,
+      "strained": 10,
+      "secondMiss": 0,
+      "repaired": 10,
+      "waitSegments": 929,
+      "waitMinutes": 25005,
+      "waitRuns": 507,
+      "maxWait": 720,
+      "elapsedCalendarDays": 100,
+      "reimbursements": 2060000
+    },
+    {
+      "mode": "zero",
+      "bg": "low_assets",
+      "days": 100,
+      "seed": 424242,
+      "windows": 500,
+      "repeat": 15,
+      "maximum": 3,
+      "moves": 3008,
+      "jointSegments": 318,
+      "completedAppointments": 193,
+      "missedAppointments": 10,
+      "rememberedActions": 1532,
+      "strained": 10,
+      "secondMiss": 0,
+      "repaired": 10,
+      "waitSegments": 850,
+      "waitMinutes": 22910,
+      "waitRuns": 479,
+      "maxWait": 720,
+      "elapsedCalendarDays": 100,
+      "reimbursements": 2070000,
+      "rate": 8
+    }
+  ],
+  "studioWeek": {
+    "experiment": "792a89ed-b705-404b-b0cf-c57aff1d7bba",
+    "sessions": 34,
+    "verificationJob": "03166dde-ff0b-414a-8c23-1c72458bb194",
+    "status": "completed",
+    "revision4ReplayJob": "9d142b7c-19d9-441e-afa9-572d94461706",
+    "revision4ReplayStatus": "completed"
+  },
+  "studioFirstTen": [
+    {
+      "sequence": 1,
+      "digest": "4990b7930551d68b6f9b71cb30e575608222edb89103d7594041dfda6841d355",
+      "text": "知夏在廊坊·桥边书店清点还书箱，把《沿堤认鸟手册》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+      "original": "知夏在廊坊·桥边书店清点还书箱，把《沿堤认鸟手册》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+      "refs": [
+        "v121"
+      ],
+      "source": "local_model",
+      "changed": false
+    },
+    {
+      "sequence": 2,
+      "digest": "edabda1de4b2fb1fb96156e8c309d5ff82655469d84795ff55bd37b9542f0ddb",
+      "text": "知夏在廊坊·旧街区停下来看花圃的新芽，花了半小时，把这次观察留作了素材。",
+      "original": "知夏在廊坊·旧街区停下来看花圃的新芽，花了半小时，把这次观察留作了素材。",
+      "refs": [
+        "v1410"
+      ],
+      "source": "local_model",
+      "changed": false
+    },
+    {
+      "sequence": 3,
+      "digest": "c9f38e21a86851712f78e17e1abdafdde3839921515c44501ef53ea1cc138e03",
+      "text": "知夏把“花圃的新芽”整理成作品，留在廊坊·桥边书店。",
+      "original": "知夏把“花圃的新芽”整理成作品，留在廊坊·桥边书店。先前写下的观察，现在也能给来这里的人看了。",
+      "refs": [
+        "v1997"
+      ],
+      "source": "local_model",
+      "changed": true
+    },
+    {
+      "sequence": 4,
+      "digest": "3e0e407e6ee1e2b559488678de17c9ebac553f38a9f6811bb52cabb99d080262",
+      "text": "知夏在廊坊·桥边书店把水尺和旧记录对了一遍。旧记录是2格，眼下是4格。这张新通告提醒沿路的读者可以来这里还书。",
+      "original": "知夏在廊坊·桥边书店的堤岸核对水尺，上次记录是2格，这次是4格。这张新通告提醒沿路的读者可以来这里还书。",
+      "refs": [
+        "v4213"
+      ],
+      "source": "local_model",
+      "changed": true
+    },
+    {
+      "sequence": 5,
+      "digest": "6816376111ffe321aaf6fbca3a6b6e153f79601ac7a84319f79ff5adc6b1488b",
+      "text": "知夏的《花圃的新芽》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+      "original": "知夏的《花圃的新芽》有了读者的回音。阿林读完后想知道，现场究竟是什么样子。",
+      "refs": [
+        "v4902"
+      ],
+      "source": "local_model",
+      "changed": false
+    },
+    {
+      "sequence": 6,
+      "digest": "6725bd76d9bf5955b40aecbfb0bbe79584d07b406c99bb41b7e9bb9fd051bbdd",
+      "text": "知夏在廊坊·邻里活动室见到小梅。两人用一个小时一起读《花圃的新芽》，聊起书里写的东西。",
+      "original": "知夏在廊坊·邻里活动室见到小梅。两人用一个小时一起读《花圃的新芽》，聊起书里写的东西。",
+      "refs": [
+        "v5717"
+      ],
+      "source": "local_model",
+      "changed": false
+    },
+    {
+      "sequence": 7,
+      "digest": "3633201c07c69437a7391ba1ad799c678b5d9befccad28d982e04bca61ab6076",
+      "text": "读者想知道《花圃的新芽》里提到的地方究竟长什么样。知夏把现场细节补进了作品。",
+      "original": "读者想知道《花圃的新芽》里提到的地方究竟长什么样。知夏把现场细节补进了作品。",
+      "refs": [
+        "v4902",
+        "v6149"
+      ],
+      "source": "controlled",
+      "changed": false
+    },
+    {
+      "sequence": 8,
+      "digest": "6a054607593454f002291506c6e4ae178bc13140699c2fa789f8727a416105d9",
+      "text": "知夏的《花圃的新芽》收到了读者的反馈。阿林读到了修订中新添的现场细节。",
+      "original": "知夏的《花圃的新芽》有了读者的回音。阿林读到了修订中新添的现场细节。",
+      "refs": [
+        "v7040"
+      ],
+      "source": "local_model",
+      "changed": true
+    },
+    {
+      "sequence": 9,
+      "digest": "e8c166af81fef1ce4bd6d668e8f7f8eb814ab64d3e9dfe0d43860d5effe303a4",
+      "text": "知夏第一次走进廊坊·河岸公园，花30分钟熟悉河岸步道与公共座椅。这个地点从地图上的名字变成了亲自到过的地方，之后的安排可以参考这段经历。",
+      "original": "知夏第一次走进廊坊·河岸公园，花30分钟熟悉河岸步道与公共座椅。这个地点从地图上的名字变成了亲自到过的地方，之后的安排可以参考这段经历。",
+      "refs": [
+        "v9640"
+      ],
+      "source": "controlled",
+      "changed": false
+    },
+    {
+      "sequence": 10,
+      "digest": "e9e73aa8659aea5f774f066f39e99bfe0174452f1fed48c24ababffe26e570be",
+      "text": "知夏在廊坊·河岸公园捞起岸边拦网里的漂枝，分筐运走。清走3筐后，网里还剩3筐。",
+      "original": "知夏在廊坊·河岸公园把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩3筐。",
+      "refs": [
+        "v9979"
+      ],
+      "source": "local_model",
+      "changed": true
+    }
+  ]
+}

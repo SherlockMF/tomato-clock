@@ -1,0 +1,939 @@
+{
+  "revision": 7,
+  "rate": 8,
+  "summary": [
+    {
+      "seed": 19,
+      "bg": "settled",
+      "windows": 500,
+      "old": {
+        "repeat": 6,
+        "work": 1,
+        "hit": 119,
+        "available": 119,
+        "mean": 0.5173116089613035,
+        "worst": 3
+      },
+      "now": {
+        "repeat": 6,
+        "work": 0,
+        "hit": 119,
+        "available": 119,
+        "mean": 0.5173116089613035,
+        "worst": 3
+      },
+      "waitMinutes": 11695,
+      "waitRuns": 295,
+      "maxWait": 180
+    },
+    {
+      "seed": 19,
+      "bg": "creator",
+      "windows": 500,
+      "old": {
+        "repeat": 5,
+        "work": 2,
+        "hit": 103,
+        "available": 103,
+        "mean": 0.29938900203665986,
+        "worst": 3
+      },
+      "now": {
+        "repeat": 4,
+        "work": 1,
+        "hit": 103,
+        "available": 103,
+        "mean": 0.28105906313645623,
+        "worst": 3
+      },
+      "waitMinutes": 10355,
+      "waitRuns": 291,
+      "maxWait": 210
+    },
+    {
+      "seed": 19,
+      "bg": "traveler",
+      "windows": 500,
+      "old": {
+        "repeat": 2,
+        "work": 0,
+        "hit": 116,
+        "available": 116,
+        "mean": 0.2892057026476578,
+        "worst": 2
+      },
+      "now": {
+        "repeat": 2,
+        "work": 0,
+        "hit": 116,
+        "available": 116,
+        "mean": 0.2892057026476578,
+        "worst": 2
+      },
+      "waitMinutes": 10495,
+      "waitRuns": 310,
+      "maxWait": 150
+    },
+    {
+      "seed": 19,
+      "bg": "low_assets",
+      "windows": 500,
+      "old": {
+        "repeat": 9,
+        "work": 3,
+        "hit": 114,
+        "available": 114,
+        "mean": 0.594704684317719,
+        "worst": 3
+      },
+      "now": {
+        "repeat": 6,
+        "work": 0,
+        "hit": 114,
+        "available": 114,
+        "mean": 0.5336048879837068,
+        "worst": 3
+      },
+      "waitMinutes": 10045,
+      "waitRuns": 278,
+      "maxWait": 150
+    },
+    {
+      "seed": 37,
+      "bg": "settled",
+      "windows": 150,
+      "old": {
+        "repeat": 3,
+        "work": 0,
+        "hit": 42,
+        "available": 42,
+        "mean": 0.46099290780141844,
+        "worst": 3
+      },
+      "now": {
+        "repeat": 3,
+        "work": 0,
+        "hit": 42,
+        "available": 42,
+        "mean": 0.46099290780141844,
+        "worst": 3
+      },
+      "waitMinutes": 2195,
+      "waitRuns": 72,
+      "maxWait": 120
+    },
+    {
+      "seed": 37,
+      "bg": "creator",
+      "windows": 150,
+      "old": {
+        "repeat": 4,
+        "work": 2,
+        "hit": 29,
+        "available": 29,
+        "mean": 0.3191489361702128,
+        "worst": 3
+      },
+      "now": {
+        "repeat": 3,
+        "work": 1,
+        "hit": 29,
+        "available": 29,
+        "mean": 0.2553191489361702,
+        "worst": 3
+      },
+      "waitMinutes": 2425,
+      "waitRuns": 72,
+      "maxWait": 240
+    },
+    {
+      "seed": 37,
+      "bg": "traveler",
+      "windows": 150,
+      "old": {
+        "repeat": 1,
+        "work": 0,
+        "hit": 27,
+        "available": 27,
+        "mean": 0.22695035460992907,
+        "worst": 2
+      },
+      "now": {
+        "repeat": 1,
+        "work": 0,
+        "hit": 27,
+        "available": 27,
+        "mean": 0.22695035460992907,
+        "worst": 2
+      },
+      "waitMinutes": 3080,
+      "waitRuns": 84,
+      "maxWait": 125
+    },
+    {
+      "seed": 37,
+      "bg": "low_assets",
+      "windows": 150,
+      "old": {
+        "repeat": 1,
+        "work": 1,
+        "hit": 40,
+        "available": 40,
+        "mean": 0.5602836879432624,
+        "worst": 2
+      },
+      "now": {
+        "repeat": 1,
+        "work": 1,
+        "hit": 40,
+        "available": 40,
+        "mean": 0.5602836879432624,
+        "worst": 2
+      },
+      "waitMinutes": 2690,
+      "waitRuns": 78,
+      "maxWait": 120
+    }
+  ],
+  "cases": [
+    {
+      "bg": "settled",
+      "window": 262,
+      "opportunity": "o1965",
+      "previousLead": "v262821",
+      "oldLead": "v263031",
+      "newLead": "v263566",
+      "oldText": "小禾在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+      "newText": "小禾值完班，在蓝渡镇·渡口书站花了60分钟清理岸边拦网上的漂枝，这次清理还没结束。",
+      "refs": [
+        "v263031",
+        "v263454",
+        "v263566"
+      ],
+      "events": [
+        {
+          "ref": "v263031",
+          "kind": "work",
+          "opportunity": "o1965",
+          "from": 29575195,
+          "until": 29575255,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v263145",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29575255,
+          "until": 29575285,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v263254",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29575285,
+          "until": 29575315,
+          "location": "ford"
+        },
+        {
+          "ref": "v263340",
+          "kind": "eat",
+          "opportunity": null,
+          "from": 29575315,
+          "until": 29575335,
+          "location": "ford"
+        },
+        {
+          "ref": "v263454",
+          "kind": "journey_clear",
+          "opportunity": "o1981",
+          "from": 29575335,
+          "until": 29575365,
+          "location": "ford"
+        },
+        {
+          "ref": "v263566",
+          "kind": "journey_clear",
+          "opportunity": "o1981",
+          "from": 29575365,
+          "until": 29575395,
+          "location": "ford"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v263031",
+          "decision": "v262822",
+          "from": 29575195,
+          "until": 29575255,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v262194",
+            "time": 29575015,
+            "stops": [
+              "o1973",
+              "o1974",
+              "o1965"
+            ]
+          },
+          "needs": {
+            "hunger": 180,
+            "fatigue": 525,
+            "cash": 778500,
+            "social": 150,
+            "strain": 120
+          },
+          "score": 36.157999999999994,
+          "factors": {
+            "base": 20,
+            "personality": 6.538,
+            "economy": -25,
+            "deadline": 20,
+            "continuity": 12,
+            "repetition": -18,
+            "strain": -24,
+            "journeyCraft": 19.619999999999997,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o1938",
+              "kind": "journey_clear",
+              "score": 24.882999999999996,
+              "travelMinutes": 55,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bg": "creator",
+      "window": 205,
+      "opportunity": "o1612",
+      "previousLead": "v206905",
+      "oldLead": "v207329",
+      "newLead": "v207329",
+      "oldText": "知夏在廊坊·桥边书店一共值班120分钟，分2笔领到100元工钱。",
+      "newText": "知夏在廊坊·桥边书店一共值班120分钟，分2笔领到100元工钱。算上先前值过的60分钟，这次排定的180分钟已经做完了。",
+      "refs": [
+        "v207114",
+        "v207329",
+        "v207334"
+      ],
+      "events": [
+        {
+          "ref": "v207114",
+          "kind": "work",
+          "opportunity": "o1612",
+          "from": 29559000,
+          "until": 29559060,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v207329",
+          "kind": "work",
+          "opportunity": "o1612",
+          "from": 29559060,
+          "until": 29559120,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v207444",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29559120,
+          "until": 29559150,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v207513",
+          "kind": "eat",
+          "opportunity": null,
+          "from": 29559150,
+          "until": 29559170,
+          "location": "bookstore"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v207114",
+          "decision": "v206906",
+          "from": 29559000,
+          "until": 29559060,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v206689",
+            "time": 29558940,
+            "stops": [
+              "o1612"
+            ]
+          },
+          "needs": {
+            "hunger": 150,
+            "fatigue": 170,
+            "cash": 594500,
+            "social": 485,
+            "strain": 60
+          },
+          "score": 27.606,
+          "factors": {
+            "base": 20,
+            "personality": 4.006,
+            "economy": -25,
+            "continuity": 12,
+            "repetition": -9,
+            "strain": -12,
+            "journeyCraft": 12.6,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o1580",
+              "kind": "journey_clear",
+              "score": -11.784000000000006,
+              "travelMinutes": 55,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        },
+        {
+          "fact": "v207329",
+          "decision": "v207115",
+          "from": 29559060,
+          "until": 29559120,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v206689",
+            "time": 29558940,
+            "stops": [
+              "o1612"
+            ]
+          },
+          "needs": {
+            "hunger": 210,
+            "fatigue": 230,
+            "cash": 599500,
+            "social": 545,
+            "strain": 120
+          },
+          "score": 6.606000000000002,
+          "factors": {
+            "base": 20,
+            "personality": 4.006,
+            "economy": -25,
+            "continuity": 12,
+            "repetition": -18,
+            "strain": -24,
+            "journeyCraft": 12.6,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o1580",
+              "kind": "journey_clear",
+              "score": -11.784000000000006,
+              "travelMinutes": 55,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bg": "creator",
+      "window": 486,
+      "opportunity": "o3786",
+      "previousLead": "v490593",
+      "oldLead": "v490831",
+      "newLead": "v491339",
+      "oldText": "知夏在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+      "newText": "知夏值完班，在廊坊·桥边书店花了60分钟整理关于“廊坊·桥边书店码头的高水痕迹”的写作素材，作品还没写完。",
+      "refs": [
+        "v490831",
+        "v491118",
+        "v491339"
+      ],
+      "events": [
+        {
+          "ref": "v490831",
+          "kind": "work",
+          "opportunity": "o3786",
+          "from": 29639800,
+          "until": 29639860,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v490901",
+          "kind": "eat",
+          "opportunity": null,
+          "from": 29639860,
+          "until": 29639880,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v491002",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29639880,
+          "until": 29639910,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v491118",
+          "kind": "create",
+          "opportunity": "o3793",
+          "from": 29639910,
+          "until": 29639940,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v491225",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29639940,
+          "until": 29639970,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v491339",
+          "kind": "create",
+          "opportunity": "o3793",
+          "from": 29639970,
+          "until": 29640000,
+          "location": "bookstore"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v490831",
+          "decision": "v490594",
+          "from": 29639800,
+          "until": 29639860,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v489936",
+            "time": 29639620,
+            "stops": [
+              "o3790",
+              "o3786"
+            ]
+          },
+          "needs": {
+            "hunger": 260,
+            "fatigue": 280,
+            "cash": 1040500,
+            "social": 445,
+            "strain": 120
+          },
+          "score": 13.75,
+          "factors": {
+            "base": 20,
+            "personality": 4.04,
+            "economy": -25,
+            "continuity": 12,
+            "repetition": -18,
+            "strain": -24,
+            "journeyCraft": 19.71,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o3774",
+              "kind": "journey_clear",
+              "score": 23.935000000000002,
+              "travelMinutes": 55,
+              "reasons": [],
+              "planning": []
+            },
+            {
+              "id": "o3793",
+              "kind": "create",
+              "score": 102.735,
+              "travelMinutes": 0,
+              "reasons": [],
+              "planning": []
+            },
+            {
+              "id": "o3797",
+              "kind": "journey_collect",
+              "score": 120.38499999999999,
+              "travelMinutes": 30,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bg": "low_assets",
+      "window": 181,
+      "opportunity": "o1376",
+      "previousLead": "v181609",
+      "oldLead": "v182293",
+      "newLead": "v182606",
+      "oldText": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+      "newText": "值班过后，小周在廊坊·邻里活动室找了块空地，花半小时拉伸和做徒手活动，缓解久坐后的僵硬。",
+      "refs": [
+        "v182293",
+        "v182606"
+      ],
+      "events": [
+        {
+          "ref": "v182080",
+          "kind": "waiting",
+          "opportunity": null,
+          "from": 29551970,
+          "until": 29552000,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v182293",
+          "kind": "work",
+          "opportunity": "o1376",
+          "from": 29552000,
+          "until": 29552060,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v182400",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29552060,
+          "until": 29552090,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v182450",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29552090,
+          "until": 29552105,
+          "location": "street"
+        },
+        {
+          "ref": "v182500",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29552105,
+          "until": 29552115,
+          "location": "community"
+        },
+        {
+          "ref": "v182606",
+          "kind": "exercise",
+          "opportunity": "o1384",
+          "from": 29552115,
+          "until": 29552145,
+          "location": "community"
+        },
+        {
+          "ref": "v182645",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29552145,
+          "until": 29552155,
+          "location": "street"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v182293",
+          "decision": "v182081",
+          "from": 29552000,
+          "until": 29552060,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v181682",
+            "time": 29551895,
+            "stops": [
+              "o1376"
+            ]
+          },
+          "needs": {
+            "hunger": 105,
+            "fatigue": 380,
+            "cash": 567900,
+            "social": 560,
+            "strain": 120
+          },
+          "score": 34.434,
+          "factors": {
+            "base": 20,
+            "interest": 30,
+            "personality": 6.5440000000000005,
+            "economy": -25,
+            "repetition": -18,
+            "strain": -24,
+            "journeyCraft": 19.89,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o1384",
+              "kind": "exercise",
+              "score": 67.47900000000001,
+              "travelMinutes": 25,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bg": "low_assets",
+      "window": 351,
+      "opportunity": "o2623",
+      "previousLead": "v352445",
+      "oldLead": "v352945",
+      "newLead": "v353232",
+      "oldText": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+      "newText": "值班过后，小周在廊坊·河岸公园沿步道活动了60分钟，也使用了公共座椅。",
+      "refs": [
+        "v352945",
+        "v353232"
+      ],
+      "events": [
+        {
+          "ref": "v352945",
+          "kind": "work",
+          "opportunity": "o2623",
+          "from": 29600940,
+          "until": 29601000,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v352998",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29601000,
+          "until": 29601015,
+          "location": "street"
+        },
+        {
+          "ref": "v353032",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29601015,
+          "until": 29601025,
+          "location": "park"
+        },
+        {
+          "ref": "v353135",
+          "kind": "exercise",
+          "opportunity": "o2634",
+          "from": 29601025,
+          "until": 29601055,
+          "location": "park"
+        },
+        {
+          "ref": "v353232",
+          "kind": "exercise",
+          "opportunity": "o2634",
+          "from": 29601055,
+          "until": 29601085,
+          "location": "park"
+        },
+        {
+          "ref": "v353280",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29601085,
+          "until": 29601095,
+          "location": "street"
+        },
+        {
+          "ref": "v353315",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29601095,
+          "until": 29601105,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v353365",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29601105,
+          "until": 29601120,
+          "location": "home"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v352945",
+          "decision": "v352741",
+          "from": 29600940,
+          "until": 29601000,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v352740",
+            "time": 29600940,
+            "stops": [
+              "o2623",
+              "o2634"
+            ]
+          },
+          "needs": {
+            "hunger": 0,
+            "fatigue": 355,
+            "cash": 1066800,
+            "social": 20,
+            "strain": 60
+          },
+          "score": 46.664,
+          "factors": {
+            "base": 20,
+            "interest": 30,
+            "personality": 6.594,
+            "economy": -25,
+            "repetition": -18,
+            "strain": -12,
+            "journeyCraft": 20.069999999999997,
+            "locality": 25
+          },
+          "others": [
+            {
+              "id": "o2634",
+              "kind": "exercise",
+              "score": 86.094,
+              "travelMinutes": 25,
+              "reasons": [],
+              "planning": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bg": "low_assets",
+      "window": 486,
+      "opportunity": "o3618",
+      "previousLead": "v488095",
+      "oldLead": "v488296",
+      "newLead": "v488775",
+      "oldText": "小周在廊坊·桥边书店完成了60分钟值班，实际收到50元报酬。",
+      "newText": "值班过后，小周在廊坊·河岸公园沿步道活动了60分钟，也使用了公共座椅。",
+      "refs": [
+        "v488296",
+        "v488775"
+      ],
+      "events": [
+        {
+          "ref": "v488296",
+          "kind": "work",
+          "opportunity": "o3618",
+          "from": 29639795,
+          "until": 29639855,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v488371",
+          "kind": "eat",
+          "opportunity": null,
+          "from": 29639855,
+          "until": 29639875,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v488476",
+          "kind": "leisure",
+          "opportunity": null,
+          "from": 29639875,
+          "until": 29639905,
+          "location": "bookstore"
+        },
+        {
+          "ref": "v488526",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29639905,
+          "until": 29639920,
+          "location": "street"
+        },
+        {
+          "ref": "v488560",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29639920,
+          "until": 29639930,
+          "location": "park"
+        },
+        {
+          "ref": "v488669",
+          "kind": "exercise",
+          "opportunity": "o3628",
+          "from": 29639930,
+          "until": 29639960,
+          "location": "park"
+        },
+        {
+          "ref": "v488775",
+          "kind": "exercise",
+          "opportunity": "o3628",
+          "from": 29639960,
+          "until": 29639990,
+          "location": "park"
+        },
+        {
+          "ref": "v488818",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29639990,
+          "until": 29640000,
+          "location": "street"
+        },
+        {
+          "ref": "v488861",
+          "kind": "move",
+          "opportunity": null,
+          "from": 29640000,
+          "until": 29640010,
+          "location": "bookstore"
+        }
+      ],
+      "starts": [
+        {
+          "fact": "v488296",
+          "decision": "v488097",
+          "from": 29639795,
+          "until": 29639855,
+          "reason": "following_itinerary",
+          "plan": {
+            "ref": "v487618",
+            "time": 29639660,
+            "stops": [
+              "o3624",
+              "o3618"
+            ]
+          },
+          "needs": {
+            "hunger": 295,
+            "fatigue": 315,
+            "cash": 1493100,
+            "social": 60,
+            "strain": 90
+          },
+          "score": 52.702,
+          "factors": {
+            "base": 20,
+            "interest": 30,
+            "personality": 6.632,
+            "economy": -25,
+            "continuity": 12,
+            "repetition": -18,
+            "strain": -18,
+            "journeyCraft": 20.069999999999997,
+            "locality": 25
+          },
+          "others": []
+        }
+      ]
+    }
+  ]
+}

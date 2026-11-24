@@ -1,0 +1,4848 @@
+{
+  "beforeEngine": "life32r3-0dd7287154448cbe",
+  "afterEngine": "life32r3-5a55446d89dbcf55",
+  "summary": {
+    "原有月度样本，4 种背景 × 2 个种子": {
+      "before": {
+        "awake": 230400,
+        "waiting": 38345,
+        "percent": 16.64279513888889,
+        "episodes": 819,
+        "median": 30,
+        "p90": 100,
+        "p95": 135,
+        "max": 240,
+        "thresholds": {
+          "30": {
+            "count": 599,
+            "minutes": 34925
+          },
+          "60": {
+            "count": 244,
+            "minutes": 23280
+          },
+          "120": {
+            "count": 64,
+            "minutes": 9655
+          },
+          "180": {
+            "count": 16,
+            "minutes": 3150
+          },
+          "240": {
+            "count": 1,
+            "minutes": 240
+          }
+        },
+        "travel": 48355,
+        "home": 10120,
+        "study": 1440,
+        "focusWindows": 1152,
+        "allWaitingWindows": 0,
+        "noOutcomeWindows": 17
+      },
+      "after": {
+        "awake": 230400,
+        "waiting": 30145,
+        "percent": 13.08376736111111,
+        "episodes": 821,
+        "median": 30,
+        "p90": 60,
+        "p95": 85,
+        "max": 180,
+        "thresholds": {
+          "30": {
+            "count": 546,
+            "minutes": 26155
+          },
+          "60": {
+            "count": 216,
+            "minutes": 15385
+          },
+          "120": {
+            "count": 17,
+            "minutes": 2260
+          },
+          "180": {
+            "count": 1,
+            "minutes": 180
+          },
+          "240": {
+            "count": 0,
+            "minutes": 0
+          }
+        },
+        "travel": 47680,
+        "home": 4245,
+        "study": 1440,
+        "focusWindows": 1152,
+        "allWaitingWindows": 0,
+        "noOutcomeWindows": 3
+      }
+    },
+    "新种子 73，4 种背景各 30 天": {
+      "before": {
+        "awake": 115200,
+        "waiting": 18135,
+        "percent": 15.7421875,
+        "episodes": 411,
+        "median": 30,
+        "p90": 90,
+        "p95": 130,
+        "max": 250,
+        "thresholds": {
+          "30": {
+            "count": 289,
+            "minutes": 16440
+          },
+          "60": {
+            "count": 104,
+            "minutes": 10415
+          },
+          "120": {
+            "count": 35,
+            "minutes": 5285
+          },
+          "180": {
+            "count": 7,
+            "minutes": 1500
+          },
+          "240": {
+            "count": 1,
+            "minutes": 250
+          }
+        },
+        "travel": 25900,
+        "home": 4945,
+        "study": 720,
+        "focusWindows": 576,
+        "allWaitingWindows": 1,
+        "noOutcomeWindows": 9
+      },
+      "after": {
+        "awake": 115200,
+        "waiting": 17635,
+        "percent": 15.308159722222221,
+        "episodes": 433,
+        "median": 30,
+        "p90": 65,
+        "p95": 90,
+        "max": 210,
+        "thresholds": {
+          "30": {
+            "count": 313,
+            "minutes": 15905
+          },
+          "60": {
+            "count": 131,
+            "minutes": 9840
+          },
+          "120": {
+            "count": 13,
+            "minutes": 1970
+          },
+          "180": {
+            "count": 3,
+            "minutes": 590
+          },
+          "240": {
+            "count": 0,
+            "minutes": 0
+          }
+        },
+        "travel": 22605,
+        "home": 2110,
+        "study": 720,
+        "focusWindows": 576,
+        "allWaitingWindows": 0,
+        "noOutcomeWindows": 6
+      }
+    },
+    "知夏，100 天": {
+      "before": {
+        "awake": 96000,
+        "waiting": 20975,
+        "percent": 21.848958333333332,
+        "episodes": 392,
+        "median": 30,
+        "p90": 125,
+        "p95": 150,
+        "max": 270,
+        "thresholds": {
+          "30": {
+            "count": 305,
+            "minutes": 19550
+          },
+          "60": {
+            "count": 132,
+            "minutes": 14030
+          },
+          "120": {
+            "count": 49,
+            "minutes": 7615
+          },
+          "180": {
+            "count": 11,
+            "minutes": 2310
+          },
+          "240": {
+            "count": 3,
+            "minutes": 750
+          }
+        },
+        "travel": 18050,
+        "home": 4040,
+        "study": 0,
+        "focusWindows": 480,
+        "allWaitingWindows": 2,
+        "noOutcomeWindows": 18
+      },
+      "after": {
+        "awake": 96000,
+        "waiting": 17270,
+        "percent": 17.989583333333332,
+        "episodes": 409,
+        "median": 30,
+        "p90": 75,
+        "p95": 95,
+        "max": 230,
+        "thresholds": {
+          "30": {
+            "count": 317,
+            "minutes": 15985
+          },
+          "60": {
+            "count": 134,
+            "minutes": 10070
+          },
+          "120": {
+            "count": 12,
+            "minutes": 1760
+          },
+          "180": {
+            "count": 2,
+            "minutes": 425
+          },
+          "240": {
+            "count": 0,
+            "minutes": 0
+          }
+        },
+        "travel": 16650,
+        "home": 2075,
+        "study": 0,
+        "focusWindows": 480,
+        "allWaitingWindows": 1,
+        "noOutcomeWindows": 5
+      }
+    },
+    "小周，365 天": {
+      "before": {
+        "awake": 350400,
+        "waiting": 73715,
+        "percent": 21.037385844748858,
+        "episodes": 1181,
+        "median": 30,
+        "p90": 155,
+        "p95": 195,
+        "max": 300,
+        "thresholds": {
+          "30": {
+            "count": 886,
+            "minutes": 69460
+          },
+          "60": {
+            "count": 439,
+            "minutes": 54630
+          },
+          "120": {
+            "count": 221,
+            "minutes": 37860
+          },
+          "180": {
+            "count": 93,
+            "minutes": 19915
+          },
+          "240": {
+            "count": 22,
+            "minutes": 5640
+          }
+        },
+        "travel": 71530,
+        "home": 21010,
+        "study": 360,
+        "focusWindows": 1752,
+        "allWaitingWindows": 14,
+        "noOutcomeWindows": 67
+      },
+      "after": {
+        "awake": 350400,
+        "waiting": 56190,
+        "percent": 16.035958904109588,
+        "episodes": 1279,
+        "median": 30,
+        "p90": 90,
+        "p95": 105,
+        "max": 260,
+        "thresholds": {
+          "30": {
+            "count": 946,
+            "minutes": 51510
+          },
+          "60": {
+            "count": 431,
+            "minutes": 34155
+          },
+          "120": {
+            "count": 52,
+            "minutes": 7635
+          },
+          "180": {
+            "count": 9,
+            "minutes": 1780
+          },
+          "240": {
+            "count": 1,
+            "minutes": 260
+          }
+        },
+        "travel": 70360,
+        "home": 11635,
+        "study": 360,
+        "focusWindows": 1752,
+        "allWaitingWindows": 1,
+        "noOutcomeWindows": 10
+      }
+    }
+  },
+  "rows": [
+    {
+      "days": 30,
+      "seed": 19,
+      "background": "creator",
+      "before": {
+        "background": "creator",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 122,
+        "passThroughs": 37,
+        "immediateReturns": 4,
+        "homeMinutes": 1490,
+        "longestAtHome": 385,
+        "studyMinutes": 0,
+        "transitMinutes": 5905,
+        "waitingMinutes": 5290,
+        "waitingByReason": {
+          "all_candidates_blocked": 1660,
+          "waiting_for_appointment": 605,
+          "waiting_for_partner": 100,
+          "no_candidates": 2115,
+          "no_feasible_itinerary": 810
+        },
+        "waitEpisodes": {
+          "count": 112,
+          "totalMinutes": 5290,
+          "median": 30,
+          "p90": 95,
+          "p95": 120,
+          "max": 195,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 87,
+              "totalMinutes": 4845
+            },
+            {
+              "minutes": 60,
+              "count": 34,
+              "totalMinutes": 3125
+            },
+            {
+              "minutes": 120,
+              "count": 8,
+              "totalMinutes": 1130
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 195
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 2,
+            "10": 5,
+            "15": 4,
+            "20": 5,
+            "25": 9,
+            "30": 42,
+            "35": 2,
+            "40": 5,
+            "45": 3,
+            "55": 1,
+            "60": 11,
+            "65": 2,
+            "70": 1,
+            "85": 1,
+            "90": 7,
+            "95": 1,
+            "100": 1,
+            "110": 1,
+            "115": 1,
+            "120": 3,
+            "125": 1,
+            "145": 1,
+            "150": 1,
+            "155": 1,
+            "195": 1
+          }
+        },
+        "longestWait": 195,
+        "longWaitMinutes": 1130,
+        "activityMinutes": {
+          "journey_collect": 390,
+          "work": 2400,
+          "leisure": 450,
+          "move": 5905,
+          "journey_deliver": 390,
+          "eat": 1940,
+          "journey_fieldnote": 210,
+          "social": 1805,
+          "create": 1170,
+          "observe": 60,
+          "waiting": 5290,
+          "exercise": 2130,
+          "visit": 120,
+          "revise": 1170,
+          "gather": 480,
+          "collaborate": 480,
+          "journey_survey": 570,
+          "care": 570,
+          "journey_clear": 2250,
+          "supplies": 180,
+          "journey_message": 540,
+          "contact": 120,
+          "journey_mend": 180
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 3,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2290,
+        "actions": {
+          "journey_collect": 13,
+          "journey_deliver": 13,
+          "journey_fieldnote": 7,
+          "journey_survey": 19,
+          "journey_clear": 25,
+          "journey_message": 18,
+          "journey_mend": 6
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 83.5,
+          "craft": 72.9,
+          "curiosity": 69.6,
+          "connectionNeed": 40.8
+        },
+        "finalCashCents": 615700,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_message",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_mend"
+        ],
+        "tailTasks": 27,
+        "tailMoves": 30
+      },
+      "after": {
+        "background": "creator",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 117,
+        "passThroughs": 27,
+        "immediateReturns": 2,
+        "homeMinutes": 1030,
+        "longestAtHome": 410,
+        "studyMinutes": 0,
+        "transitMinutes": 5985,
+        "waitingMinutes": 3570,
+        "waitingByReason": {
+          "all_candidates_blocked": 965,
+          "waiting_for_appointment": 290,
+          "no_candidates": 1595,
+          "waiting_for_partner": 60,
+          "no_feasible_itinerary": 660
+        },
+        "waitEpisodes": {
+          "count": 91,
+          "totalMinutes": 3570,
+          "median": 30,
+          "p90": 70,
+          "p95": 110,
+          "max": 150,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 65,
+              "totalMinutes": 3205
+            },
+            {
+              "minutes": 60,
+              "count": 24,
+              "totalMinutes": 1865
+            },
+            {
+              "minutes": 120,
+              "count": 3,
+              "totalMinutes": 390
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 6,
+            "10": 6,
+            "15": 4,
+            "20": 7,
+            "25": 3,
+            "30": 33,
+            "35": 3,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 2,
+            "60": 14,
+            "70": 1,
+            "75": 1,
+            "85": 1,
+            "90": 2,
+            "110": 1,
+            "115": 1,
+            "120": 2,
+            "150": 1
+          }
+        },
+        "longestWait": 150,
+        "longWaitMinutes": 390,
+        "activityMinutes": {
+          "journey_collect": 510,
+          "work": 2220,
+          "leisure": 570,
+          "move": 5985,
+          "journey_deliver": 510,
+          "eat": 1920,
+          "journey_fieldnote": 300,
+          "social": 2040,
+          "create": 1440,
+          "observe": 60,
+          "waiting": 3570,
+          "exercise": 1890,
+          "visit": 120,
+          "revise": 1350,
+          "gather": 660,
+          "collaborate": 660,
+          "journey_survey": 390,
+          "care": 660,
+          "journey_clear": 2430,
+          "supplies": 240,
+          "pack_meals": 690,
+          "journey_message": 330,
+          "contact": 105,
+          "journey_mend": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2455,
+        "actions": {
+          "journey_collect": 17,
+          "journey_deliver": 17,
+          "journey_fieldnote": 10,
+          "journey_survey": 13,
+          "journey_clear": 27,
+          "journey_message": 11,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 84.3,
+          "craft": 81.6,
+          "curiosity": 74.5,
+          "connectionNeed": 43.1
+        },
+        "finalCashCents": 611150,
+        "tailDays": 7,
+        "tailRegions": [
+          "ridge",
+          "bookstore",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_clear",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_message",
+          "journey_mend"
+        ],
+        "tailTasks": 23,
+        "tailMoves": 25
+      }
+    },
+    {
+      "days": 30,
+      "seed": 19,
+      "background": "low_assets",
+      "before": {
+        "background": "low_assets",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 98,
+        "passThroughs": 21,
+        "immediateReturns": 3,
+        "homeMinutes": 1230,
+        "longestAtHome": 380,
+        "studyMinutes": 360,
+        "transitMinutes": 5880,
+        "waitingMinutes": 4275,
+        "waitingByReason": {
+          "all_candidates_blocked": 1510,
+          "waiting_for_appointment": 500,
+          "no_feasible_itinerary": 300,
+          "no_candidates": 1905,
+          "waiting_for_partner": 60
+        },
+        "waitEpisodes": {
+          "count": 97,
+          "totalMinutes": 4275,
+          "median": 30,
+          "p90": 95,
+          "p95": 120,
+          "max": 180,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 66,
+              "totalMinutes": 3820
+            },
+            {
+              "minutes": 60,
+              "count": 26,
+              "totalMinutes": 2475
+            },
+            {
+              "minutes": 120,
+              "count": 7,
+              "totalMinutes": 970
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 180
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 8,
+            "10": 5,
+            "15": 4,
+            "20": 9,
+            "25": 5,
+            "30": 32,
+            "40": 2,
+            "45": 2,
+            "50": 1,
+            "55": 3,
+            "60": 5,
+            "70": 3,
+            "75": 1,
+            "80": 1,
+            "85": 2,
+            "90": 4,
+            "95": 1,
+            "100": 1,
+            "115": 1,
+            "120": 4,
+            "150": 1,
+            "160": 1,
+            "180": 1
+          }
+        },
+        "longestWait": 180,
+        "longWaitMinutes": 970,
+        "activityMinutes": {
+          "work": 4355,
+          "leisure": 420,
+          "journey_collect": 300,
+          "study": 360,
+          "eat": 1900,
+          "move": 5880,
+          "journey_deliver": 300,
+          "journey_fieldnote": 300,
+          "water": 600,
+          "observe": 60,
+          "waiting": 4275,
+          "garden_project": 90,
+          "practice": 120,
+          "exercise": 1830,
+          "social": 1890,
+          "care": 570,
+          "visit": 120,
+          "journey_survey": 630,
+          "harvest": 450,
+          "contact": 150,
+          "repair": 780,
+          "journey_clear": 2070,
+          "gather": 540,
+          "supplies": 180,
+          "journey_mend": 240,
+          "journey_message": 390
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2705,
+        "actions": {
+          "journey_collect": 10,
+          "journey_deliver": 10,
+          "journey_fieldnote": 10,
+          "journey_survey": 21,
+          "journey_clear": 23,
+          "journey_mend": 8,
+          "journey_message": 13
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.3,
+          "craft": 93.3,
+          "curiosity": 68,
+          "connectionNeed": 45.6
+        },
+        "finalCashCents": 471500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_mend",
+          "journey_collect",
+          "journey_deliver",
+          "journey_clear",
+          "journey_message",
+          "journey_survey",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 26,
+        "tailMoves": 20
+      },
+      "after": {
+        "background": "low_assets",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 114,
+        "passThroughs": 36,
+        "immediateReturns": 0,
+        "homeMinutes": 560,
+        "longestAtHome": 195,
+        "studyMinutes": 360,
+        "transitMinutes": 6145,
+        "waitingMinutes": 3525,
+        "waitingByReason": {
+          "all_candidates_blocked": 1305,
+          "waiting_for_appointment": 525,
+          "waiting_for_partner": 105,
+          "no_candidates": 1440,
+          "no_feasible_itinerary": 150
+        },
+        "waitEpisodes": {
+          "count": 105,
+          "totalMinutes": 3525,
+          "median": 30,
+          "p90": 60,
+          "p95": 60,
+          "max": 110,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 66,
+              "totalMinutes": 2965
+            },
+            {
+              "minutes": 60,
+              "count": 25,
+              "totalMinutes": 1645
+            },
+            {
+              "minutes": 120,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 8,
+            "10": 8,
+            "15": 9,
+            "20": 9,
+            "25": 5,
+            "30": 34,
+            "35": 2,
+            "40": 1,
+            "45": 3,
+            "55": 1,
+            "60": 20,
+            "75": 1,
+            "85": 2,
+            "90": 1,
+            "110": 1
+          }
+        },
+        "longestWait": 110,
+        "longWaitMinutes": 0,
+        "activityMinutes": {
+          "work": 3900,
+          "leisure": 330,
+          "journey_collect": 390,
+          "study": 360,
+          "eat": 1980,
+          "move": 6145,
+          "journey_deliver": 390,
+          "journey_fieldnote": 180,
+          "water": 600,
+          "observe": 60,
+          "waiting": 3525,
+          "garden_project": 90,
+          "practice": 120,
+          "exercise": 1620,
+          "social": 1745,
+          "care": 660,
+          "visit": 120,
+          "pack_meals": 780,
+          "journey_survey": 570,
+          "harvest": 450,
+          "contact": 165,
+          "repair": 720,
+          "supplies": 240,
+          "journey_clear": 2430,
+          "gather": 840,
+          "journey_message": 360,
+          "journey_mend": 30
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 3125,
+        "actions": {
+          "journey_collect": 13,
+          "journey_deliver": 13,
+          "journey_fieldnote": 6,
+          "journey_survey": 19,
+          "journey_clear": 27,
+          "journey_message": 12,
+          "journey_mend": 1
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.1,
+          "craft": 92.4,
+          "curiosity": 61.4,
+          "connectionNeed": 57.1
+        },
+        "finalCashCents": 435500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_fieldnote",
+          "journey_mend",
+          "journey_survey",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_message"
+        ],
+        "tailTasks": 21,
+        "tailMoves": 34
+      }
+    },
+    {
+      "days": 30,
+      "seed": 19,
+      "background": "settled",
+      "before": {
+        "background": "settled",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 108,
+        "passThroughs": 23,
+        "immediateReturns": 0,
+        "homeMinutes": 1050,
+        "longestAtHome": 230,
+        "studyMinutes": 360,
+        "transitMinutes": 5530,
+        "waitingMinutes": 6375,
+        "waitingByReason": {
+          "all_candidates_blocked": 1560,
+          "waiting_for_appointment": 560,
+          "no_feasible_itinerary": 330,
+          "no_candidates": 3905,
+          "waiting_for_partner": 20
+        },
+        "waitEpisodes": {
+          "count": 112,
+          "totalMinutes": 6375,
+          "median": 30,
+          "p90": 135,
+          "p95": 180,
+          "max": 210,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 88,
+              "totalMinutes": 5990
+            },
+            {
+              "minutes": 60,
+              "count": 47,
+              "totalMinutes": 4660
+            },
+            {
+              "minutes": 120,
+              "count": 15,
+              "totalMinutes": 2385
+            },
+            {
+              "minutes": 180,
+              "count": 6,
+              "totalMinutes": 1155
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 3,
+            "10": 2,
+            "15": 8,
+            "20": 9,
+            "25": 2,
+            "30": 33,
+            "35": 3,
+            "45": 3,
+            "50": 2,
+            "60": 18,
+            "65": 1,
+            "70": 2,
+            "75": 1,
+            "80": 1,
+            "85": 2,
+            "90": 4,
+            "95": 1,
+            "100": 1,
+            "110": 1,
+            "120": 3,
+            "135": 2,
+            "150": 4,
+            "180": 2,
+            "185": 1,
+            "200": 2,
+            "210": 1
+          }
+        },
+        "longestWait": 210,
+        "longWaitMinutes": 2385,
+        "activityMinutes": {
+          "journey_collect": 480,
+          "work": 3835,
+          "leisure": 390,
+          "move": 5530,
+          "journey_deliver": 480,
+          "eat": 1840,
+          "study": 360,
+          "social": 1440,
+          "journey_fieldnote": 300,
+          "water": 600,
+          "waiting": 6375,
+          "exercise": 2100,
+          "visit": 120,
+          "observe": 60,
+          "care": 630,
+          "gather": 60,
+          "contact": 300,
+          "garden_project": 90,
+          "journey_survey": 420,
+          "harvest": 420,
+          "supplies": 210,
+          "journey_clear": 2250,
+          "journey_message": 360,
+          "journey_mend": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 2,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2270,
+        "actions": {
+          "journey_collect": 16,
+          "journey_deliver": 16,
+          "journey_fieldnote": 10,
+          "journey_survey": 14,
+          "journey_clear": 25,
+          "journey_message": 12,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.2,
+          "craft": 90,
+          "curiosity": 53.5,
+          "connectionNeed": 50.6
+        },
+        "finalCashCents": 728500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_mend",
+          "journey_fieldnote",
+          "journey_message",
+          "journey_clear",
+          "journey_survey"
+        ],
+        "tailTasks": 26,
+        "tailMoves": 24
+      },
+      "after": {
+        "background": "settled",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 126,
+        "passThroughs": 35,
+        "immediateReturns": 5,
+        "homeMinutes": 630,
+        "longestAtHome": 390,
+        "studyMinutes": 360,
+        "transitMinutes": 6020,
+        "waitingMinutes": 3570,
+        "waitingByReason": {
+          "all_candidates_blocked": 805,
+          "waiting_for_appointment": 490,
+          "no_candidates": 2125,
+          "no_feasible_itinerary": 120,
+          "waiting_for_partner": 30
+        },
+        "waitEpisodes": {
+          "count": 96,
+          "totalMinutes": 3570,
+          "median": 30,
+          "p90": 60,
+          "p95": 70,
+          "max": 150,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 63,
+              "totalMinutes": 3095
+            },
+            {
+              "minutes": 60,
+              "count": 25,
+              "totalMinutes": 1805
+            },
+            {
+              "minutes": 120,
+              "count": 3,
+              "totalMinutes": 420
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 4,
+            "10": 12,
+            "15": 7,
+            "20": 4,
+            "25": 6,
+            "30": 28,
+            "35": 2,
+            "40": 1,
+            "45": 3,
+            "50": 3,
+            "55": 1,
+            "60": 19,
+            "65": 1,
+            "70": 1,
+            "110": 1,
+            "120": 1,
+            "150": 2
+          }
+        },
+        "longestWait": 150,
+        "longWaitMinutes": 420,
+        "activityMinutes": {
+          "journey_collect": 480,
+          "work": 4080,
+          "leisure": 300,
+          "move": 6020,
+          "journey_deliver": 480,
+          "eat": 1930,
+          "study": 360,
+          "social": 2100,
+          "journey_fieldnote": 360,
+          "water": 600,
+          "waiting": 3570,
+          "exercise": 1890,
+          "visit": 120,
+          "observe": 60,
+          "care": 720,
+          "gather": 540,
+          "contact": 150,
+          "garden_project": 90,
+          "journey_survey": 300,
+          "harvest": 450,
+          "supplies": 240,
+          "journey_clear": 2520,
+          "pack_meals": 840,
+          "journey_message": 360,
+          "journey_mend": 240
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2230,
+        "actions": {
+          "journey_collect": 16,
+          "journey_deliver": 16,
+          "journey_fieldnote": 12,
+          "journey_survey": 10,
+          "journey_clear": 28,
+          "journey_message": 12,
+          "journey_mend": 8
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.5,
+          "craft": 92,
+          "curiosity": 57.4,
+          "connectionNeed": 54.9
+        },
+        "finalCashCents": 760500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_mend",
+          "journey_fieldnote",
+          "journey_collect",
+          "journey_deliver",
+          "journey_clear",
+          "journey_survey"
+        ],
+        "tailTasks": 26,
+        "tailMoves": 32
+      }
+    },
+    {
+      "days": 30,
+      "seed": 19,
+      "background": "traveler",
+      "before": {
+        "background": "traveler",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 96,
+        "passThroughs": 26,
+        "immediateReturns": 1,
+        "homeMinutes": 1455,
+        "longestAtHome": 340,
+        "studyMinutes": 0,
+        "transitMinutes": 5685,
+        "waitingMinutes": 4655,
+        "waitingByReason": {
+          "all_candidates_blocked": 2250,
+          "waiting_for_appointment": 540,
+          "no_feasible_itinerary": 990,
+          "no_candidates": 875
+        },
+        "waitEpisodes": {
+          "count": 106,
+          "totalMinutes": 4655,
+          "median": 30,
+          "p90": 95,
+          "p95": 135,
+          "max": 180,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 75,
+              "totalMinutes": 4205
+            },
+            {
+              "minutes": 60,
+              "count": 29,
+              "totalMinutes": 2710
+            },
+            {
+              "minutes": 120,
+              "count": 8,
+              "totalMinutes": 1175
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 180
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 7,
+            "10": 6,
+            "15": 6,
+            "20": 7,
+            "25": 5,
+            "30": 37,
+            "35": 3,
+            "40": 1,
+            "45": 3,
+            "50": 1,
+            "55": 1,
+            "60": 11,
+            "65": 1,
+            "70": 1,
+            "80": 2,
+            "85": 2,
+            "90": 1,
+            "95": 1,
+            "110": 1,
+            "115": 1,
+            "120": 2,
+            "135": 1,
+            "150": 3,
+            "170": 1,
+            "180": 1
+          }
+        },
+        "longestWait": 180,
+        "longWaitMinutes": 1175,
+        "activityMinutes": {
+          "journey_collect": 420,
+          "move": 5685,
+          "observe": 60,
+          "visit": 120,
+          "journey_deliver": 420,
+          "create": 1350,
+          "eat": 2080,
+          "journey_survey": 300,
+          "leisure": 330,
+          "revise": 1800,
+          "waiting": 4655,
+          "exercise": 2070,
+          "journey_fieldnote": 270,
+          "contact": 180,
+          "social": 1650,
+          "journey_clear": 2340,
+          "host": 900,
+          "gather": 720,
+          "care": 540,
+          "journey_message": 480,
+          "collaborate": 600,
+          "supplies": 180,
+          "journey_mend": 210,
+          "work": 1440
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 2,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2060,
+        "actions": {
+          "journey_collect": 14,
+          "journey_deliver": 14,
+          "journey_survey": 10,
+          "journey_fieldnote": 9,
+          "journey_clear": 26,
+          "journey_message": 16,
+          "journey_mend": 7
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 82.8,
+          "craft": 67.6,
+          "curiosity": 65.7,
+          "connectionNeed": 47.9
+        },
+        "finalCashCents": 1140000,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_clear",
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_fieldnote",
+          "journey_survey",
+          "journey_mend"
+        ],
+        "tailTasks": 28,
+        "tailMoves": 23
+      },
+      "after": {
+        "background": "traveler",
+        "seed": 19,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 120,
+        "passThroughs": 31,
+        "immediateReturns": 2,
+        "homeMinutes": 675,
+        "longestAtHome": 505,
+        "studyMinutes": 0,
+        "transitMinutes": 5545,
+        "waitingMinutes": 3600,
+        "waitingByReason": {
+          "all_candidates_blocked": 790,
+          "waiting_for_appointment": 560,
+          "waiting_for_partner": 30,
+          "no_candidates": 1590,
+          "no_feasible_itinerary": 630
+        },
+        "waitEpisodes": {
+          "count": 106,
+          "totalMinutes": 3600,
+          "median": 30,
+          "p90": 60,
+          "p95": 70,
+          "max": 115,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 67,
+              "totalMinutes": 3040
+            },
+            {
+              "minutes": 60,
+              "count": 26,
+              "totalMinutes": 1740
+            },
+            {
+              "minutes": 120,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 8,
+            "10": 8,
+            "15": 7,
+            "20": 13,
+            "25": 3,
+            "30": 31,
+            "35": 7,
+            "40": 2,
+            "45": 1,
+            "60": 19,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "90": 2,
+            "95": 1,
+            "115": 1
+          }
+        },
+        "longestWait": 115,
+        "longWaitMinutes": 0,
+        "activityMinutes": {
+          "journey_collect": 450,
+          "move": 5545,
+          "observe": 60,
+          "visit": 120,
+          "journey_deliver": 450,
+          "create": 1620,
+          "eat": 1980,
+          "journey_survey": 720,
+          "leisure": 450,
+          "revise": 1800,
+          "waiting": 3600,
+          "exercise": 1860,
+          "journey_fieldnote": 360,
+          "contact": 165,
+          "social": 1800,
+          "journey_clear": 2480,
+          "host": 570,
+          "gather": 540,
+          "care": 600,
+          "pack_meals": 780,
+          "collaborate": 420,
+          "supplies": 210,
+          "journey_message": 360,
+          "journey_mend": 120,
+          "work": 1740
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2095,
+        "actions": {
+          "journey_collect": 15,
+          "journey_deliver": 15,
+          "journey_survey": 24,
+          "journey_fieldnote": 12,
+          "journey_clear": 27,
+          "journey_message": 12,
+          "journey_mend": 4
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 82.1,
+          "craft": 77.1,
+          "curiosity": 52.9,
+          "connectionNeed": 50
+        },
+        "finalCashCents": 1178300,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_fieldnote",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey",
+          "journey_message"
+        ],
+        "tailTasks": 21,
+        "tailMoves": 31
+      }
+    },
+    {
+      "days": 30,
+      "seed": 41,
+      "background": "creator",
+      "before": {
+        "background": "creator",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 124,
+        "passThroughs": 40,
+        "immediateReturns": 2,
+        "homeMinutes": 525,
+        "longestAtHome": 120,
+        "studyMinutes": 0,
+        "transitMinutes": 5990,
+        "waitingMinutes": 4090,
+        "waitingByReason": {
+          "all_candidates_blocked": 1815,
+          "waiting_for_appointment": 395,
+          "waiting_for_partner": 30,
+          "no_candidates": 1190,
+          "no_feasible_itinerary": 660
+        },
+        "waitEpisodes": {
+          "count": 99,
+          "totalMinutes": 4090,
+          "median": 30,
+          "p90": 90,
+          "p95": 120,
+          "max": 185,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 70,
+              "totalMinutes": 3645
+            },
+            {
+              "minutes": 60,
+              "count": 25,
+              "totalMinutes": 2195
+            },
+            {
+              "minutes": 120,
+              "count": 5,
+              "totalMinutes": 715
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 185
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 5,
+            "10": 7,
+            "15": 5,
+            "20": 5,
+            "25": 7,
+            "30": 35,
+            "35": 5,
+            "45": 5,
+            "60": 9,
+            "70": 2,
+            "75": 2,
+            "90": 5,
+            "100": 2,
+            "120": 2,
+            "140": 1,
+            "150": 1,
+            "185": 1
+          }
+        },
+        "longestWait": 185,
+        "longWaitMinutes": 715,
+        "activityMinutes": {
+          "journey_collect": 360,
+          "work": 1740,
+          "leisure": 490,
+          "move": 5990,
+          "journey_deliver": 360,
+          "eat": 2000,
+          "observe": 90,
+          "social": 1710,
+          "create": 1620,
+          "waiting": 4090,
+          "exercise": 1920,
+          "visit": 120,
+          "care": 630,
+          "revise": 1530,
+          "journey_survey": 510,
+          "gather": 900,
+          "collaborate": 900,
+          "supplies": 210,
+          "journey_clear": 2700,
+          "contact": 90,
+          "journey_fieldnote": 330,
+          "journey_message": 360,
+          "journey_mend": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 2,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 3305,
+        "actions": {
+          "journey_collect": 12,
+          "journey_deliver": 12,
+          "journey_survey": 17,
+          "journey_clear": 30,
+          "journey_fieldnote": 11,
+          "journey_message": 12,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 83.2,
+          "craft": 71.8,
+          "curiosity": 73.2,
+          "connectionNeed": 54.3
+        },
+        "finalCashCents": 559900,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_clear",
+          "journey_message",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_mend"
+        ],
+        "tailTasks": 32,
+        "tailMoves": 42
+      },
+      "after": {
+        "background": "creator",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 124,
+        "passThroughs": 46,
+        "immediateReturns": 4,
+        "homeMinutes": 290,
+        "longestAtHome": 110,
+        "studyMinutes": 0,
+        "transitMinutes": 5850,
+        "waitingMinutes": 4655,
+        "waitingByReason": {
+          "all_candidates_blocked": 1595,
+          "waiting_for_appointment": 345,
+          "waiting_for_partner": 150,
+          "no_candidates": 1875,
+          "no_feasible_itinerary": 690
+        },
+        "waitEpisodes": {
+          "count": 113,
+          "totalMinutes": 4655,
+          "median": 30,
+          "p90": 60,
+          "p95": 100,
+          "max": 180,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 76,
+              "totalMinutes": 4165
+            },
+            {
+              "minutes": 60,
+              "count": 41,
+              "totalMinutes": 3040
+            },
+            {
+              "minutes": 120,
+              "count": 5,
+              "totalMinutes": 720
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 180
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 11,
+            "10": 10,
+            "15": 4,
+            "20": 5,
+            "25": 7,
+            "30": 30,
+            "40": 2,
+            "45": 1,
+            "50": 2,
+            "60": 31,
+            "90": 4,
+            "100": 1,
+            "120": 2,
+            "140": 1,
+            "160": 1,
+            "180": 1
+          }
+        },
+        "longestWait": 180,
+        "longWaitMinutes": 720,
+        "activityMinutes": {
+          "journey_collect": 480,
+          "work": 1260,
+          "leisure": 360,
+          "move": 5850,
+          "journey_deliver": 480,
+          "eat": 2100,
+          "observe": 60,
+          "social": 1770,
+          "create": 1260,
+          "pack_meals": 870,
+          "waiting": 4655,
+          "exercise": 1920,
+          "visit": 120,
+          "care": 780,
+          "revise": 1170,
+          "gather": 730,
+          "collaborate": 720,
+          "journey_survey": 660,
+          "journey_fieldnote": 240,
+          "supplies": 270,
+          "journey_clear": 2520,
+          "journey_mend": 120,
+          "journey_message": 270,
+          "contact": 135
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 4290,
+        "actions": {
+          "journey_collect": 16,
+          "journey_deliver": 16,
+          "journey_survey": 22,
+          "journey_fieldnote": 8,
+          "journey_clear": 28,
+          "journey_mend": 4,
+          "journey_message": 9
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 83.6,
+          "craft": 72.7,
+          "curiosity": 61.7,
+          "connectionNeed": 58
+        },
+        "finalCashCents": 531900,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_mend"
+        ],
+        "tailTasks": 32,
+        "tailMoves": 19
+      }
+    },
+    {
+      "days": 30,
+      "seed": 41,
+      "background": "low_assets",
+      "before": {
+        "background": "low_assets",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 108,
+        "passThroughs": 31,
+        "immediateReturns": 3,
+        "homeMinutes": 1315,
+        "longestAtHome": 255,
+        "studyMinutes": 360,
+        "transitMinutes": 6530,
+        "waitingMinutes": 3730,
+        "waitingByReason": {
+          "all_candidates_blocked": 2440,
+          "no_feasible_itinerary": 870,
+          "waiting_for_appointment": 295,
+          "no_candidates": 40,
+          "waiting_for_partner": 85
+        },
+        "waitEpisodes": {
+          "count": 73,
+          "totalMinutes": 3730,
+          "median": 30,
+          "p90": 100,
+          "p95": 150,
+          "max": 235,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 57,
+              "totalMinutes": 3450
+            },
+            {
+              "minutes": 60,
+              "count": 20,
+              "totalMinutes": 2185
+            },
+            {
+              "minutes": 120,
+              "count": 6,
+              "totalMinutes": 1050
+            },
+            {
+              "minutes": 180,
+              "count": 3,
+              "totalMinutes": 655
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 2,
+            "10": 3,
+            "15": 2,
+            "20": 3,
+            "25": 6,
+            "30": 25,
+            "35": 4,
+            "40": 3,
+            "45": 1,
+            "50": 2,
+            "55": 2,
+            "60": 3,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "85": 1,
+            "90": 4,
+            "95": 1,
+            "100": 1,
+            "105": 1,
+            "120": 1,
+            "125": 1,
+            "150": 1,
+            "205": 1,
+            "215": 1,
+            "235": 1
+          }
+        },
+        "longestWait": 235,
+        "longWaitMinutes": 1050,
+        "activityMinutes": {
+          "work": 3800,
+          "leisure": 360,
+          "journey_collect": 360,
+          "study": 360,
+          "eat": 1960,
+          "move": 6530,
+          "journey_deliver": 360,
+          "social": 1410,
+          "water": 600,
+          "observe": 60,
+          "waiting": 3730,
+          "practice": 120,
+          "exercise": 1710,
+          "visit": 120,
+          "garden_project": 90,
+          "care": 570,
+          "journey_message": 300,
+          "journey_survey": 570,
+          "gather": 1680,
+          "harvest": 420,
+          "journey_clear": 2280,
+          "supplies": 180,
+          "journey_fieldnote": 180,
+          "repair": 780,
+          "journey_mend": 120,
+          "contact": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 1980,
+        "actions": {
+          "journey_collect": 12,
+          "journey_deliver": 12,
+          "journey_message": 10,
+          "journey_survey": 19,
+          "journey_clear": 25,
+          "journey_fieldnote": 6,
+          "journey_mend": 4
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.3,
+          "craft": 92.9,
+          "curiosity": 50.9,
+          "connectionNeed": 32.1
+        },
+        "finalCashCents": 421000,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_clear",
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 23,
+        "tailMoves": 30
+      },
+      "after": {
+        "background": "low_assets",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 95,
+        "passThroughs": 26,
+        "immediateReturns": 1,
+        "homeMinutes": 395,
+        "longestAtHome": 155,
+        "studyMinutes": 360,
+        "transitMinutes": 6060,
+        "waitingMinutes": 3415,
+        "waitingByReason": {
+          "all_candidates_blocked": 1310,
+          "waiting_for_appointment": 355,
+          "no_feasible_itinerary": 600,
+          "waiting_for_partner": 20,
+          "no_candidates": 1130
+        },
+        "waitEpisodes": {
+          "count": 92,
+          "totalMinutes": 3415,
+          "median": 30,
+          "p90": 80,
+          "p95": 90,
+          "max": 125,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 63,
+              "totalMinutes": 3010
+            },
+            {
+              "minutes": 60,
+              "count": 22,
+              "totalMinutes": 1655
+            },
+            {
+              "minutes": 120,
+              "count": 2,
+              "totalMinutes": 245
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 4,
+            "10": 8,
+            "15": 9,
+            "20": 6,
+            "25": 2,
+            "30": 33,
+            "35": 2,
+            "40": 1,
+            "45": 1,
+            "50": 2,
+            "55": 2,
+            "60": 12,
+            "80": 4,
+            "85": 1,
+            "90": 2,
+            "105": 1,
+            "120": 1,
+            "125": 1
+          }
+        },
+        "longestWait": 125,
+        "longWaitMinutes": 245,
+        "activityMinutes": {
+          "work": 3600,
+          "leisure": 330,
+          "journey_collect": 330,
+          "study": 360,
+          "eat": 2060,
+          "move": 6060,
+          "journey_deliver": 330,
+          "social": 2100,
+          "water": 600,
+          "observe": 60,
+          "waiting": 3415,
+          "practice": 120,
+          "exercise": 1650,
+          "visit": 120,
+          "garden_project": 90,
+          "care": 600,
+          "pack_meals": 870,
+          "journey_survey": 540,
+          "gather": 1260,
+          "harvest": 450,
+          "journey_clear": 2340,
+          "supplies": 210,
+          "contact": 135,
+          "journey_fieldnote": 210,
+          "repair": 540,
+          "journey_message": 300,
+          "journey_mend": 120
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 1645,
+        "actions": {
+          "journey_collect": 11,
+          "journey_deliver": 11,
+          "journey_survey": 18,
+          "journey_clear": 26,
+          "journey_fieldnote": 7,
+          "journey_message": 10,
+          "journey_mend": 4
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.5,
+          "craft": 91.8,
+          "curiosity": 52.6,
+          "connectionNeed": 46.3
+        },
+        "finalCashCents": 393700,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_survey",
+          "journey_message",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 25,
+        "tailMoves": 25
+      }
+    },
+    {
+      "days": 30,
+      "seed": 41,
+      "background": "settled",
+      "before": {
+        "background": "settled",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 128,
+        "passThroughs": 43,
+        "immediateReturns": 9,
+        "homeMinutes": 1290,
+        "longestAtHome": 250,
+        "studyMinutes": 360,
+        "transitMinutes": 7035,
+        "waitingMinutes": 5120,
+        "waitingByReason": {
+          "all_candidates_blocked": 1735,
+          "waiting_for_appointment": 385,
+          "waiting_for_partner": 40,
+          "no_feasible_itinerary": 150,
+          "no_candidates": 2810
+        },
+        "waitEpisodes": {
+          "count": 109,
+          "totalMinutes": 5120,
+          "median": 30,
+          "p90": 100,
+          "p95": 135,
+          "max": 180,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 78,
+              "totalMinutes": 4665
+            },
+            {
+              "minutes": 60,
+              "count": 34,
+              "totalMinutes": 3205
+            },
+            {
+              "minutes": 120,
+              "count": 10,
+              "totalMinutes": 1390
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 180
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 5,
+            "10": 6,
+            "15": 8,
+            "20": 10,
+            "25": 2,
+            "30": 37,
+            "40": 1,
+            "45": 1,
+            "50": 2,
+            "55": 3,
+            "60": 9,
+            "65": 3,
+            "85": 2,
+            "90": 9,
+            "100": 1,
+            "120": 3,
+            "125": 1,
+            "135": 1,
+            "145": 2,
+            "150": 2,
+            "180": 1
+          }
+        },
+        "longestWait": 180,
+        "longWaitMinutes": 1390,
+        "activityMinutes": {
+          "journey_collect": 420,
+          "work": 1920,
+          "leisure": 180,
+          "move": 7035,
+          "journey_deliver": 390,
+          "eat": 2000,
+          "study": 360,
+          "social": 1715,
+          "water": 630,
+          "waiting": 5120,
+          "exercise": 1800,
+          "visit": 120,
+          "garden_project": 90,
+          "observe": 60,
+          "care": 600,
+          "harvest": 450,
+          "journey_survey": 540,
+          "journey_fieldnote": 360,
+          "gather": 1500,
+          "journey_message": 420,
+          "supplies": 210,
+          "journey_clear": 2700,
+          "contact": 90,
+          "journey_mend": 90
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 3,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 4145,
+        "actions": {
+          "journey_collect": 14,
+          "journey_deliver": 13,
+          "journey_survey": 18,
+          "journey_fieldnote": 12,
+          "journey_message": 14,
+          "journey_clear": 30,
+          "journey_mend": 3
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.4,
+          "craft": 84.6,
+          "curiosity": 64.2,
+          "connectionNeed": 58.1
+        },
+        "finalCashCents": 557100,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_survey",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 27,
+        "tailMoves": 42
+      },
+      "after": {
+        "background": "settled",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 133,
+        "passThroughs": 44,
+        "immediateReturns": 6,
+        "homeMinutes": 270,
+        "longestAtHome": 80,
+        "studyMinutes": 360,
+        "transitMinutes": 6205,
+        "waitingMinutes": 4235,
+        "waitingByReason": {
+          "all_candidates_blocked": 840,
+          "waiting_for_appointment": 470,
+          "waiting_for_partner": 80,
+          "no_feasible_itinerary": 180,
+          "no_candidates": 2665
+        },
+        "waitEpisodes": {
+          "count": 113,
+          "totalMinutes": 4235,
+          "median": 30,
+          "p90": 60,
+          "p95": 75,
+          "max": 125,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 80,
+              "totalMinutes": 3695
+            },
+            {
+              "minutes": 60,
+              "count": 32,
+              "totalMinutes": 2160
+            },
+            {
+              "minutes": 120,
+              "count": 2,
+              "totalMinutes": 245
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 4,
+            "10": 5,
+            "15": 7,
+            "20": 12,
+            "25": 5,
+            "30": 39,
+            "35": 5,
+            "45": 2,
+            "50": 2,
+            "60": 25,
+            "65": 1,
+            "75": 2,
+            "90": 1,
+            "110": 1,
+            "120": 1,
+            "125": 1
+          }
+        },
+        "longestWait": 125,
+        "longWaitMinutes": 245,
+        "activityMinutes": {
+          "journey_collect": 450,
+          "work": 2940,
+          "leisure": 300,
+          "move": 6205,
+          "journey_deliver": 420,
+          "eat": 1980,
+          "study": 360,
+          "social": 1740,
+          "water": 600,
+          "waiting": 4235,
+          "exercise": 1680,
+          "visit": 120,
+          "garden_project": 90,
+          "observe": 60,
+          "care": 720,
+          "harvest": 420,
+          "journey_survey": 480,
+          "journey_fieldnote": 360,
+          "gather": 960,
+          "pack_meals": 960,
+          "journey_clear": 2610,
+          "supplies": 240,
+          "contact": 150,
+          "journey_message": 450,
+          "journey_mend": 270
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 1750,
+        "actions": {
+          "journey_collect": 15,
+          "journey_deliver": 14,
+          "journey_survey": 16,
+          "journey_fieldnote": 12,
+          "journey_clear": 29,
+          "journey_message": 15,
+          "journey_mend": 9
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.3,
+          "craft": 89.8,
+          "curiosity": 45.1,
+          "connectionNeed": 45.7
+        },
+        "finalCashCents": 663550,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_mend",
+          "journey_clear",
+          "journey_message",
+          "journey_survey",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 33,
+        "tailMoves": 43
+      }
+    },
+    {
+      "days": 30,
+      "seed": 41,
+      "background": "traveler",
+      "before": {
+        "background": "traveler",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 94,
+        "passThroughs": 30,
+        "immediateReturns": 2,
+        "homeMinutes": 1765,
+        "longestAtHome": 355,
+        "studyMinutes": 0,
+        "transitMinutes": 5800,
+        "waitingMinutes": 4810,
+        "waitingByReason": {
+          "all_candidates_blocked": 1330,
+          "waiting_for_appointment": 565,
+          "no_feasible_itinerary": 1010,
+          "no_candidates": 1875,
+          "waiting_for_partner": 30
+        },
+        "waitEpisodes": {
+          "count": 111,
+          "totalMinutes": 4810,
+          "median": 30,
+          "p90": 90,
+          "p95": 115,
+          "max": 240,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 78,
+              "totalMinutes": 4305
+            },
+            {
+              "minutes": 60,
+              "count": 29,
+              "totalMinutes": 2725
+            },
+            {
+              "minutes": 120,
+              "count": 5,
+              "totalMinutes": 840
+            },
+            {
+              "minutes": 180,
+              "count": 2,
+              "totalMinutes": 420
+            },
+            {
+              "minutes": 240,
+              "count": 1,
+              "totalMinutes": 240
+            }
+          ],
+          "histogram": {
+            "5": 6,
+            "10": 6,
+            "15": 8,
+            "20": 6,
+            "25": 7,
+            "30": 41,
+            "40": 5,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 11,
+            "75": 1,
+            "80": 3,
+            "85": 1,
+            "90": 2,
+            "95": 1,
+            "105": 2,
+            "110": 1,
+            "115": 2,
+            "120": 1,
+            "150": 2,
+            "180": 1,
+            "240": 1
+          }
+        },
+        "longestWait": 240,
+        "longWaitMinutes": 840,
+        "activityMinutes": {
+          "journey_collect": 450,
+          "move": 5800,
+          "observe": 90,
+          "visit": 120,
+          "journey_deliver": 420,
+          "create": 1530,
+          "eat": 2000,
+          "journey_survey": 510,
+          "leisure": 355,
+          "revise": 1440,
+          "waiting": 4810,
+          "journey_fieldnote": 300,
+          "host": 1020,
+          "gather": 1200,
+          "exercise": 2190,
+          "journey_clear": 1530,
+          "social": 1410,
+          "care": 570,
+          "supplies": 180,
+          "collaborate": 1080,
+          "journey_message": 450,
+          "journey_mend": 90,
+          "work": 1180,
+          "contact": 75
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 3,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 3245,
+        "actions": {
+          "journey_collect": 15,
+          "journey_deliver": 14,
+          "journey_survey": 17,
+          "journey_fieldnote": 10,
+          "journey_clear": 17,
+          "journey_message": 15,
+          "journey_mend": 3
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 81.5,
+          "craft": 59.9,
+          "curiosity": 74.6,
+          "connectionNeed": 36.3
+        },
+        "finalCashCents": 1116900,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey",
+          "journey_clear",
+          "journey_message",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 20,
+        "tailMoves": 20
+      },
+      "after": {
+        "background": "traveler",
+        "seed": 41,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 118,
+        "passThroughs": 28,
+        "immediateReturns": 0,
+        "homeMinutes": 395,
+        "longestAtHome": 200,
+        "studyMinutes": 0,
+        "transitMinutes": 5870,
+        "waitingMinutes": 3575,
+        "waitingByReason": {
+          "all_candidates_blocked": 1100,
+          "waiting_for_appointment": 635,
+          "no_feasible_itinerary": 630,
+          "waiting_for_partner": 15,
+          "no_candidates": 1195
+        },
+        "waitEpisodes": {
+          "count": 105,
+          "totalMinutes": 3575,
+          "median": 30,
+          "p90": 60,
+          "p95": 70,
+          "max": 120,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 66,
+              "totalMinutes": 2980
+            },
+            {
+              "minutes": 60,
+              "count": 21,
+              "totalMinutes": 1475
+            },
+            {
+              "minutes": 120,
+              "count": 2,
+              "totalMinutes": 240
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 7,
+            "10": 7,
+            "15": 9,
+            "20": 9,
+            "25": 7,
+            "30": 32,
+            "35": 4,
+            "40": 5,
+            "50": 3,
+            "55": 1,
+            "60": 13,
+            "65": 1,
+            "70": 3,
+            "90": 2,
+            "120": 2
+          }
+        },
+        "longestWait": 120,
+        "longWaitMinutes": 240,
+        "activityMinutes": {
+          "journey_collect": 240,
+          "move": 5870,
+          "observe": 90,
+          "visit": 120,
+          "journey_deliver": 240,
+          "create": 1710,
+          "eat": 1960,
+          "journey_survey": 480,
+          "leisure": 355,
+          "revise": 1620,
+          "waiting": 3575,
+          "journey_fieldnote": 360,
+          "host": 1140,
+          "gather": 900,
+          "exercise": 1740,
+          "journey_clear": 3150,
+          "social": 1230,
+          "care": 660,
+          "contact": 180,
+          "supplies": 210,
+          "collaborate": 720,
+          "pack_meals": 780,
+          "journey_message": 390,
+          "work": 900,
+          "journey_mend": 180
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2185,
+        "actions": {
+          "journey_collect": 8,
+          "journey_deliver": 8,
+          "journey_survey": 16,
+          "journey_fieldnote": 12,
+          "journey_clear": 35,
+          "journey_message": 13,
+          "journey_mend": 6
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 80,
+          "craft": 64.3,
+          "curiosity": 68,
+          "connectionNeed": 44.9
+        },
+        "finalCashCents": 1106550,
+        "tailDays": 7,
+        "tailRegions": [
+          "ridge",
+          "bookstore",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_mend",
+          "journey_clear",
+          "journey_survey",
+          "journey_collect",
+          "journey_deliver",
+          "journey_message",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 25,
+        "tailMoves": 40
+      }
+    },
+    {
+      "days": 30,
+      "seed": 73,
+      "background": "creator",
+      "before": {
+        "background": "creator",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 106,
+        "passThroughs": 33,
+        "immediateReturns": 2,
+        "homeMinutes": 825,
+        "longestAtHome": 130,
+        "studyMinutes": 0,
+        "transitMinutes": 6200,
+        "waitingMinutes": 4240,
+        "waitingByReason": {
+          "all_candidates_blocked": 1025,
+          "no_feasible_itinerary": 1230,
+          "waiting_for_appointment": 370,
+          "waiting_for_partner": 65,
+          "no_candidates": 1550
+        },
+        "waitEpisodes": {
+          "count": 108,
+          "totalMinutes": 4240,
+          "median": 30,
+          "p90": 70,
+          "p95": 95,
+          "max": 225,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 78,
+              "totalMinutes": 3830
+            },
+            {
+              "minutes": 60,
+              "count": 21,
+              "totalMinutes": 1965
+            },
+            {
+              "minutes": 120,
+              "count": 5,
+              "totalMinutes": 850
+            },
+            {
+              "minutes": 180,
+              "count": 2,
+              "totalMinutes": 405
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 10,
+            "10": 4,
+            "15": 6,
+            "20": 4,
+            "25": 6,
+            "30": 47,
+            "35": 1,
+            "40": 2,
+            "45": 3,
+            "50": 3,
+            "55": 1,
+            "60": 10,
+            "70": 1,
+            "80": 1,
+            "90": 3,
+            "95": 1,
+            "120": 1,
+            "150": 1,
+            "175": 1,
+            "180": 1,
+            "225": 1
+          }
+        },
+        "longestWait": 225,
+        "longWaitMinutes": 850,
+        "activityMinutes": {
+          "journey_collect": 480,
+          "work": 2220,
+          "leisure": 510,
+          "move": 6200,
+          "journey_deliver": 480,
+          "eat": 2025,
+          "observe": 60,
+          "social": 1650,
+          "create": 1530,
+          "waiting": 4240,
+          "exercise": 2070,
+          "journey_survey": 390,
+          "visit": 120,
+          "revise": 1440,
+          "gather": 1080,
+          "care": 600,
+          "journey_fieldnote": 330,
+          "collaborate": 900,
+          "supplies": 210,
+          "journey_clear": 1620,
+          "journey_message": 330,
+          "journey_mend": 180,
+          "contact": 135
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 1890,
+        "actions": {
+          "journey_collect": 16,
+          "journey_deliver": 16,
+          "journey_survey": 13,
+          "journey_fieldnote": 11,
+          "journey_clear": 18,
+          "journey_message": 11,
+          "journey_mend": 6
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 80.5,
+          "craft": 80.5,
+          "curiosity": 65.5,
+          "connectionNeed": 43.3
+        },
+        "finalCashCents": 595800,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_clear"
+        ],
+        "tailTasks": 21,
+        "tailMoves": 27
+      },
+      "after": {
+        "background": "creator",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 102,
+        "passThroughs": 32,
+        "immediateReturns": 5,
+        "homeMinutes": 470,
+        "longestAtHome": 220,
+        "studyMinutes": 0,
+        "transitMinutes": 5455,
+        "waitingMinutes": 4240,
+        "waitingByReason": {
+          "all_candidates_blocked": 985,
+          "waiting_for_appointment": 515,
+          "waiting_for_partner": 40,
+          "no_candidates": 2220,
+          "no_feasible_itinerary": 480
+        },
+        "waitEpisodes": {
+          "count": 100,
+          "totalMinutes": 4240,
+          "median": 30,
+          "p90": 75,
+          "p95": 90,
+          "max": 200,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 73,
+              "totalMinutes": 3860
+            },
+            {
+              "minutes": 60,
+              "count": 33,
+              "totalMinutes": 2545
+            },
+            {
+              "minutes": 120,
+              "count": 4,
+              "totalMinutes": 600
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 200
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 7,
+            "10": 5,
+            "15": 4,
+            "20": 8,
+            "25": 3,
+            "30": 28,
+            "35": 5,
+            "40": 4,
+            "45": 2,
+            "50": 1,
+            "60": 21,
+            "75": 2,
+            "85": 1,
+            "90": 5,
+            "125": 1,
+            "135": 1,
+            "140": 1,
+            "200": 1
+          }
+        },
+        "longestWait": 200,
+        "longWaitMinutes": 600,
+        "activityMinutes": {
+          "journey_collect": 420,
+          "work": 2280,
+          "leisure": 420,
+          "move": 5455,
+          "journey_deliver": 420,
+          "eat": 2050,
+          "observe": 60,
+          "social": 1860,
+          "create": 1080,
+          "pack_meals": 930,
+          "waiting": 4240,
+          "exercise": 2100,
+          "journey_survey": 420,
+          "revise": 1080,
+          "gather": 960,
+          "care": 690,
+          "visit": 120,
+          "collaborate": 900,
+          "supplies": 240,
+          "journey_fieldnote": 180,
+          "journey_clear": 2340,
+          "journey_message": 300,
+          "journey_mend": 150,
+          "contact": 105
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 3,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 3310,
+        "actions": {
+          "journey_collect": 14,
+          "journey_deliver": 14,
+          "journey_survey": 14,
+          "journey_fieldnote": 6,
+          "journey_clear": 26,
+          "journey_message": 10,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 83.8,
+          "craft": 82.1,
+          "curiosity": 71.1,
+          "connectionNeed": 59.3
+        },
+        "finalCashCents": 624500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_fieldnote",
+          "journey_mend",
+          "journey_clear"
+        ],
+        "tailTasks": 20,
+        "tailMoves": 31
+      }
+    },
+    {
+      "days": 30,
+      "seed": 73,
+      "background": "low_assets",
+      "before": {
+        "background": "low_assets",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 118,
+        "passThroughs": 36,
+        "immediateReturns": 7,
+        "homeMinutes": 860,
+        "longestAtHome": 300,
+        "studyMinutes": 360,
+        "transitMinutes": 6860,
+        "waitingMinutes": 3850,
+        "waitingByReason": {
+          "all_candidates_blocked": 2045,
+          "waiting_for_partner": 70,
+          "waiting_for_appointment": 415,
+          "no_candidates": 990,
+          "no_feasible_itinerary": 330
+        },
+        "waitEpisodes": {
+          "count": 80,
+          "totalMinutes": 3850,
+          "median": 30,
+          "p90": 120,
+          "p95": 145,
+          "max": 210,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 58,
+              "totalMinutes": 3520
+            },
+            {
+              "minutes": 60,
+              "count": 21,
+              "totalMinutes": 2310
+            },
+            {
+              "minutes": 120,
+              "count": 10,
+              "totalMinutes": 1415
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 210
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 5,
+            "10": 4,
+            "15": 4,
+            "20": 4,
+            "25": 5,
+            "30": 29,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "60": 4,
+            "65": 1,
+            "90": 4,
+            "115": 2,
+            "120": 4,
+            "130": 1,
+            "145": 1,
+            "150": 3,
+            "210": 1
+          }
+        },
+        "longestWait": 210,
+        "longWaitMinutes": 1415,
+        "activityMinutes": {
+          "work": 3360,
+          "leisure": 210,
+          "journey_collect": 390,
+          "study": 360,
+          "eat": 2060,
+          "move": 6860,
+          "journey_deliver": 390,
+          "social": 1350,
+          "water": 600,
+          "observe": 60,
+          "waiting": 3850,
+          "practice": 120,
+          "exercise": 1620,
+          "gather": 1690,
+          "garden_project": 90,
+          "journey_survey": 540,
+          "journey_fieldnote": 390,
+          "care": 540,
+          "harvest": 420,
+          "repair": 780,
+          "visit": 120,
+          "journey_clear": 2340,
+          "journey_message": 300,
+          "contact": 120,
+          "supplies": 180,
+          "journey_mend": 60
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2200,
+        "actions": {
+          "journey_collect": 13,
+          "journey_deliver": 13,
+          "journey_survey": 18,
+          "journey_fieldnote": 13,
+          "journey_clear": 26,
+          "journey_message": 10,
+          "journey_mend": 2
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.5,
+          "craft": 91.7,
+          "curiosity": 51.9,
+          "connectionNeed": 39.1
+        },
+        "finalCashCents": 374500,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_clear",
+          "journey_survey",
+          "journey_fieldnote",
+          "journey_collect",
+          "journey_deliver"
+        ],
+        "tailTasks": 24,
+        "tailMoves": 28
+      },
+      "after": {
+        "background": "low_assets",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 64,
+        "passThroughs": 11,
+        "immediateReturns": 1,
+        "homeMinutes": 340,
+        "longestAtHome": 50,
+        "studyMinutes": 360,
+        "transitMinutes": 5330,
+        "waitingMinutes": 3605,
+        "waitingByReason": {
+          "all_candidates_blocked": 1075,
+          "waiting_for_partner": 60,
+          "waiting_for_appointment": 400,
+          "no_candidates": 2040,
+          "no_feasible_itinerary": 30
+        },
+        "waitEpisodes": {
+          "count": 91,
+          "totalMinutes": 3605,
+          "median": 30,
+          "p90": 60,
+          "p95": 90,
+          "max": 180,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 66,
+              "totalMinutes": 3260
+            },
+            {
+              "minutes": 60,
+              "count": 23,
+              "totalMinutes": 1720
+            },
+            {
+              "minutes": 120,
+              "count": 2,
+              "totalMinutes": 300
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 180
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 7,
+            "10": 5,
+            "15": 4,
+            "20": 5,
+            "25": 4,
+            "30": 27,
+            "35": 1,
+            "40": 5,
+            "45": 3,
+            "50": 5,
+            "55": 2,
+            "60": 15,
+            "70": 1,
+            "80": 1,
+            "85": 1,
+            "90": 2,
+            "105": 1,
+            "120": 1,
+            "180": 1
+          }
+        },
+        "longestWait": 180,
+        "longWaitMinutes": 300,
+        "activityMinutes": {
+          "work": 4900,
+          "leisure": 540,
+          "journey_collect": 270,
+          "study": 360,
+          "eat": 1960,
+          "move": 5330,
+          "journey_deliver": 270,
+          "social": 1740,
+          "water": 600,
+          "observe": 60,
+          "waiting": 3605,
+          "practice": 120,
+          "exercise": 1860,
+          "gather": 660,
+          "garden_project": 90,
+          "journey_survey": 210,
+          "journey_fieldnote": 180,
+          "care": 690,
+          "harvest": 450,
+          "repair": 780,
+          "visit": 120,
+          "journey_clear": 2160,
+          "supplies": 240,
+          "contact": 165,
+          "pack_meals": 870,
+          "journey_message": 360,
+          "journey_mend": 210
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 1,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 3960,
+        "actions": {
+          "journey_collect": 9,
+          "journey_deliver": 9,
+          "journey_survey": 7,
+          "journey_fieldnote": 6,
+          "journey_clear": 24,
+          "journey_message": 12,
+          "journey_mend": 7
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 87.9,
+          "craft": 93.8,
+          "curiosity": 72,
+          "connectionNeed": 57.7
+        },
+        "finalCashCents": 529800,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_clear",
+          "journey_survey",
+          "journey_collect",
+          "journey_deliver",
+          "journey_mend"
+        ],
+        "tailTasks": 14,
+        "tailMoves": 16
+      }
+    },
+    {
+      "days": 30,
+      "seed": 73,
+      "background": "settled",
+      "before": {
+        "background": "settled",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 126,
+        "passThroughs": 48,
+        "immediateReturns": 6,
+        "homeMinutes": 1995,
+        "longestAtHome": 440,
+        "studyMinutes": 360,
+        "transitMinutes": 6560,
+        "waitingMinutes": 5430,
+        "waitingByReason": {
+          "all_candidates_blocked": 2205,
+          "waiting_for_appointment": 550,
+          "waiting_for_partner": 95,
+          "no_candidates": 2190,
+          "no_feasible_itinerary": 390
+        },
+        "waitEpisodes": {
+          "count": 113,
+          "totalMinutes": 5430,
+          "median": 30,
+          "p90": 120,
+          "p95": 145,
+          "max": 250,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 79,
+              "totalMinutes": 4970
+            },
+            {
+              "minutes": 60,
+              "count": 34,
+              "totalMinutes": 3530
+            },
+            {
+              "minutes": 120,
+              "count": 12,
+              "totalMinutes": 1800
+            },
+            {
+              "minutes": 180,
+              "count": 2,
+              "totalMinutes": 450
+            },
+            {
+              "minutes": 240,
+              "count": 1,
+              "totalMinutes": 250
+            }
+          ],
+          "histogram": {
+            "5": 8,
+            "10": 7,
+            "15": 9,
+            "20": 7,
+            "25": 3,
+            "30": 39,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 3,
+            "60": 7,
+            "70": 2,
+            "80": 1,
+            "85": 4,
+            "90": 6,
+            "100": 1,
+            "110": 1,
+            "120": 5,
+            "145": 2,
+            "150": 1,
+            "155": 2,
+            "200": 1,
+            "250": 1
+          }
+        },
+        "longestWait": 250,
+        "longWaitMinutes": 1800,
+        "activityMinutes": {
+          "journey_collect": 450,
+          "work": 2940,
+          "leisure": 270,
+          "move": 6560,
+          "journey_deliver": 450,
+          "eat": 2050,
+          "study": 360,
+          "social": 1680,
+          "water": 630,
+          "waiting": 5430,
+          "exercise": 1890,
+          "visit": 120,
+          "garden_project": 90,
+          "observe": 60,
+          "gather": 1200,
+          "care": 600,
+          "journey_survey": 330,
+          "harvest": 450,
+          "contact": 120,
+          "supplies": 210,
+          "journey_fieldnote": 270,
+          "journey_message": 510,
+          "journey_clear": 1980,
+          "journey_mend": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 5,
+        "allWaitingWindows": 1,
+        "longestSameRegionAwakeMinutes": 2645,
+        "actions": {
+          "journey_collect": 15,
+          "journey_deliver": 15,
+          "journey_survey": 11,
+          "journey_fieldnote": 9,
+          "journey_message": 17,
+          "journey_clear": 22,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 88.1,
+          "craft": 86.9,
+          "curiosity": 68.9,
+          "connectionNeed": 34.9
+        },
+        "finalCashCents": 640200,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "ridge",
+          "bookstore"
+        ],
+        "tailKinds": [
+          "journey_survey",
+          "journey_clear",
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_mend",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 23,
+        "tailMoves": 24
+      },
+      "after": {
+        "background": "settled",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 130,
+        "passThroughs": 48,
+        "immediateReturns": 5,
+        "homeMinutes": 675,
+        "longestAtHome": 250,
+        "studyMinutes": 360,
+        "transitMinutes": 6600,
+        "waitingMinutes": 4535,
+        "waitingByReason": {
+          "all_candidates_blocked": 1165,
+          "waiting_for_appointment": 525,
+          "no_candidates": 2365,
+          "waiting_for_partner": 90,
+          "no_feasible_itinerary": 390
+        },
+        "waitEpisodes": {
+          "count": 112,
+          "totalMinutes": 4535,
+          "median": 30,
+          "p90": 65,
+          "p95": 90,
+          "max": 150,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 79,
+              "totalMinutes": 4045
+            },
+            {
+              "minutes": 60,
+              "count": 34,
+              "totalMinutes": 2590
+            },
+            {
+              "minutes": 120,
+              "count": 4,
+              "totalMinutes": 575
+            },
+            {
+              "minutes": 180,
+              "count": 0,
+              "totalMinutes": 0
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 4,
+            "10": 8,
+            "15": 9,
+            "20": 9,
+            "25": 3,
+            "30": 35,
+            "35": 5,
+            "40": 2,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 21,
+            "65": 2,
+            "70": 1,
+            "85": 1,
+            "90": 4,
+            "110": 1,
+            "125": 1,
+            "150": 3
+          }
+        },
+        "longestWait": 150,
+        "longWaitMinutes": 575,
+        "activityMinutes": {
+          "journey_collect": 480,
+          "work": 3000,
+          "leisure": 180,
+          "move": 6600,
+          "journey_deliver": 480,
+          "eat": 2040,
+          "study": 360,
+          "social": 1740,
+          "water": 625,
+          "waiting": 4535,
+          "exercise": 1920,
+          "visit": 120,
+          "garden_project": 90,
+          "observe": 60,
+          "gather": 1560,
+          "care": 780,
+          "pack_meals": 990,
+          "journey_survey": 480,
+          "harvest": 420,
+          "contact": 120,
+          "supplies": 270,
+          "journey_fieldnote": 240,
+          "journey_clear": 1260,
+          "journey_message": 330,
+          "journey_mend": 120
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 2,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 1730,
+        "actions": {
+          "journey_collect": 16,
+          "journey_deliver": 16,
+          "journey_survey": 16,
+          "journey_fieldnote": 8,
+          "journey_clear": 14,
+          "journey_message": 11,
+          "journey_mend": 4
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 87.7,
+          "craft": 85,
+          "curiosity": 60.1,
+          "connectionNeed": 49.2
+        },
+        "finalCashCents": 658000,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_clear",
+          "journey_message",
+          "journey_survey",
+          "journey_mend",
+          "journey_fieldnote",
+          "journey_collect",
+          "journey_deliver"
+        ],
+        "tailTasks": 20,
+        "tailMoves": 28
+      }
+    },
+    {
+      "days": 30,
+      "seed": 73,
+      "background": "traveler",
+      "before": {
+        "background": "traveler",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 92,
+        "passThroughs": 27,
+        "immediateReturns": 2,
+        "homeMinutes": 1265,
+        "longestAtHome": 365,
+        "studyMinutes": 0,
+        "transitMinutes": 6280,
+        "waitingMinutes": 4615,
+        "waitingByReason": {
+          "all_candidates_blocked": 1300,
+          "waiting_for_appointment": 700,
+          "no_candidates": 1760,
+          "no_feasible_itinerary": 795,
+          "waiting_for_partner": 60
+        },
+        "waitEpisodes": {
+          "count": 110,
+          "totalMinutes": 4615,
+          "median": 30,
+          "p90": 90,
+          "p95": 120,
+          "max": 225,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 74,
+              "totalMinutes": 4120
+            },
+            {
+              "minutes": 60,
+              "count": 28,
+              "totalMinutes": 2610
+            },
+            {
+              "minutes": 120,
+              "count": 8,
+              "totalMinutes": 1220
+            },
+            {
+              "minutes": 180,
+              "count": 2,
+              "totalMinutes": 435
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 7,
+            "10": 10,
+            "15": 9,
+            "20": 5,
+            "25": 5,
+            "30": 36,
+            "35": 1,
+            "40": 4,
+            "45": 3,
+            "50": 2,
+            "60": 12,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "85": 1,
+            "90": 3,
+            "105": 1,
+            "120": 4,
+            "135": 1,
+            "170": 1,
+            "210": 1,
+            "225": 1
+          }
+        },
+        "longestWait": 225,
+        "longWaitMinutes": 1220,
+        "activityMinutes": {
+          "journey_collect": 330,
+          "move": 6280,
+          "observe": 60,
+          "visit": 120,
+          "journey_deliver": 330,
+          "create": 1440,
+          "eat": 2065,
+          "journey_survey": 600,
+          "leisure": 330,
+          "revise": 1800,
+          "waiting": 4615,
+          "exercise": 2010,
+          "journey_fieldnote": 300,
+          "contact": 180,
+          "social": 1380,
+          "journey_clear": 1800,
+          "host": 960,
+          "gather": 1140,
+          "care": 570,
+          "collaborate": 1020,
+          "supplies": 180,
+          "journey_message": 270,
+          "work": 840,
+          "journey_mend": 180
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 2,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2115,
+        "actions": {
+          "journey_collect": 11,
+          "journey_deliver": 11,
+          "journey_survey": 20,
+          "journey_fieldnote": 10,
+          "journey_clear": 20,
+          "journey_message": 9,
+          "journey_mend": 6
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 81.3,
+          "craft": 63.1,
+          "curiosity": 76.8,
+          "connectionNeed": 44.4
+        },
+        "finalCashCents": 1085000,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_clear",
+          "journey_survey",
+          "journey_message",
+          "journey_mend"
+        ],
+        "tailTasks": 21,
+        "tailMoves": 22
+      },
+      "after": {
+        "background": "traveler",
+        "seed": 73,
+        "days": 30,
+        "awakeMinutes": 28800,
+        "calendarDays": 30,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 92,
+        "passThroughs": 27,
+        "immediateReturns": 0,
+        "homeMinutes": 625,
+        "longestAtHome": 395,
+        "studyMinutes": 0,
+        "transitMinutes": 5220,
+        "waitingMinutes": 5255,
+        "waitingByReason": {
+          "all_candidates_blocked": 705,
+          "waiting_for_appointment": 665,
+          "no_candidates": 3375,
+          "no_feasible_itinerary": 480,
+          "waiting_for_partner": 30
+        },
+        "waitEpisodes": {
+          "count": 130,
+          "totalMinutes": 5255,
+          "median": 30,
+          "p90": 60,
+          "p95": 90,
+          "max": 210,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 95,
+              "totalMinutes": 4740
+            },
+            {
+              "minutes": 60,
+              "count": 41,
+              "totalMinutes": 2985
+            },
+            {
+              "minutes": 120,
+              "count": 3,
+              "totalMinutes": 495
+            },
+            {
+              "minutes": 180,
+              "count": 1,
+              "totalMinutes": 210
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 6,
+            "10": 9,
+            "15": 7,
+            "20": 7,
+            "25": 6,
+            "30": 43,
+            "35": 3,
+            "40": 4,
+            "45": 1,
+            "50": 2,
+            "55": 1,
+            "60": 29,
+            "65": 2,
+            "70": 1,
+            "75": 1,
+            "85": 1,
+            "90": 2,
+            "105": 2,
+            "120": 1,
+            "165": 1,
+            "210": 1
+          }
+        },
+        "longestWait": 210,
+        "longWaitMinutes": 495,
+        "activityMinutes": {
+          "journey_collect": 450,
+          "move": 5220,
+          "observe": 60,
+          "visit": 120,
+          "journey_deliver": 450,
+          "create": 990,
+          "eat": 1960,
+          "journey_survey": 300,
+          "leisure": 450,
+          "revise": 990,
+          "waiting": 5255,
+          "exercise": 2220,
+          "journey_fieldnote": 150,
+          "contact": 135,
+          "social": 1740,
+          "journey_clear": 1890,
+          "host": 660,
+          "gather": 480,
+          "care": 750,
+          "supplies": 240,
+          "pack_meals": 1050,
+          "collaborate": 360,
+          "work": 2340,
+          "journey_message": 390,
+          "journey_mend": 150
+        },
+        "focusMinutes": 200,
+        "focusWindows": 144,
+        "noOutcomeWindows": 0,
+        "allWaitingWindows": 0,
+        "longestSameRegionAwakeMinutes": 2785,
+        "actions": {
+          "journey_collect": 15,
+          "journey_deliver": 15,
+          "journey_survey": 10,
+          "journey_fieldnote": 5,
+          "journey_clear": 21,
+          "journey_message": 13,
+          "journey_mend": 5
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 35,
+          "curiosity": 64,
+          "connectionNeed": 54
+        },
+        "finalAttributes": {
+          "stamina": 83.9,
+          "craft": 83.7,
+          "curiosity": 68.7,
+          "connectionNeed": 43.8
+        },
+        "finalCashCents": 1232400,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ridge",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey",
+          "journey_clear"
+        ],
+        "tailTasks": 20,
+        "tailMoves": 24
+      }
+    },
+    {
+      "days": 100,
+      "seed": 19,
+      "background": "creator",
+      "before": {
+        "background": "creator",
+        "seed": 19,
+        "days": 100,
+        "awakeMinutes": 96000,
+        "calendarDays": 100,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 342,
+        "passThroughs": 96,
+        "immediateReturns": 7,
+        "homeMinutes": 4040,
+        "longestAtHome": 385,
+        "studyMinutes": 0,
+        "transitMinutes": 18050,
+        "waitingMinutes": 20975,
+        "waitingByReason": {
+          "all_candidates_blocked": 6610,
+          "waiting_for_appointment": 1690,
+          "waiting_for_partner": 195,
+          "no_candidates": 9570,
+          "no_feasible_itinerary": 2910
+        },
+        "waitEpisodes": {
+          "count": 392,
+          "totalMinutes": 20975,
+          "median": 30,
+          "p90": 125,
+          "p95": 150,
+          "max": 270,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 305,
+              "totalMinutes": 19550
+            },
+            {
+              "minutes": 60,
+              "count": 132,
+              "totalMinutes": 14030
+            },
+            {
+              "minutes": 120,
+              "count": 49,
+              "totalMinutes": 7615
+            },
+            {
+              "minutes": 180,
+              "count": 11,
+              "totalMinutes": 2310
+            },
+            {
+              "minutes": 240,
+              "count": 3,
+              "totalMinutes": 750
+            }
+          ],
+          "histogram": {
+            "5": 12,
+            "10": 15,
+            "15": 15,
+            "20": 27,
+            "25": 18,
+            "30": 147,
+            "35": 5,
+            "40": 11,
+            "45": 5,
+            "50": 1,
+            "55": 4,
+            "60": 34,
+            "65": 4,
+            "70": 3,
+            "80": 3,
+            "85": 3,
+            "90": 23,
+            "95": 2,
+            "100": 7,
+            "110": 2,
+            "115": 2,
+            "120": 9,
+            "125": 3,
+            "130": 2,
+            "135": 2,
+            "140": 3,
+            "145": 2,
+            "150": 12,
+            "155": 2,
+            "160": 1,
+            "165": 1,
+            "175": 1,
+            "180": 3,
+            "195": 1,
+            "200": 1,
+            "205": 2,
+            "215": 1,
+            "240": 2,
+            "270": 1
+          }
+        },
+        "longestWait": 270,
+        "longWaitMinutes": 7615,
+        "activityMinutes": {
+          "journey_collect": 1380,
+          "work": 9120,
+          "leisure": 1470,
+          "move": 18050,
+          "journey_deliver": 1380,
+          "eat": 6500,
+          "journey_fieldnote": 750,
+          "social": 6120,
+          "create": 2790,
+          "observe": 60,
+          "waiting": 20975,
+          "exercise": 7830,
+          "visit": 120,
+          "revise": 2700,
+          "gather": 1380,
+          "collaborate": 1380,
+          "journey_survey": 1590,
+          "care": 2010,
+          "journey_clear": 6840,
+          "supplies": 660,
+          "journey_message": 1770,
+          "contact": 495,
+          "journey_mend": 630
+        },
+        "focusMinutes": 200,
+        "focusWindows": 480,
+        "noOutcomeWindows": 18,
+        "allWaitingWindows": 2,
+        "longestSameRegionAwakeMinutes": 4040,
+        "actions": {
+          "journey_collect": 46,
+          "journey_deliver": 46,
+          "journey_fieldnote": 25,
+          "journey_survey": 53,
+          "journey_clear": 76,
+          "journey_message": 59,
+          "journey_mend": 21
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 87.7,
+          "craft": 94.6,
+          "curiosity": 60.6,
+          "connectionNeed": 41.4
+        },
+        "finalCashCents": 1181900,
+        "tailDays": 7,
+        "tailRegions": [
+          "ridge",
+          "bookstore",
+          "ford"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_message",
+          "journey_mend",
+          "journey_clear",
+          "journey_survey",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 22,
+        "tailMoves": 18
+      },
+      "after": {
+        "background": "creator",
+        "seed": 19,
+        "days": 100,
+        "awakeMinutes": 96000,
+        "calendarDays": 100,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 368,
+        "passThroughs": 99,
+        "immediateReturns": 10,
+        "homeMinutes": 2075,
+        "longestAtHome": 545,
+        "studyMinutes": 0,
+        "transitMinutes": 16650,
+        "waitingMinutes": 17270,
+        "waitingByReason": {
+          "all_candidates_blocked": 3345,
+          "waiting_for_appointment": 1465,
+          "no_candidates": 10500,
+          "waiting_for_partner": 130,
+          "no_feasible_itinerary": 1830
+        },
+        "waitEpisodes": {
+          "count": 409,
+          "totalMinutes": 17270,
+          "median": 30,
+          "p90": 75,
+          "p95": 95,
+          "max": 230,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 317,
+              "totalMinutes": 15985
+            },
+            {
+              "minutes": 60,
+              "count": 134,
+              "totalMinutes": 10070
+            },
+            {
+              "minutes": 120,
+              "count": 12,
+              "totalMinutes": 1760
+            },
+            {
+              "minutes": 180,
+              "count": 2,
+              "totalMinutes": 425
+            },
+            {
+              "minutes": 240,
+              "count": 0,
+              "totalMinutes": 0
+            }
+          ],
+          "histogram": {
+            "5": 19,
+            "10": 24,
+            "15": 13,
+            "20": 29,
+            "25": 7,
+            "30": 147,
+            "35": 11,
+            "40": 12,
+            "45": 6,
+            "50": 3,
+            "55": 4,
+            "60": 87,
+            "65": 2,
+            "70": 3,
+            "75": 3,
+            "80": 2,
+            "85": 3,
+            "90": 13,
+            "95": 3,
+            "100": 1,
+            "105": 1,
+            "110": 2,
+            "115": 2,
+            "120": 5,
+            "125": 1,
+            "140": 1,
+            "150": 2,
+            "170": 1,
+            "195": 1,
+            "230": 1
+          }
+        },
+        "longestWait": 230,
+        "longWaitMinutes": 1760,
+        "activityMinutes": {
+          "journey_collect": 1500,
+          "work": 9780,
+          "leisure": 1800,
+          "move": 16650,
+          "journey_deliver": 1500,
+          "eat": 6560,
+          "journey_fieldnote": 840,
+          "social": 7050,
+          "create": 3060,
+          "observe": 60,
+          "waiting": 17270,
+          "exercise": 6900,
+          "visit": 120,
+          "revise": 2970,
+          "gather": 1320,
+          "collaborate": 1320,
+          "journey_survey": 1290,
+          "care": 2580,
+          "journey_clear": 6815,
+          "supplies": 870,
+          "pack_meals": 3330,
+          "journey_message": 1440,
+          "contact": 405,
+          "journey_mend": 570
+        },
+        "focusMinutes": 200,
+        "focusWindows": 480,
+        "noOutcomeWindows": 5,
+        "allWaitingWindows": 1,
+        "longestSameRegionAwakeMinutes": 3365,
+        "actions": {
+          "journey_collect": 50,
+          "journey_deliver": 50,
+          "journey_fieldnote": 28,
+          "journey_survey": 43,
+          "journey_clear": 75,
+          "journey_message": 48,
+          "journey_mend": 19
+        },
+        "initialAttributes": {
+          "stamina": 42,
+          "craft": 35,
+          "curiosity": 52,
+          "connectionNeed": 41
+        },
+        "finalAttributes": {
+          "stamina": 87.2,
+          "craft": 94.6,
+          "curiosity": 57.3,
+          "connectionNeed": 51.9
+        },
+        "finalCashCents": 1299700,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_message",
+          "journey_clear",
+          "journey_collect",
+          "journey_deliver",
+          "journey_survey"
+        ],
+        "tailTasks": 18,
+        "tailMoves": 22
+      }
+    },
+    {
+      "days": 365,
+      "seed": 41,
+      "background": "low_assets",
+      "before": {
+        "background": "low_assets",
+        "seed": 41,
+        "days": 365,
+        "awakeMinutes": 350400,
+        "calendarDays": 365,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 1310,
+        "passThroughs": 369,
+        "immediateReturns": 29,
+        "homeMinutes": 21010,
+        "longestAtHome": 495,
+        "studyMinutes": 360,
+        "transitMinutes": 71530,
+        "waitingMinutes": 73715,
+        "waitingByReason": {
+          "all_candidates_blocked": 46850,
+          "no_feasible_itinerary": 3840,
+          "waiting_for_appointment": 5275,
+          "no_candidates": 17405,
+          "waiting_for_partner": 345
+        },
+        "waitEpisodes": {
+          "count": 1181,
+          "totalMinutes": 73715,
+          "median": 30,
+          "p90": 155,
+          "p95": 195,
+          "max": 300,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 886,
+              "totalMinutes": 69460
+            },
+            {
+              "minutes": 60,
+              "count": 439,
+              "totalMinutes": 54630
+            },
+            {
+              "minutes": 120,
+              "count": 221,
+              "totalMinutes": 37860
+            },
+            {
+              "minutes": 180,
+              "count": 93,
+              "totalMinutes": 19915
+            },
+            {
+              "minutes": 240,
+              "count": 22,
+              "totalMinutes": 5640
+            }
+          ],
+          "histogram": {
+            "5": 69,
+            "10": 51,
+            "15": 66,
+            "20": 63,
+            "25": 46,
+            "30": 349,
+            "35": 22,
+            "40": 19,
+            "45": 22,
+            "50": 17,
+            "55": 18,
+            "60": 86,
+            "65": 9,
+            "70": 13,
+            "75": 6,
+            "80": 4,
+            "85": 6,
+            "90": 66,
+            "95": 7,
+            "100": 6,
+            "105": 7,
+            "110": 5,
+            "115": 3,
+            "120": 41,
+            "125": 3,
+            "130": 5,
+            "135": 5,
+            "140": 9,
+            "145": 2,
+            "150": 37,
+            "155": 7,
+            "160": 9,
+            "165": 4,
+            "170": 2,
+            "175": 4,
+            "180": 20,
+            "185": 2,
+            "190": 5,
+            "195": 7,
+            "200": 1,
+            "205": 3,
+            "210": 14,
+            "215": 7,
+            "220": 4,
+            "225": 2,
+            "230": 2,
+            "235": 4,
+            "240": 9,
+            "245": 2,
+            "250": 1,
+            "255": 1,
+            "260": 2,
+            "265": 1,
+            "270": 2,
+            "280": 2,
+            "300": 2
+          }
+        },
+        "longestWait": 300,
+        "longWaitMinutes": 37860,
+        "activityMinutes": {
+          "work": 39935,
+          "leisure": 3630,
+          "journey_collect": 5310,
+          "study": 360,
+          "eat": 23740,
+          "move": 71530,
+          "journey_deliver": 5280,
+          "social": 20070,
+          "water": 7110,
+          "observe": 60,
+          "waiting": 73715,
+          "practice": 120,
+          "exercise": 21900,
+          "visit": 120,
+          "garden_project": 90,
+          "care": 6570,
+          "journey_message": 6510,
+          "journey_survey": 5610,
+          "gather": 9480,
+          "harvest": 5460,
+          "journey_clear": 25380,
+          "supplies": 2190,
+          "journey_fieldnote": 2250,
+          "repair": 10200,
+          "journey_mend": 1770,
+          "contact": 2010
+        },
+        "focusMinutes": 200,
+        "focusWindows": 1752,
+        "noOutcomeWindows": 67,
+        "allWaitingWindows": 14,
+        "longestSameRegionAwakeMinutes": 3105,
+        "actions": {
+          "journey_collect": 177,
+          "journey_deliver": 176,
+          "journey_message": 217,
+          "journey_survey": 187,
+          "journey_clear": 282,
+          "journey_fieldnote": 75,
+          "journey_mend": 59
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 89.2,
+          "craft": 94.6,
+          "curiosity": 65.6,
+          "connectionNeed": 69.6
+        },
+        "finalCashCents": 4312400,
+        "tailDays": 7,
+        "tailRegions": [
+          "ford",
+          "bookstore",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_clear",
+          "journey_message",
+          "journey_survey",
+          "journey_collect",
+          "journey_deliver",
+          "journey_fieldnote"
+        ],
+        "tailTasks": 23,
+        "tailMoves": 20
+      },
+      "after": {
+        "background": "low_assets",
+        "seed": 41,
+        "days": 365,
+        "awakeMinutes": 350400,
+        "calendarDays": 365,
+        "regions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "moves": 1266,
+        "passThroughs": 355,
+        "immediateReturns": 25,
+        "homeMinutes": 11635,
+        "longestAtHome": 535,
+        "studyMinutes": 360,
+        "transitMinutes": 70360,
+        "waitingMinutes": 56190,
+        "waitingByReason": {
+          "all_candidates_blocked": 28895,
+          "waiting_for_appointment": 5945,
+          "no_feasible_itinerary": 1500,
+          "waiting_for_partner": 580,
+          "no_candidates": 19270
+        },
+        "waitEpisodes": {
+          "count": 1279,
+          "totalMinutes": 56190,
+          "median": 30,
+          "p90": 90,
+          "p95": 105,
+          "max": 260,
+          "thresholds": [
+            {
+              "minutes": 30,
+              "count": 946,
+              "totalMinutes": 51510
+            },
+            {
+              "minutes": 60,
+              "count": 431,
+              "totalMinutes": 34155
+            },
+            {
+              "minutes": 120,
+              "count": 52,
+              "totalMinutes": 7635
+            },
+            {
+              "minutes": 180,
+              "count": 9,
+              "totalMinutes": 1780
+            },
+            {
+              "minutes": 240,
+              "count": 1,
+              "totalMinutes": 260
+            }
+          ],
+          "histogram": {
+            "5": 72,
+            "10": 80,
+            "15": 60,
+            "20": 81,
+            "25": 40,
+            "30": 382,
+            "35": 34,
+            "40": 23,
+            "45": 22,
+            "50": 35,
+            "55": 19,
+            "60": 235,
+            "65": 10,
+            "70": 12,
+            "75": 13,
+            "80": 16,
+            "85": 8,
+            "90": 61,
+            "95": 4,
+            "100": 5,
+            "105": 8,
+            "110": 4,
+            "115": 3,
+            "120": 16,
+            "125": 3,
+            "130": 3,
+            "135": 2,
+            "140": 1,
+            "145": 4,
+            "150": 9,
+            "155": 1,
+            "160": 1,
+            "165": 1,
+            "175": 2,
+            "180": 4,
+            "185": 2,
+            "200": 1,
+            "230": 1,
+            "260": 1
+          }
+        },
+        "longestWait": 260,
+        "longWaitMinutes": 7635,
+        "activityMinutes": {
+          "work": 46560,
+          "leisure": 4260,
+          "journey_collect": 4560,
+          "study": 360,
+          "eat": 23660,
+          "move": 70360,
+          "journey_deliver": 4560,
+          "social": 20910,
+          "water": 7140,
+          "observe": 60,
+          "waiting": 56190,
+          "practice": 120,
+          "exercise": 22860,
+          "visit": 120,
+          "garden_project": 90,
+          "care": 8070,
+          "pack_meals": 10170,
+          "journey_survey": 6450,
+          "gather": 10020,
+          "harvest": 5430,
+          "journey_clear": 26550,
+          "supplies": 2700,
+          "contact": 1980,
+          "journey_fieldnote": 3030,
+          "repair": 6840,
+          "journey_message": 5370,
+          "journey_mend": 1980
+        },
+        "focusMinutes": 200,
+        "focusWindows": 1752,
+        "noOutcomeWindows": 10,
+        "allWaitingWindows": 1,
+        "longestSameRegionAwakeMinutes": 4320,
+        "actions": {
+          "journey_collect": 152,
+          "journey_deliver": 152,
+          "journey_survey": 215,
+          "journey_clear": 295,
+          "journey_fieldnote": 101,
+          "journey_message": 179,
+          "journey_mend": 66
+        },
+        "initialAttributes": {
+          "stamina": 52,
+          "craft": 55,
+          "curiosity": 39,
+          "connectionNeed": 50
+        },
+        "finalAttributes": {
+          "stamina": 89.2,
+          "craft": 94.6,
+          "curiosity": 66.7,
+          "connectionNeed": 63.7
+        },
+        "finalCashCents": 4726300,
+        "tailDays": 7,
+        "tailRegions": [
+          "bookstore",
+          "ford",
+          "ridge"
+        ],
+        "tailKinds": [
+          "journey_collect",
+          "journey_deliver",
+          "journey_message",
+          "journey_survey",
+          "journey_clear",
+          "journey_mend"
+        ],
+        "tailTasks": 20,
+        "tailMoves": 22
+      }
+    }
+  ]
+}

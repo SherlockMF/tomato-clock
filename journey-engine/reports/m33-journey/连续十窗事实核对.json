@@ -1,0 +1,125 @@
+{
+  "id": "56caf12c-f607-46ce-9c70-0a7ed93ed5a7",
+  "first": 197,
+  "last": 206,
+  "seed": 19,
+  "revision": 5,
+  "rate": 6,
+  "samples": [
+    {
+      "sequence": 197,
+      "minutes": 25,
+      "text": "知夏带着自己的材料到廊坊·河边咖啡店，和小梅一起整理了各自带来的记录。两人一起写成了《廊坊·桥边书店低水位露出的滩地与花圃的新芽》。",
+      "refs": [
+        "v142356"
+      ],
+      "topic": "合作",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 198,
+      "minutes": 25,
+      "text": "知夏先前在廊坊·桥边书店收进包里的《榫卯入门》，这次送回了原来的书站。收书人核对馆藏，将它放回可以借出的书架。",
+      "refs": [
+        "v141079",
+        "v142629"
+      ],
+      "topic": "还书",
+      "source": "controlled",
+      "context": true
+    },
+    {
+      "sequence": 199,
+      "minutes": 25,
+      "text": "知夏看完小梅从异地发来的消息，里面讲的是“廊坊·桥边书店低水位露出的滩地”。知夏写了回信，把回应发给了对方。",
+      "refs": [
+        "v143450"
+      ],
+      "topic": "通信",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 200,
+      "minutes": 25,
+      "text": "知夏翻开旅途手记，把在蓝渡镇·渡口书站亲历的“把《榫卯入门》送回蓝渡镇·渡口书站”记了下来。",
+      "refs": [
+        "v143769"
+      ],
+      "topic": "手记",
+      "source": "controlled",
+      "context": false
+    },
+    {
+      "sequence": 201,
+      "minutes": 25,
+      "text": "知夏在青岑镇·山前驿站沿岸停了半小时。退水以后，河滩的一层层泥纹露了出来。知夏把眼前的水痕和0格的读数放在同一页手记里。",
+      "refs": [
+        "v146175"
+      ],
+      "topic": "水情",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 202,
+      "minutes": 25,
+      "text": "知夏把“青岑镇·山前驿站低水位露出的滩地”整理成作品，留在青岑镇·山前驿站。先前写下的观察，现在也能给来这里的人看了。",
+      "refs": [
+        "v146505"
+      ],
+      "topic": "作品",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 203,
+      "minutes": 10,
+      "text": "知夏回到青岑镇·山前驿站，用已经备好的洗护用品洗换衣物、收拾生活空间。手边的用品少了一份，日常维护的需要得到缓解。",
+      "refs": [
+        "v146852"
+      ],
+      "topic": "起居",
+      "source": "controlled",
+      "context": false
+    },
+    {
+      "sequence": 204,
+      "minutes": 25,
+      "text": "知夏和小梅在廊坊·桥边书店碰面，互相聊了聊最近的安排。这次交流实际占用了双方30分钟，先前的邀请得到履行。",
+      "refs": [
+        "v147477"
+      ],
+      "topic": "约见",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 205,
+      "minutes": 25,
+      "text": "知夏在廊坊·桥边书店给《河道旧影》松脱的书脊重新穿线，把散页装回去。借阅台把修好的这一本重新上架。",
+      "refs": [
+        "v147587"
+      ],
+      "topic": "还书",
+      "source": "local_model",
+      "context": false
+    },
+    {
+      "sequence": 206,
+      "minutes": 25,
+      "text": "小梅捎来消息，廊坊·河岸公园拦网上剩下的3筐漂枝，她已经清完了。知夏先前从那张网上捞走了3筐，读完便给她回了信。",
+      "refs": [
+        "v148493",
+        "v143775",
+        "v143151",
+        "v138129",
+        "v138125"
+      ],
+      "topic": "通信",
+      "source": "controlled",
+      "context": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import {isDeepStrictEqual} from 'node:util';import type {Evidence32} from './store.ts';
+export interface Story32 {title:string;paragraphs:{text:string;refs:string[]}[];changes:{text:string;ref:string}[];memories:{text:string;ref:string}[];current:{time:number;location:string;cashCents:number};next:{text:string;ref:string}[];quality:'HUMAN_PENDING';model:'LLM_NOT_RUN';evidenceDigest:string}
+export function story32(e:Evidence32):Story32{
+ const hero=e.config.hero,p=e.config.people.find(p=>p.id===hero)!,facts=e.records.filter(r=>r.fact?.actors.includes(hero)||r.fact?.affected?.includes(hero)),meaningful=facts.filter(r=>r.fact!.opportunity),chosen=meaningful.length?meaningful:facts.filter(r=>r.fact!.kind!=='waiting').slice(-2);
+ const paragraphs=chosen.map(r=>({text:r.fact!.text,refs:[r.id]}));if(!paragraphs.length)paragraphs.push({text:`${p.name}这段时间没有完成新的生活安排。没有把等待写成新的经历。`,refs:[e.records.at(-1)!.id]});
+ const sleep=e.records.find(r=>r.actor===hero&&r.world?.kind==='sleep_started');if(sleep)paragraphs.push({text:`这一窗包含实际睡眠。专注预算只消耗清醒时间，睡眠期间没有替${p.name}完成清醒行动。`,refs:[sleep.id]});
+ const w=e.after.worlds[hero]!;return{title:p.name+'的连续生活',paragraphs,changes:meaningful.flatMap(r=>r.fact!.newState.map(text=>({text,ref:r.id}))),memories:e.after.memories.filter(m=>m.actor===hero&&e.records.some(r=>r.id===m.source)).map(m=>({text:m.text,ref:m.source})),current:{time:w.time,location:w.locationId,cashCents:w.cashCents},next:e.after.goals.filter(g=>g.actor===hero&&g.level==='stage'&&['active','paused','pending'].includes(g.status)).map(g=>({text:g.text,ref:g.source})),quality:'HUMAN_PENDING',model:'LLM_NOT_RUN',evidenceDigest:e.digest};
+}
+export function verifyStory32(e:Evidence32,story:Story32):string[]{return isDeepStrictEqual(story32(e),story)?[]:['controlled_fact_render_mismatch'];}

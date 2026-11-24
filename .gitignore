@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.sqlite*
+__pycache__/
+/life_sim_codex_handoff/
+/虚拟人生_Codex开发交接包.zip

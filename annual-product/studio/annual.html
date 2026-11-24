@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#191d2c"><title>平行人生 · 旅居番茄钟</title><link rel="stylesheet" href="/annual.css"></head>
+<body data-mode="setup"><header class="mast"><div class="brand"><i aria-hidden="true">✦</i>平行人生</div><nav aria-label="主导航"><a id="home" href="#focus">专注</a><a id="history" href="#journal">旅途手记</a><a id="traveler-nav" href="#traveler">旅人档案</a></nav></header>
+<main><section class="spread" aria-label="旅居番茄钟">
+<div class="illustration" aria-hidden="true"><img id="scene-art" alt="" src="/annual-scenes/journey.webp"></div>
+<div class="desk"><div class="folio"><span id="volume">北京出发 · 离职后的第一年</span></div>
+<div id="setup" hidden><h1>写下旅人的名字</h1><p class="intro"><span id="hero-name">小禾</span>辞去了北京的工作，打算先去武汉见老朋友阿宁。每次专注 25 分钟，回来读一段旅途中的事。</p>
+<form id="depart"><label>旅人昵称<input id="nickname" maxlength="24" placeholder="小禾" autocomplete="off"></label>
+<div class="fields"><label>初始人格<select id="mbti" required><option value="" disabled selected>选择 MBTI</option></select></label><label>旅人性别<select id="gender"><option>女</option><option>男</option></select></label></div>
+<button class="primary" id="begin" type="submit">开始第一次专注 <span aria-hidden="true">→</span></button>
+<button class="skip" id="test-depart" type="submit">跳过专注，试读第一段（测试）</button></form></div>
+<div id="focus" hidden><h1 id="focus-title" tabindex="-1">专注时间</h1><p id="timer" class="timer" role="timer" aria-label="剩余专注时间">25:00</p><p id="focus-note" class="intro"></p><div class="actions"><button class="primary" id="main-action"></button><button class="quiet" id="cancel" hidden>取消本次</button></div><a class="quiet local-link" id="latest-story" hidden>阅读最新一段</a><button class="skip" id="test-focus">跳过本次专注（测试）</button></div>
+<article id="reading" hidden aria-labelledby="reading-title"><h1 id="reading-title" tabindex="-1"></h1><p id="date"></p><div id="prose"></div>
+<details id="account"><summary>本段收支</summary><p id="balance"></p></details>
+<div class="actions"><button class="primary" id="again">开始下一次专注 <span aria-hidden="true">→</span></button><button class="quiet" id="share-card" disabled>生成分享图</button><button class="quiet" id="copy">复制这段故事</button></div><button class="skip" id="test-next">跳过专注，试读下一段（测试）</button><textarea id="copytext" readonly aria-label="可手动复制的故事" hidden></textarea></article>
+<section id="archive" hidden aria-labelledby="journal-title"><h1 id="journal-title" tabindex="-1">旅途手记</h1><p class="intro" id="archive-note"></p>
+<a class="quiet local-link" href="#focus" id="archive-empty">前往专注 →</a>
+<div id="library" hidden>
+<details id="journal-index"><summary>目录与单段查找</summary>
+<label id="journal-day-label">跳到旅途日期<select id="journal-day"></select></label>
+<div class="library-tools"><label>故事月份<select id="month"><option value="">全部月份</option></select></label><label>解锁方式<select id="kind"><option value="">全部故事</option><option value="focus">专注完成</option><option value="test">测试试读</option></select></label>
+<form id="jump"><label>按段号查找<input type="number" id="saved" min="1" step="1" required inputmode="numeric"></label><button class="quiet" id="open-saved">打开</button></form></div>
+<ul id="entries" aria-label="已解锁的故事"></ul><p id="list-info" role="status"></p><div class="pager"><button id="prev" class="quiet">上一页</button><button id="next" class="quiet">下一页</button></div></details>
+<article id="journal-prose" aria-labelledby="journal-title"></article></div></section>
+<section id="traveler" hidden aria-labelledby="traveler-title"><h1 id="traveler-title" tabindex="-1">旅人档案</h1><p id="profile-empty" class="intro">从北京出发前，先为旅人起个名字。<a class="local-link" href="#focus">建立档案 →</a></p>
+<div id="profile-content" hidden><div class="identity"><h2 id="profile-name"></h2><button class="quiet" id="edit-name">改昵称</button></div>
+<p class="intro" id="identity-line"></p><dl class="profile-stats"><div><dt>完成专注</dt><dd id="focus-count"></dd></div><div><dt>累计专注</dt><dd id="focus-time"></dd></div><div><dt>测试试读</dt><dd id="test-count"></dd></div></dl>
+<section class="growth" aria-labelledby="growth-title"><h2 id="growth-title">人格变化</h2>
+<p class="intro" id="growth-summary"></p><p class="trait-key">每组两侧合计 100 分，50 / 50 表示两边相当。</p><ul id="growth-axes"></ul></section>
+<section class="growth" aria-labelledby="preferences-title"><h2 id="preferences-title">我的偏好</h2>
+<p class="intro">遇到两种都走得通的安排，旅人会参考你在这里留下的偏好。已有约定会优先兑现。</p>
+<form id="preference-form"><label>遇事时更愿意<select id="direction" required><option value="">选择倾向</option></select></label>
+<label>给这条倾向起个名字（选填）<input id="preference-note" maxlength="80" placeholder="比如，去一个地方先和当地人聊聊"></label>
+<button class="primary">保存偏好</button></form><ul id="preferences"></ul></section>
+<section class="growth" aria-labelledby="decisions-title"><h2 id="decisions-title">关键决定</h2>
+<label id="decision-filter-label" hidden>按偏好回看<select id="decision-filter"></select></label>
+<p class="intro" id="decision-note"></p><ol id="decisions"></ol><div id="decision-older"></div></section>
+<label class="progress-label" for="year-progress">年度故事进度 <span id="progress-number"></span></label><progress id="year-progress" max="1752" value="0"></progress>
+<p id="last-entry" class="intro"></p><a class="quiet local-link" href="#journal">查看旅途手记 →</a></div></section>
+<p id="status" role="status" aria-live="polite">正在打开旅程…</p><button id="retry" class="quiet" hidden>重新读取</button>
+</div></section><footer><a href="/annual">平行人生</a><span id="foot">进度保存在当前浏览器</span></footer></main>
+<dialog id="share-dialog" aria-labelledby="share-title"><header><h2 id="share-title">故事分享图</h2><button class="quiet" id="share-close" aria-label="关闭分享预览">关闭</button></header>
+<p id="share-message" role="status"></p><img id="share-preview" alt="本段旅途故事的分享图" hidden><div class="actions"><a class="primary" id="save-picture" hidden>保存图片</a><button class="quiet" id="send-picture" hidden>系统分享</button></div></dialog>
+<dialog id="profile-dialog" aria-labelledby="profile-title"><form id="profile-form"><h2 id="profile-title">修改旅人昵称</h2><label>旅人昵称<input id="saved-name" maxlength="24" autocomplete="off"></label><p class="intro">已读故事也会使用这个名字。</p><div class="actions"><button class="primary">保存昵称</button><button class="quiet" type="button" id="close-name">取消</button></div></form></dialog>
+<script type="module" src="/annual.js"></script></body></html>

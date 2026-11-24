@@ -1,0 +1,7 @@
+import{parentPort,workerData}from'node:worker_threads';import{setImmediate}from'node:timers/promises';import{Store32,read32}from'../life32r3/store.ts';import{story32,verifyStory32}from'../life32r3/narrative.ts';import type{Job}from'./catalog.ts';
+const data=workerData as{file:string;job:Job},job=data.job;let cancelled=false;parentPort!.on('message',()=>{cancelled=true;});
+try{using store=new Store32(data.file);const start=store.state().time,target=start+(job.request.mode==='week'?7:job.request.mode==='day'?1:0)*1440;job.from=start;job.until=start;job.status='running';parentPort!.postMessage(job);
+ if(job.request.mode==='verify'){store.verify();job.progress=1;job.message='version32完整重放与M1审计通过';}
+ else do{await setImmediate();if(cancelled)break;const sequence=(store.db.prepare('SELECT count(*) n FROM sessions32').get() as{n:number}).n+1;const receipt=store.submit({id:job.id+'-'+sequence,sequence,realMinutes:job.request.realMinutes,rate:job.request.rate}),e=read32(data.file,sequence);const errors=verifyStory32(e,story32(e));if(errors.length)throw Error(errors.join(';'));job.commits++;job.until=receipt.until;job.progress=target>start?Math.min(1,(receipt.until-start)/(target-start)):1;parentPort!.postMessage(job);}while(job.until<target);
+ job.status=cancelled?'cancelled':'completed';job.message=cancelled?'已停止，已提交窗口保留':job.message||'version32事实提交完成；受控文字HUMAN_PENDING';
+}catch(e){job.status='failed';job.message=e instanceof Error?e.message:String(e);}finally{parentPort!.postMessage(job);parentPort!.close();}

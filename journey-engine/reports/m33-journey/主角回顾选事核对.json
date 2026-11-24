@@ -1,0 +1,435 @@
+{
+  "revision": 7,
+  "rate": 8,
+  "simulation": "standard",
+  "demo": "2448835d-2747-49b6-8f67-149c5d3b2129",
+  "summary": [
+    {
+      "bg": "settled",
+      "seed": 19,
+      "days": 100,
+      "windows": 500,
+      "old": {
+        "mean": 0.6619144602851323,
+        "worst": 3,
+        "repeat": 3
+      },
+      "now": {
+        "mean": 0.5173116089613035,
+        "worst": 3,
+        "repeat": 6
+      },
+      "eligible": 119,
+      "oldHits": 65,
+      "newHits": 119,
+      "distinctOutcomes": 129,
+      "waitMinutes": 11695,
+      "waitRuns": 295,
+      "maxWait": 180,
+      "topicRepeat": 43,
+      "oldTopicRepeat": 16
+    },
+    {
+      "bg": "creator",
+      "seed": 19,
+      "days": 100,
+      "windows": 500,
+      "old": {
+        "mean": 0.4989816700610998,
+        "worst": 3,
+        "repeat": 3
+      },
+      "now": {
+        "mean": 0.29938900203665986,
+        "worst": 3,
+        "repeat": 5
+      },
+      "eligible": 103,
+      "oldHits": 68,
+      "newHits": 103,
+      "distinctOutcomes": 109,
+      "waitMinutes": 10355,
+      "waitRuns": 291,
+      "maxWait": 210,
+      "topicRepeat": 39,
+      "oldTopicRepeat": 19
+    },
+    {
+      "bg": "traveler",
+      "seed": 19,
+      "days": 100,
+      "windows": 500,
+      "old": {
+        "mean": 0.4663951120162933,
+        "worst": 3,
+        "repeat": 0
+      },
+      "now": {
+        "mean": 0.2892057026476578,
+        "worst": 2,
+        "repeat": 2
+      },
+      "eligible": 116,
+      "oldHits": 67,
+      "newHits": 116,
+      "distinctOutcomes": 128,
+      "waitMinutes": 10495,
+      "waitRuns": 310,
+      "maxWait": 150,
+      "topicRepeat": 40,
+      "oldTopicRepeat": 20
+    },
+    {
+      "bg": "low_assets",
+      "seed": 19,
+      "days": 100,
+      "windows": 500,
+      "old": {
+        "mean": 0.7596741344195519,
+        "worst": 4,
+        "repeat": 5
+      },
+      "now": {
+        "mean": 0.594704684317719,
+        "worst": 3,
+        "repeat": 9
+      },
+      "eligible": 114,
+      "oldHits": 57,
+      "newHits": 114,
+      "distinctOutcomes": 117,
+      "waitMinutes": 10045,
+      "waitRuns": 278,
+      "maxWait": 150,
+      "topicRepeat": 48,
+      "oldTopicRepeat": 12
+    },
+    {
+      "bg": "settled",
+      "seed": 37,
+      "days": 30,
+      "windows": 150,
+      "old": {
+        "mean": 0.7588652482269503,
+        "worst": 3,
+        "repeat": 0
+      },
+      "now": {
+        "mean": 0.46099290780141844,
+        "worst": 3,
+        "repeat": 3
+      },
+      "eligible": 42,
+      "oldHits": 20,
+      "newHits": 42,
+      "distinctOutcomes": 47,
+      "waitMinutes": 2195,
+      "waitRuns": 72,
+      "maxWait": 120,
+      "topicRepeat": 14
+    },
+    {
+      "bg": "creator",
+      "seed": 37,
+      "days": 30,
+      "windows": 150,
+      "old": {
+        "mean": 0.475177304964539,
+        "worst": 2,
+        "repeat": 1
+      },
+      "now": {
+        "mean": 0.3191489361702128,
+        "worst": 3,
+        "repeat": 4
+      },
+      "eligible": 29,
+      "oldHits": 12,
+      "newHits": 29,
+      "distinctOutcomes": 31,
+      "waitMinutes": 2425,
+      "waitRuns": 72,
+      "maxWait": 240,
+      "topicRepeat": 13
+    },
+    {
+      "bg": "traveler",
+      "seed": 37,
+      "days": 30,
+      "windows": 150,
+      "old": {
+        "mean": 0.375886524822695,
+        "worst": 2,
+        "repeat": 0
+      },
+      "now": {
+        "mean": 0.22695035460992907,
+        "worst": 2,
+        "repeat": 1
+      },
+      "eligible": 27,
+      "oldHits": 13,
+      "newHits": 27,
+      "distinctOutcomes": 29,
+      "waitMinutes": 3080,
+      "waitRuns": 84,
+      "maxWait": 125,
+      "topicRepeat": 14
+    },
+    {
+      "bg": "low_assets",
+      "seed": 37,
+      "days": 30,
+      "windows": 150,
+      "old": {
+        "mean": 0.5319148936170213,
+        "worst": 3,
+        "repeat": 0
+      },
+      "now": {
+        "mean": 0.5602836879432624,
+        "worst": 2,
+        "repeat": 1
+      },
+      "eligible": 40,
+      "oldHits": 16,
+      "newHits": 40,
+      "distinctOutcomes": 42,
+      "waitMinutes": 2690,
+      "waitRuns": 78,
+      "maxWait": 120,
+      "topicRepeat": 8
+    }
+  ],
+  "ten": [
+    {
+      "window": 76,
+      "old": "v76782",
+      "selected": "v76788",
+      "outcomes": [],
+      "oldKey": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+      "key": "[\"contact\",\"联系小周，约一次近况交流\",\"bookstore\"]",
+      "text": "小梅给小周发来邀请，约在廊坊·桥边书店碰面。",
+      "refs": [
+        "v76788"
+      ],
+      "display": {
+        "window": 76,
+        "text": "小梅给小周发来邀请，约在廊坊·桥边书店碰面。",
+        "refs": [
+          "v76788"
+        ],
+        "companions": [
+          {
+            "id": "mei",
+            "name": "小梅"
+          }
+        ],
+        "source": "local_model"
+      }
+    },
+    {
+      "window": 77,
+      "old": "v77068",
+      "selected": "v77068",
+      "outcomes": [],
+      "oldKey": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+      "key": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+      "text": "小周来到廊坊·旧街区照料缺水的花圃，浇水后土壤水分由36恢复到90。花还需要时间生长。",
+      "refs": [
+        "v77068"
+      ],
+      "display": {
+        "window": 77,
+        "text": "小周来到廊坊·旧街区照料缺水的花圃，浇水后土壤水分由36恢复到90。花还需要时间生长。",
+        "refs": [
+          "v77068"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    },
+    {
+      "window": 78,
+      "old": "v78207",
+      "selected": "v78207",
+      "outcomes": [],
+      "oldKey": "[\"travel_journal\",\"记下从岸边拦网上清走3筐漂枝\",\"bookstore\"]",
+      "key": "[\"travel_journal\",\"记下从岸边拦网上清走3筐漂枝\",\"bookstore\"]",
+      "text": "小周翻开旅途手记，把在青岑镇·山前驿站亲历的“从岸边拦网上清走3筐漂枝”记了下来。",
+      "refs": [
+        "v78207"
+      ],
+      "display": {
+        "window": 78,
+        "text": "小周翻开旅途手记，把在青岑镇·山前驿站亲历的“从岸边拦网上清走3筐漂枝”记了下来。",
+        "refs": [
+          "v78207"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    },
+    {
+      "window": 79,
+      "old": "v80340",
+      "selected": "v80340",
+      "outcomes": [],
+      "oldKey": "[\"journey_collect\",\"领取异地还回的《榫卯入门》\",\"bookstore\"]",
+      "key": "[\"journey_collect\",\"领取异地还回的《榫卯入门》\",\"bookstore\"]",
+      "text": "小周在廊坊·桥边书店清点还书箱，把《榫卯入门》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+      "refs": [
+        "v80340"
+      ],
+      "display": {
+        "window": 79,
+        "text": "小周在廊坊·桥边书店清点还书箱，把《榫卯入门》放进行囊。这本书属于蓝渡镇·渡口书站，那边的书架仍空着它的位置。",
+        "refs": [
+          "v80340"
+        ],
+        "companions": [],
+        "source": "local_model"
+      }
+    },
+    {
+      "window": 80,
+      "old": "v80999",
+      "selected": "v80673",
+      "outcomes": [
+        "v80673"
+      ],
+      "oldKey": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+      "key": "[\"journey_deliver\",\"把《榫卯入门》送回蓝渡镇·渡口书站\",\"ford\"]",
+      "text": "小周先前在廊坊·桥边书店收进包里的《榫卯入门》，这次送回了原来的书站。收书人核对馆藏，将它放回可以借出的书架。",
+      "refs": [
+        "v80340",
+        "v80673"
+      ],
+      "display": {
+        "window": 80,
+        "text": "小周先前在廊坊·桥边书店收进包里的《榫卯入门》，这次送回了原来的书站。收书人核对馆藏，将它放回可以借出的书架。",
+        "refs": [
+          "v80340",
+          "v80673"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    },
+    {
+      "window": 81,
+      "old": "v81519",
+      "selected": "v81519",
+      "outcomes": [],
+      "oldKey": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+      "key": "[\"work\",\"独立负责值班与交接核查\",\"bookstore\"]",
+      "text": "小周在廊坊·桥边书店一共值班120分钟，分2笔领到100元工钱。",
+      "refs": [
+        "v81301",
+        "v81519"
+      ],
+      "display": {
+        "window": 81,
+        "text": "小周在廊坊·桥边书店一共值班120分钟，分2笔领到100元工钱。",
+        "refs": [
+          "v81301",
+          "v81519"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    },
+    {
+      "window": 82,
+      "old": "v81952",
+      "selected": "v81952",
+      "outcomes": [],
+      "oldKey": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+      "key": "[\"journey_survey\",\"沿岸复测水位并更新还书点通告\",\"ridge\"]",
+      "text": "小周在青岑镇·山前驿站的堤岸核对水尺，上次记录是4格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+      "refs": [
+        "v81952"
+      ],
+      "display": {
+        "window": 82,
+        "text": "小周在青岑镇·山前驿站的堤岸核对水尺，上次记录是4格，这次是1格。这张新通告提醒沿路的读者可以来这里还书。",
+        "refs": [
+          "v81952"
+        ],
+        "companions": [],
+        "source": "local_model"
+      }
+    },
+    {
+      "window": 83,
+      "old": "v82966",
+      "selected": "v82966",
+      "outcomes": [],
+      "oldKey": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+      "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+      "text": "小周在青岑镇·山前驿站把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩3筐。",
+      "refs": [
+        "v82966"
+      ],
+      "display": {
+        "window": 83,
+        "text": "小周在青岑镇·山前驿站把岸边拦网里的漂枝捞出、分筐运离。清走3筐后，网里还剩3筐。",
+        "refs": [
+          "v82966"
+        ],
+        "companions": [],
+        "source": "local_model"
+      }
+    },
+    {
+      "window": 84,
+      "old": "v85241",
+      "selected": "v85241",
+      "outcomes": [
+        "v85241"
+      ],
+      "oldKey": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+      "key": "[\"journey_clear\",\"从岸边拦网上清走3筐漂枝\",\"ridge\"]",
+      "text": "小周上次在青岑镇·山前驿站捞走了3筐漂枝，拦网上还挂着3筐。这回把剩下的也搬上了岸，拦网清空了。",
+      "refs": [
+        "v82966",
+        "v82970",
+        "v85241",
+        "v85245"
+      ],
+      "display": {
+        "window": 84,
+        "text": "小周上次在青岑镇·山前驿站捞走了3筐漂枝，拦网上还挂着3筐。这回把剩下的也搬上了岸，拦网清空了。",
+        "refs": [
+          "v82966",
+          "v82970",
+          "v85241",
+          "v85245"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    },
+    {
+      "window": 85,
+      "old": "v85625",
+      "selected": "v85625",
+      "outcomes": [],
+      "oldKey": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+      "key": "[\"water\",\"为缺水的社区花圃浇水\",\"street\"]",
+      "text": "小周来到廊坊·旧街区照料缺水的花圃，浇水后土壤水分由24恢复到90。花还需要时间生长。",
+      "refs": [
+        "v85625"
+      ],
+      "display": {
+        "window": 85,
+        "text": "小周来到廊坊·旧街区照料缺水的花圃，浇水后土壤水分由24恢复到90。花还需要时间生长。",
+        "refs": [
+          "v85625"
+        ],
+        "companions": [],
+        "source": "controlled"
+      }
+    }
+  ]
+}
