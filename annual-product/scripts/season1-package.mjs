@@ -18,6 +18,7 @@ function storyArtwork(){
   function visit(state){
     const n=state.unlocked,chapter=chapterAt(n);
     scenes.add(sceneValue(chapter.art,state));
+    if(chapter.readingArt)scenes.add(chapter.readingArt);
     const item=sceneValue(chapter.item,state);
     if(item)scenes.add(item.scene);
     const options=choiceList(state,n);

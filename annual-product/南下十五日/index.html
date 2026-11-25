@@ -56,9 +56,12 @@ body>nav a[aria-current]{color:#ffdaa7;border:0;font-weight:600}
 body>nav a[aria-current]:before{content:'';position:absolute;top:0;width:26px;height:2px;background:#edbc85}
 #focus.welcoming article{display:none}
 header,main{width:94%;max-width:880px}
-.cover{overflow:hidden;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:0;background:#17252b;border:1px solid #665645;border-radius:14px 14px 0 0}
-.welcoming .cover{border-radius:14px}
-.ready-clock{min-width:0;padding:28px 32px 26px;background:linear-gradient(150deg,#25363b,#152127 78%);color:#fff4df}
+/* The cover, chapter opener and decisions share the same illustrated edition. */
+:root{--display:Georgia,"Noto Serif SC","Songti SC","STSong","SimSun",serif;--paper:#fcf1df;--night:#17222b}
+header b,h1,h2,h3,.prose{font-family:var(--display)}
+.cover{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,310px);align-items:start;align-content:space-between;min-height:370px;padding:26px;background:linear-gradient(175deg,rgba(9,20,32,.88),rgba(10,21,31,.14) 57%,rgba(12,22,28,.65)),var(--season-cover) center 47%/cover;border:1px solid #6b5a44;border-radius:8px 8px 0 0;overflow:hidden}
+.welcoming .cover{min-height:480px;height:67vh;max-height:640px;border-radius:8px}
+.ready-clock{grid-column:2;grid-row:2;align-self:end;min-width:0;padding:14px 19px 12px;color:#fff4df;background:rgba(20,35,41,.96);border:1px solid #bb9d79;border-radius:10px;box-shadow:0 6px 25px #10202c45}
 .ready-heading{display:flex;justify-content:space-between;align-items:center}
 .ready-heading h1{margin:0;font-size:1.38rem;font-weight:500;letter-spacing:.07em}
 #open-guide{background:transparent;border:0;color:#e5c8a2;min-height:44px;margin-right:-8px;padding:8px;font-size:.86rem}
@@ -68,22 +71,35 @@ header,main{width:94%;max-width:880px}
 #ready-time:not([hidden]) ~ #depart:before{content:'';width:0;height:0;margin-right:10px;border-left:8px solid currentColor;border-top:5px solid transparent;border-bottom:5px solid transparent}
 #depart:hover{background:#ffdfb5}
 #depart:disabled{opacity:.55}
-#focus-reward{margin:8px 0 0;text-align:center;color:#d6cbc0;font-size:.86rem}
-.journey-cover{display:flex;align-items:flex-end;min-width:0;padding:26px;color:#fff1d9;background:linear-gradient(0deg,rgba(12,21,28,.94),rgba(15,23,29,.50) 28%,rgba(15,23,29,.03) 66%),var(--season-cover) center 44%/cover}
-.journey-cover p{margin:0;text-shadow:0 1px 5px #17202b}
-.journey-cover .season-label{color:#f7ce99;font-size:.78rem;letter-spacing:.14em}
-.journey-cover h2{margin:3px 0 5px;font-size:1.85rem;font-weight:500;line-height:1.25}
-#premise,#summary{font-size:.87rem;line-height:1.6;overflow-wrap:anywhere}
+#focus-reward{margin:12px 0 0;color:#ffe5c1;font:500 1rem/1.55 var(--display);overflow-wrap:anywhere}
+.journey-cover{grid-area:1/1/2/-1;color:#fff1d9;min-width:0}
+.journey-cover .season-label{margin:0;color:#ffdfb0;font-size:.82rem;letter-spacing:.15em}
+.journey-cover h2{margin:14px 0 0;font:550 3.5rem/1.25 var(--display);letter-spacing:-.035em;text-shadow:0 3px 18px #14212a}
+.journey-cover em{font-style:normal;color:#ffdbab}
+#summary{margin:.5em 0;font:500 1.25rem/1.5 var(--display);overflow-wrap:anywhere}
+#ready-time{font-size:4.2rem;margin:0 0 7px}
 @media(max-width:600px){
-  .cover{grid-template-columns:minmax(0,1fr)}
-  .ready-clock{padding:14px 20px 16px}
-  #ready-time{font-size:4.5rem;margin:3px 0 12px}
-  .journey-cover{min-height:145px;padding:16px 20px;background-position:center 40%}
-  .welcoming .journey-cover{height:29vh;max-height:275px;min-height:150px}
-  .journey-cover h2{font-size:1.55rem}
-  #premise span{display:block}
+  .cover{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;padding:16px;min-height:0}
+  .welcoming .cover{height:calc(100vh - 159px);height:calc(100dvh - 159px);min-height:354px;max-height:660px}
+  .minitool .welcoming .cover{height:calc(100vh - 195px);height:calc(100dvh - 195px);min-height:343px}
+  .journey-cover h2{font-size:2.12rem;margin:9px 0}
+  .ready-clock{width:90%;max-width:315px;align-self:flex-end;margin-top:14px;padding:8px 14px 12px}
+  .ready-heading h1{font-size:1.07rem}
+  #ready-time{font-size:3.35rem;margin:0 0 5px}
+  #depart{min-height:44px;margin-top:8px}
+  #focus-reward{font-size:.95rem;margin:8px 0 0}
+  .journey-cover .season-label{font-size:.76rem}
 }
-@media(max-height:560px) and (min-width:601px){.ready-clock{padding:12px 24px}#ready-time{font-size:3.8rem;margin:0 0 7px}#depart{margin-top:8px}}
+@media(max-height:650px) and (max-width:600px){
+  .cover,.welcoming .cover{padding:10px}
+  .journey-cover h2{font-size:1.65rem;line-height:1.18;margin:.15em 0}
+  .ready-clock{margin-top:4px}
+}
+@media(max-height:560px) and (min-width:601px){
+  .welcoming .cover,.cover{min-height:0;height:auto;grid-template-rows:auto}
+  .ready-clock{grid-row:1} .journey-cover{grid-column:1}
+  .journey-cover h2{font-size:2.5rem}#ready-time{font-size:3.3rem}
+}
 #setup-sheet,#guide-sheet{width:90%;max-width:430px;margin:auto;max-height:85vh;overflow:auto;padding:24px;border:1px solid #c2a889;border-radius:15px;background:var(--paper);color:var(--ink);color-scheme:light}
 #setup-sheet::backdrop,#guide-sheet::backdrop{background:rgba(11,17,28,.78)}
 .sheet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
@@ -107,7 +123,9 @@ header,main{width:94%;max-width:880px}
 .entry-share,.reading-skip{color:#69513b;border:0;background:transparent;font-size:.9rem}
 .entry-share{margin-left:auto;flex-shrink:0}
 .entry-share:hover,.reading-skip:hover{text-decoration:underline;text-underline-offset:.25em}
-.reading-next{display:grid;gap:12px;max-width:30rem;margin:24px auto 0}
+.reading-next{display:grid;gap:10px;max-width:30rem;margin:26px auto 0;padding:8px 0}
+.next-chapter{margin:0;text-align:center;color:#6a5542;font:1rem/1.55 var(--display)}
+.book-continue{display:block;margin:1.5rem auto 0;padding:.7rem;text-align:center}
 .duration-picker{min-width:0;margin:0;padding:0;border:0}
 .duration-picker legend{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 .duration-options{display:flex;align-items:stretch;padding:3px;border:1px solid #506064;border-radius:9px;background:#101e25}
@@ -139,12 +157,26 @@ header,main{width:94%;max-width:880px}
 .book-chapter h3{font:500 clamp(1.25rem,3vw,1.6rem)/1.5 Georgia,"Songti SC","SimSun",serif}
 .book-chapter .prose:first-of-type,.book-chapter h3+.prose{margin-top:.65em}
 .book-chapter:focus,.decision-note:focus{outline:2px solid #ad8259;outline-offset:5px}
-.current-chapter .chapter-illustration{width:100%;height:158px;height:clamp(126px,30vw,215px);display:block;object-fit:cover;object-position:50% 51%;border-radius:6px}
-.chapter-illustration[data-scene=proof],.chapter-illustration[data-scene=ricecake],.chapter-illustration[data-scene=pressroom]{object-position:50% 59%}
-.chapter-illustration[data-scene=journey]{object-position:50% 37%}
-.current-chapter h2{margin:.65em 0 .15em}
-.current-chapter .meta{margin:.15em 0 .6em}
-.current-chapter .meta+.prose{margin-top:.6em}
+.current-chapter,.choice,#book-pages{--gutter:24px}
+@supports (width:clamp(18px,5vw,44px)){.current-chapter,.choice,#book-pages{--gutter:clamp(18px,5vw,44px)}}
+.chapter-illustration{display:block;width:100%;height:220px;height:clamp(185px,51vw,375px);object-fit:cover;object-position:50% 48%}
+.current-chapter>.chapter-illustration,#book-pages>.chapter-illustration{width:calc(100% + 2 * var(--gutter));max-width:none;margin:0 calc(-1 * var(--gutter))}
+.chapter-illustration[data-scene=journey]{object-position:50% 35%}
+.current-chapter h2,#book-pages>h2{font:550 2rem/1.32 var(--display);letter-spacing:-.025em;margin:8px 0 22px}
+.current-chapter .meta{margin:23px 0 0;color:#835a37;font-size:.85rem;letter-spacing:.055em}
+.current-chapter .prose,.book-chapter .prose{font-size:1.15rem;font-size:clamp(1.1rem,2.5vw,1.38rem);line-height:1.9}
+#book-pages>.chapter-illustration{margin-top:2.5rem}#book-pages>h2{margin-top:1.1rem}
+#focus .choice{margin:24px calc(-1 * var(--gutter)) 0;padding:24px var(--gutter);border:0;color:#fff0da;background:#202b32}
+.choice-place{margin:0;color:#edc493;letter-spacing:.1em;font-size:.8rem}
+.choice h2{font:550 1.65rem/1.4 var(--display);margin:10px 0 20px;text-wrap:balance}
+.choice-context{margin:0 0 16px;font-family:var(--display);color:#f6e5cd}
+.choice .meta{color:#efd5b7}
+.choice .choice-card{position:relative;display:grid;grid-template-columns:30% minmax(0,1fr);align-items:stretch;width:100%;max-width:660px;min-height:90px;padding:0;margin:10px 0 0;border:1px solid #958066;border-radius:7px;overflow:hidden;background:#29373d;color:#fff2df;text-align:left}
+.choice-card img{display:block;width:100%;height:100%;max-height:165px;min-height:90px;object-fit:cover}
+.choice-copy{align-self:center;padding:12px 29px 12px 14px;line-height:1.55}
+.choice button:after{content:'';position:absolute;right:15px;top:50%;width:6px;height:6px;border:solid #e5bc85;border-width:1px 1px 0 0;transform:translateY(-50%) rotate(45deg)}
+.choice button:hover,.choice button:focus-visible{background:#39464a;border-color:#f3cc94}
+@media(max-width:530px){.current-chapter,.choice,#book-pages{--gutter:1.1rem}.current-chapter h2,#book-pages>h2{font-size:1.72rem}}
 .current-chapter+.current-chapter,details+.current-chapter:not(:first-of-type){margin-top:1.5em}
 .first-preference{margin:1rem 0 1.25rem;padding:.8rem 1rem;border-inline-start:3px solid #a75d35;background:#f2e4ce;color:#4e372c}
 .first-preference p{margin:0 0 .25rem;font-weight:600}
@@ -154,6 +186,11 @@ header,main{width:94%;max-width:880px}
 <body><header><b>窗那边</b></header>
 <main><section id="focus" class="welcoming">
 <div class="cover">
+  <div class="journey-cover">
+    <p class="season-label">第一季 · 南下十五日</p>
+    <h2 id="premise">你在专注，<br><em>TA 坐上了南下的车。</em></h2>
+    <p id="summary" hidden></p>
+  </div>
   <div class="ready-clock">
     <div class="ready-heading"><h1>专注番茄钟</h1><button id="open-guide" type="button">使用说明</button></div>
     <p id="ready-time" aria-label="预设专注时长">25:00</p>
@@ -163,12 +200,8 @@ header,main{width:94%;max-width:880px}
         <label><input type="radio" name="next-duration" value="50"><span class="duration-face">50 分钟</span></label>
       </div>
     </fieldset>
+    <p id="focus-reward" aria-live="polite"></p>
     <button id="depart" type="button" disabled>开始专注</button>
-    <p id="focus-reward">完成后，解锁一段旅途手记。</p>
-  </div>
-  <div class="journey-cover">
-    <div><p class="season-label">第一季 · 北京出发</p><h2>南下十五日</h2>
-    <p id="premise"><span>展板上少了一个名字。</span><span>删掉它的人，今天离开了北京。</span></p><p id="summary" hidden></p></div>
   </div>
 </div>
 <article><div id="intro"></div>
@@ -212,6 +245,7 @@ const wuhan = [
   {
     title: '北京西站，开往武汉',
     art: 'journey',
+    readingArt: 'room',
     text: '辞职后头一个早晨，旅人坐上了去武汉的车。车开出北京西站，才敢点开唐青昨晚发来的照片。展板上那段采访还是原样，底下只印着自己的名字。那天印厂正等着收文件，署名挤出了边框。把两行一齐往上挪，还得重校一遍。旅人选中了“采访　唐青”，按下删除。自己的名字倒是原封没动。\n大学同学阿宁从武汉发来一张米糕的照片，边上让人咬掉半口。“我妈嫌我什么都说好吃，叫我找个敢说实话的。你几点到？”{反应}\n小桌上还摊着一本速写簿。上回翻开它，记的是一块展板有多宽。旅人翻到空白页，照着照片画下那一圈牙印，拍给阿宁。她马上回了条语音：“到了别当我妈的面给她看。她一眼就认得是我咬的。”',
     quote: '她一眼就认得是我咬的。',
     pulse: {axis: 'IE', lines: [
@@ -1389,7 +1423,7 @@ function stamp(n){
   const sleep=a.day!==b.day?' · 夜间睡眠已跳过':previousNight?' · 昨夜睡眠已跳过':'';
   return part(a)+' — '+(a.day===b.day?b.time:part(b))+' · '+where(s,n)+sleep;
 }
-function chapterTitle(n){return s.edition===3?chapterPresentation(s,n).title:'第 '+n+' 段手记';}
+function chapterTitle(n){return !s?chapterAt(n).title:s.edition===3?chapterPresentation(s,n).title:'第 '+n+' 段手记';}
 function illustration(n){
   return sceneValue(chapterPresentation(s,n).art,s);
 }
@@ -1401,6 +1435,12 @@ const sceneDescriptions={
   ticketbag:'放在桌上的旧布票袋',kitchen:'厨房案板上的一碗红番茄'
 };
 function prose(t){return make('p',visibleText(s,t),'prose');}
+function chapterImage(n){
+  const scene=chapterPresentation(s,n).readingArt??illustration(n),img=make('img','','chapter-illustration');
+  img.alt=sceneDescriptions[scene];img.dataset.scene=scene;img.src=sceneUrl(scene);
+  img.width=1080;img.height=600;
+  return img;
+}
 function introText(){return visibleText(s,opening);}
 function appendStory(parent,n){
   for(const paragraph of entryText(s,n).split(/\n+/))parent.append(prose(paragraph));
@@ -1409,15 +1449,11 @@ function appendStory(parent,n){
 }
 function appendReadingChapter(parent,n){
   const chapter=make('section','','current-chapter');
-  if(s.edition===3){
-    const scene=illustration(n),img=make('img','','chapter-illustration');
-    img.alt=sceneDescriptions[scene];img.dataset.scene=scene;img.src=sceneUrl(scene);
-    chapter.append(img);
-  }
+  if(s.edition===3)chapter.append(chapterImage(n));
   const title=s.edition!==3&&n===seasonLength()?'南下十五日 · 季终':chapterTitle(n);
-  chapter.append(make('h2',title),make('p',stamp(n),'meta'));
-  if(n===1&&s.unlocked===1)appendFirstPreference(chapter);
+  chapter.append(make('p',stamp(n),'meta'),make('h2',title));
   appendStory(chapter,n);appendPreferenceEcho(chapter,n);
+  if(n===1&&s.unlocked===1)appendFirstPreference(chapter);
   for(const rec of s.trace.filter(r=>r.n===n&&r.previous!==r.current)){
     const note=make('p','','turn');
     const link=make('a','看看这次经历留下的变化');link.href='#decision-'+n+'-'+rec.kind;
@@ -1530,8 +1566,9 @@ function renderHome(waiting,finished,lastChapter){
   $('setup-start').textContent='开始 '+nextMinutes+' 分钟专注';
   depart.disabled=!alive;
   depart.textContent=finished?'重读旅途手记':waiting?'去做决定':'开始专注';
-  $('focus-reward').textContent=finished?'十五天的手记已经收齐。':waiting?'旅人正在等你的决定。选好后，就能继续专注。':
-    '完成后，解锁'+(nextMinutes===50?'两':'一')+'段旅途手记。';
+  const next=(s?.unlocked??0)+1;
+  $('focus-reward').textContent=finished?'十五天的手记已经收齐。':waiting?'旅人正在等你的决定。':
+    '专注 '+nextMinutes+' 分钟，'+(nextMinutes===50?'读两章，从':'读')+'《'+chapterTitle(next)+'》'+(nextMinutes===50?'开始':'')+'。';
   $('premise').hidden=!!s;
   $('summary').hidden=!s;
 }
@@ -1607,14 +1644,23 @@ function renderFocus(){
     }
   }
   if(pending){
-    const q=make('div','','choice'),title=make('h2','这一回，由你决定');
+    const q=make('div','','choice'),title=make('h2',n===5?'六百八的急稿，接不接？':visibleText(s,node.ask));
     title.id='pending-choice';title.tabIndex=-1;
-    q.append(title,make('p',visibleText(s,node.ask)));
+    q.append(make('p',where(s,n)+' · 旅途抉择','choice-place'),title);
+    const options=choiceList(s,n);
+    const scenes={job:'proof',river:'ricecake',credit:'proof',break:'pressroom',knock:'courtyard',note:'room',
+      press:'street',shift:'workshop',refund:'room',reprint:'pressroom',table:'workshop',walk:'street',
+      meet:'ferry',earn:'workshop',room:'room',dorm:'courtyard',workstay:'kitchen',speak:'ticketbag',
+      stand:'ferry',pull:'photo',number:'proof',west:'journey',wuhan:'ricecake',beijing:'room'};
+    if(n===5)q.append(make('p',visibleText(s,node.ask),'choice-context'));
     if(s.credit)q.append(make('p','下一段已经随这次专注解锁，选好就能接着读。','meta'));
-    for(const [key,label] of choiceList(s,n)){
-      const pick=button(label,()=>act({kind:'choose',unlocked:n,key}));
-      if(s.edition===3 && n===34)pick.append(make('small',lodgingForecast(s,key)));
-      if(s.edition===3 && n===44)pick.append(make('small',tickets(s,key).map(([t,c])=>t+' '+c+' 元').join(' · ')));
+    for(const [key,label] of options){
+      const pick=button('',()=>act({kind:'choose',unlocked:n,key}),'choice-card');
+      const img=make('img');img.alt='';img.src=sceneUrl(scenes[key]??illustration(n));
+      const copy=make('span',label,'choice-copy');
+      if(s.edition===3 && n===34)copy.append(make('small',lodgingForecast(s,key)));
+      if(s.edition===3 && n===44)copy.append(make('small',tickets(s,key).map(([t,c])=>t+' '+c+' 元').join(' · ')));
+      pick.append(img,copy);
       q.append(pick);
     }
     if(s.edition===3)for(const option of node.options){
@@ -1624,10 +1670,17 @@ function renderFocus(){
     p.append(q);return;
   }
   if(n===length){const a=make('a','回看十五天的人格变化');a.href='#profile';const line=make('p');line.append(a);p.append(line);return;}
-  const controls=make('div','','reading-next');
   if(n===0)appendFirstPreference(p);
-  controls.append(button(n?'开始下一次专注':'开始第一次专注',()=>timerAction('start'),'reading-start'));
-  p.append(controls);
+  p.append(readingNext(n));
+}
+function readingNext(n,fromBook=false){
+  const controls=make('div','','reading-next');
+  controls.append(make('p','下一章 · '+chapterTitle(n+1),'next-chapter'));
+  controls.append(button(n?'开始下一次专注':'开始第一次专注',()=>{
+    if(fromBook)location.hash='focus';
+    timerAction('start');
+  },'reading-start'));
+  return controls;
 }
 function renderBook(target){
   const b=$('book-pages');b.replaceChildren();
@@ -1655,6 +1708,7 @@ function renderBook(target){
       }
       const heading=make('h2','6月'+day+'日 · '+places.join(' → '));
       heading.id='book-day-'+day;heading.tabIndex=-1;
+      if(s.edition===3){const img=chapterImage(i);img.loading='lazy';b.append(img);}
       b.append(heading);
       picker.add(new Option(heading.textContent,heading.id));
     }
@@ -1667,6 +1721,13 @@ function renderBook(target){
     appendStory(row,i);b.append(row);
   }
   shareEntry.value=String(shareN);
+  if(s.unlocked<seasonLength()){
+    if(s.id||choiceNode(s,s.unlocked)&&!s.choices[s.unlocked]){
+      const link=make('a',s.id?'回到本次计时':'继续做决定','book-continue');
+      link.href='#focus';link.onclick=()=>requestAnimationFrame(()=>{const target=$('pending-choice');if(target){target.focus();target.scrollIntoView({block:'start'});}});
+      b.append(link);
+    }else b.append(readingNext(s.unlocked,true));
+  }
   if(target)requestAnimationFrame(()=>{const row=$(target);if(row){row.focus({preventScroll:true});row.scrollIntoView();}});
 }
 $('book-share').onclick=e=>share(Number($('share-entry').value),e.currentTarget);

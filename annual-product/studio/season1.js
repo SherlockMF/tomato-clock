@@ -2,7 +2,7 @@ import {release,inMiniTool,miniPlatform} from './season1-build.mjs';
 import {axes,directions,types} from './annual-state.mjs';
 import {turn,seasonLength,windowAt,where,visibleText,entryText,choiceList,choiceNode,choiceReply,keepsakes} from './season1-state.mjs';
 import {drawCard,drawSeasonCard,seasonArtFor,sceneUrl} from './annual-share.mjs';
-import {chapterPresentation,closedOption,decisionSummary,lodgingForecast,opening,readingMemory,sceneValue,tickets} from './south-season.mjs';
+import {chapterAt,chapterPresentation,closedOption,decisionSummary,lodgingForecast,opening,readingMemory,sceneValue,tickets} from './south-season.mjs';
 
 const $=id=>document.getElementById(id);
 const make=(tag,txt='',cls='')=>{const e=document.createElement(tag);e.textContent=txt;if(cls)e.className=cls;return e;};
@@ -91,7 +91,7 @@ function stamp(n){
   const sleep=a.day!==b.day?' · 夜间睡眠已跳过':previousNight?' · 昨夜睡眠已跳过':'';
   return part(a)+' — '+(a.day===b.day?b.time:part(b))+' · '+where(s,n)+sleep;
 }
-function chapterTitle(n){return s.edition===3?chapterPresentation(s,n).title:'第 '+n+' 段手记';}
+function chapterTitle(n){return !s?chapterAt(n).title:s.edition===3?chapterPresentation(s,n).title:'第 '+n+' 段手记';}
 function illustration(n){
   return sceneValue(chapterPresentation(s,n).art,s);
 }
@@ -103,6 +103,12 @@ const sceneDescriptions={
   ticketbag:'放在桌上的旧布票袋',kitchen:'厨房案板上的一碗红番茄'
 };
 function prose(t){return make('p',visibleText(s,t),'prose');}
+function chapterImage(n){
+  const scene=chapterPresentation(s,n).readingArt??illustration(n),img=make('img','','chapter-illustration');
+  img.alt=sceneDescriptions[scene];img.dataset.scene=scene;img.src=sceneUrl(scene);
+  img.width=1080;img.height=600;
+  return img;
+}
 function introText(){return visibleText(s,opening);}
 function appendStory(parent,n){
   for(const paragraph of entryText(s,n).split(/\n+/))parent.append(prose(paragraph));
@@ -111,15 +117,11 @@ function appendStory(parent,n){
 }
 function appendReadingChapter(parent,n){
   const chapter=make('section','','current-chapter');
-  if(s.edition===3){
-    const scene=illustration(n),img=make('img','','chapter-illustration');
-    img.alt=sceneDescriptions[scene];img.dataset.scene=scene;img.src=sceneUrl(scene);
-    chapter.append(img);
-  }
+  if(s.edition===3)chapter.append(chapterImage(n));
   const title=s.edition!==3&&n===seasonLength(s)?'南下十五日 · 季终':chapterTitle(n);
-  chapter.append(make('h2',title),make('p',stamp(n),'meta'));
-  if(n===1&&s.unlocked===1)appendFirstPreference(chapter);
+  chapter.append(make('p',stamp(n),'meta'),make('h2',title));
   appendStory(chapter,n);appendPreferenceEcho(chapter,n);
+  if(n===1&&s.unlocked===1)appendFirstPreference(chapter);
   for(const rec of s.trace.filter(r=>r.n===n&&r.previous!==r.current)){
     const note=make('p','','turn');
     const link=make('a','看看这次经历留下的变化');link.href='#decision-'+n+'-'+rec.kind;
@@ -235,8 +237,9 @@ function renderHome(waiting,finished,lastChapter){
   $('setup-start').textContent='开始 '+nextMinutes+' 分钟专注';
   depart.disabled=!alive;
   depart.textContent=finished?'重读旅途手记':waiting?'去做决定':'开始专注';
-  $('focus-reward').textContent=finished?'十五天的手记已经收齐。':waiting?'旅人正在等你的决定。选好后，就能继续专注。':
-    '完成后，解锁'+(nextMinutes===50?'两':'一')+'段旅途手记。';
+  const next=(s?.unlocked??0)+1;
+  $('focus-reward').textContent=finished?'十五天的手记已经收齐。':waiting?'旅人正在等你的决定。':
+    '专注 '+nextMinutes+' 分钟，'+(nextMinutes===50?'读两章，从':'读')+'《'+chapterTitle(next)+'》'+(nextMinutes===50?'开始':'')+'。';
   $('premise').hidden=!!s;
   $('summary').hidden=!s;
 }
@@ -313,14 +316,23 @@ function renderFocus(){
     }
   }
   if(pending){
-    const q=make('div','','choice'),title=make('h2','这一回，由你决定');
+    const q=make('div','','choice'),title=make('h2',n===5?'六百八的急稿，接不接？':visibleText(s,node.ask));
     title.id='pending-choice';title.tabIndex=-1;
-    q.append(title,make('p',visibleText(s,node.ask)));
+    q.append(make('p',where(s,n)+' · 旅途抉择','choice-place'),title);
+    const options=choiceList(s,n);
+    const scenes={job:'proof',river:'ricecake',credit:'proof',break:'pressroom',knock:'courtyard',note:'room',
+      press:'street',shift:'workshop',refund:'room',reprint:'pressroom',table:'workshop',walk:'street',
+      meet:'ferry',earn:'workshop',room:'room',dorm:'courtyard',workstay:'kitchen',speak:'ticketbag',
+      stand:'ferry',pull:'photo',number:'proof',west:'journey',wuhan:'ricecake',beijing:'room'};
+    if(n===5)q.append(make('p',visibleText(s,node.ask),'choice-context'));
     if(s.credit)q.append(make('p','下一段已经随这次专注解锁，选好就能接着读。','meta'));
-    for(const [key,label] of choiceList(s,n)){
-      const pick=button(label,()=>act({kind:'choose',unlocked:n,key}));
-      if(s.edition===3 && n===34)pick.append(make('small',lodgingForecast(s,key)));
-      if(s.edition===3 && n===44)pick.append(make('small',tickets(s,key).map(([t,c])=>t+' '+c+' 元').join(' · ')));
+    for(const [key,label] of options){
+      const pick=button('',()=>act({kind:'choose',unlocked:n,key}),'choice-card');
+      const img=make('img');img.alt='';img.src=sceneUrl(scenes[key]??illustration(n));
+      const copy=make('span',label,'choice-copy');
+      if(s.edition===3 && n===34)copy.append(make('small',lodgingForecast(s,key)));
+      if(s.edition===3 && n===44)copy.append(make('small',tickets(s,key).map(([t,c])=>t+' '+c+' 元').join(' · ')));
+      pick.append(img,copy);
       q.append(pick);
     }
     if(s.edition===3)for(const option of node.options){
@@ -330,11 +342,18 @@ function renderFocus(){
     p.append(q);return;
   }
   if(n===length){const a=make('a','回看十五天的人格变化');a.href='#profile';const line=make('p');line.append(a);p.append(line);return;}
-  const controls=make('div','','reading-next');
   if(n===0)appendFirstPreference(p);
-  controls.append(button(n?'开始下一次专注':'开始第一次专注',()=>timerAction('start'),'reading-start'));
-  if(allowSkip)controls.append(button('跳过专注试读',()=>timerAction('skip'),'reading-skip'));
-  p.append(controls);
+  p.append(readingNext(n));
+}
+function readingNext(n,fromBook=false){
+  const controls=make('div','','reading-next');
+  controls.append(make('p','下一章 · '+chapterTitle(n+1),'next-chapter'));
+  controls.append(button(n?'开始下一次专注':'开始第一次专注',()=>{
+    if(fromBook)location.hash='focus';
+    timerAction('start');
+  },'reading-start'));
+  if(allowSkip&&!fromBook)controls.append(button('跳过专注试读',()=>timerAction('skip'),'reading-skip'));
+  return controls;
 }
 function renderBook(target){
   const b=$('book-pages');b.replaceChildren();
@@ -362,6 +381,7 @@ function renderBook(target){
       }
       const heading=make('h2','6月'+day+'日 · '+places.join(' → '));
       heading.id='book-day-'+day;heading.tabIndex=-1;
+      if(s.edition===3){const img=chapterImage(i);img.loading='lazy';b.append(img);}
       b.append(heading);
       picker.add(new Option(heading.textContent,heading.id));
     }
@@ -374,6 +394,13 @@ function renderBook(target){
     appendStory(row,i);b.append(row);
   }
   shareEntry.value=String(shareN);
+  if(s.unlocked<seasonLength(s)){
+    if(s.id||choiceNode(s,s.unlocked)&&!s.choices[s.unlocked]){
+      const link=make('a',s.id?'回到本次计时':'继续做决定','book-continue');
+      link.href='#focus';link.onclick=()=>requestAnimationFrame(()=>{const target=$('pending-choice');if(target){target.focus();target.scrollIntoView({block:'start'});}});
+      b.append(link);
+    }else b.append(readingNext(s.unlocked,true));
+  }
   if(target)requestAnimationFrame(()=>{const row=$(target);if(row){row.focus({preventScroll:true});row.scrollIntoView();}});
 }
 $('book-share').onclick=e=>share(Number($('share-entry').value),e.currentTarget);
