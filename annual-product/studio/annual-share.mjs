@@ -71,6 +71,17 @@ export function sceneFor(cards, index) {
 
 export const sceneUrl=scene=>'/annual-scenes/'+scene+'.webp';
 
+export const seasonArt=['journey','photo','street','kitchen','room','courtyard','workshop','park','bookshop','noodles','ferry'];
+export function seasonArtFor(text){
+  let scene='room',best=0;
+  for(const name of seasonArt){
+    if(!motifs[name])continue;
+    const hits=(text.match(motifs[name])??[]).length;
+    if(hits>best){best=hits;scene=name;}
+  }
+  return scene;
+}
+
 function wrap(ctx,text,width){
   const lines=[];
   for(const p of text.split(/\n+/)){
@@ -118,5 +129,63 @@ export async function drawCard({scene,events,name,type,label}){
   }
   ctx.fillStyle='#c7ae90';ctx.fillRect(90,canvas.height-135,900,2);
   ctx.fillStyle='#694e40';ctx.font='27px '+sans;ctx.fillText(type+'  ·  '+label,90,canvas.height-81);
+  return canvas;
+}
+
+// A shareable print keeps its 3:4 crop. The complete text is available beside the image.
+export async function drawSeasonCard({scene,text,name,place,date,footer,title}){
+  const img=new Image();
+  await new Promise((resolve,reject)=>{
+    img.onload=resolve;img.onerror=()=>reject(new Error('分享图背景未能加载'));
+    img.src=sceneUrl(scene);
+  });
+  const canvas=document.createElement('canvas');
+  canvas.width=1080;canvas.height=1440;
+  const c=canvas.getContext('2d'), paper='#fcf1dd',ink='#342c29';
+  const song='"Songti SC","SimSun",serif',sans='"PingFang SC","Microsoft YaHei",sans-serif';
+  c.fillStyle=paper;c.fillRect(0,0,1080,1440);
+  const h=title?760:535,k=Math.max(1080/img.width,h/img.height);
+  c.save();c.beginPath();c.rect(0,0,1080,h);c.clip();
+  c.drawImage(img,(1080-k*img.width)/2,(h-k*img.height)/2,img.width*k,img.height*k);c.restore();
+  if(title){
+    c.fillStyle='#78533c';c.font='26px '+sans;c.fillText(date+'    /    '+place,76,838,928);
+    c.fillStyle=ink;c.font='56px '+song;c.fillText(title,72,939,932);
+    // The editor chose a complete line from this particular branch. Fit it intact.
+    let size=44,lines;
+    do{
+      c.font=size+'px '+song;
+      lines=wrap(c,text,920);
+      if(lines.length*size*1.55<=285)break;
+      size-=2;
+    }while(size>=20);
+    lines.forEach((line,i)=>c.fillText(line,76,1042+i*size*1.55,928));
+    c.fillStyle='#bca287';c.fillRect(76,1312,928,2);
+    c.fillStyle='#695141';c.font='25px '+sans;
+    c.fillText('窗那边 · 南下十五日',76,1380);
+    c.textAlign='right';c.fillText(name+'　/　'+footer,1004,1380,560);
+    return canvas;
+  }
+  c.fillStyle='#78533c';c.font='27px '+sans;c.fillText('窗 那 边    /    南 下 十 五 日',72,610);
+  c.fillStyle=ink;c.font='58px '+song;c.fillText(name+'的旅途手记',72,702,930);
+  c.fillStyle='#78533c';c.font='30px '+sans;c.fillText(date+'   ·   '+place,74,764,930);
+  c.fillStyle=ink;c.font='42px '+song;
+  let shown=wrap(c,text,930);
+  if(shown.length>7){
+    const paragraph=text.split('\n')[0];
+    const sentences=paragraph.match(/[^。！？]+[。！？][”’」』]*|[^。！？]+$/gu)??[paragraph];
+    let excerpt='';
+    for(const sentence of sentences){
+      if(wrap(c,excerpt+sentence,930).length>7)break;
+      excerpt+=sentence;
+    }
+    if(excerpt)shown=wrap(c,excerpt,930);
+    else{
+      shown=shown.slice(0,7);
+      shown[6]=Array.from(shown[6]).slice(0,-1).join('')+'…';
+    }
+  }
+  shown.forEach((line,i)=>c.fillText(line,74,860+i*61,930));
+  c.fillStyle='#bca287';c.fillRect(74,1320,932,2);
+  c.fillStyle='#695141';c.font='28px '+sans;c.fillText(footer,74,1380,932);
   return canvas;
 }

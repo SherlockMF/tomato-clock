@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>南下十五日 · 窗那边</title><link rel="stylesheet" href="./season1.css"></head>
+<body><header><b>窗那边</b></header>
+<main><section id="focus" class="welcoming">
+<div class="cover">
+  <div class="ready-clock">
+    <div class="ready-heading"><h1>专注番茄钟</h1><button id="open-guide" type="button">使用说明</button></div>
+    <p id="ready-time" aria-label="预设专注时长">25:00</p>
+    <fieldset id="home-duration" class="duration-picker"><legend>专注时长</legend>
+      <div class="duration-options">
+        <label><input type="radio" name="next-duration" value="25" checked><span class="duration-face">25 分钟</span></label>
+        <label><input type="radio" name="next-duration" value="50"><span class="duration-face">50 分钟</span></label>
+      </div>
+    </fieldset>
+    <button id="depart" type="button" disabled>开始专注</button>
+    <p id="focus-reward">完成后，解锁一段旅途手记。</p>
+  </div>
+  <div class="journey-cover">
+    <div><p class="season-label">第一季 · 北京出发</p><h2>南下十五日</h2>
+    <p id="premise"><span>展板上少了一个名字。</span><span>删掉它的人，今天离开了北京。</span></p><p id="summary" hidden></p></div>
+  </div>
+</div>
+<article><p id="edition-mark" class="meta" hidden>编辑试读 · 可跳过计时</p><div id="intro"></div>
+<div id="stage"></div></article></section>
+<section id="book" hidden><article><h1>旅途手记</h1>
+<label id="book-day-label" hidden>跳到旅途日期<select id="book-day"></select></label>
+<details id="archive-share" hidden><summary>做一张手记分享图</summary><label>挑一段手记<select id="share-entry"></select></label><button id="book-share" type="button">生成分享图</button></details>
+<div id="book-pages"></div></article></section>
+<section id="profile" hidden><article><h1>旅人档案</h1><div id="identity"></div><div id="keepsakes"></div><div id="growth"></div>
+<div id="settings" hidden><h2 id="prefs-title" tabindex="-1">我的偏好</h2><p id="pref-guide"></p>
+<ul id="prefs"></ul><form id="pref"><label>旅途中更愿意<select name="letter"></select></label><label>给这条偏好留句备注<input name="note" maxlength="80" placeholder="选填"></label><button>保存偏好</button></form>
+<p id="pref-status" role="status"></p><a id="back-to-story" href="#focus" hidden>回到刚才的手记</a>
+<details><summary>改昵称</summary><form id="rename"><label>旅人昵称<input name="nickname" required maxlength="24"></label><button>保存昵称</button></form></details></div><div id="history"></div></article></section>
+<p id="previous-link" hidden><a>继续 72 段旧版</a></p><p id="classic-link" hidden><a href="?classic=1#focus">继续以前保存的旧版旅程</a></p><p role="status" id="message"></p></main>
+<nav aria-label="主导航"><a href="#focus">专注</a><a href="#book">旅途手记</a><a href="#profile">旅人档案</a></nav>
+<dialog id="guide-sheet" aria-labelledby="guide-title">
+<div class="sheet-head"><h2 id="guide-title">怎么用番茄钟</h2><button id="close-guide" type="button" class="quiet" aria-label="关闭使用说明">×</button></div>
+<dl class="guide-steps">
+<dt>选一段专注时间</dt><dd>在首页选 25 或 50 分钟，点「开始专注」。第一次会请你给旅人起个昵称、选初始人格，确认后就开始倒计时。也可以先读免费序章。</dd>
+<dt>把这段时间留给自己</dt><dd>放下手机，去做手头的事。专注 25 分钟，回来读一段新故事。选 50 分钟，可以读两段。</dd>
+<dt>回来看看，TA 走到了哪儿</dt><dd>旅人平时自己拿主意，遇到重要关头会等你决定。答应一个人，就可能赶不上另一场约。想连着读去「旅途手记」，想留偏好或看性格变化去「旅人档案」。</dd>
+</dl></dialog>
+<dialog id="setup-sheet" aria-labelledby="setup-title"><div class="sheet-head"><h2 id="setup-title" tabindex="-1">准备出发</h2><button id="close-setup" type="button" class="quiet" aria-label="关闭旅人资料">×</button></div>
+<form id="setup" class="profile-only"><label>旅人昵称<input name="nickname" maxlength="24" placeholder="选填，默认叫阿南"></label><label>出发时的人格<select name="type"></select></label><div class="actions"><button id="setup-start" type="submit">开始 25 分钟专注</button><button id="read-prologue" type="button" class="quiet">先读序章</button></div></form><p id="setup-status" role="status"></p></dialog>
+<dialog id="share-sheet" aria-labelledby="share-title"><button id="close-share" class="quiet" type="button">关闭</button><h2 id="share-title">这张手记，带走吧</h2><img id="share-img" alt="当前旅途手记分享卡"><p>手机可长按图片保存，再到小红书选图发笔记。</p><div class="actions"><a id="save-share" class="download">保存图片</a><button id="copy-share" type="button" class="quiet">复制手记正文</button></div><textarea id="share-text" readonly hidden aria-label="手记正文"></textarea><p id="share-status" role="status"></p></dialog>
+<script type="module" src="./season1.js"></script></body></html>
